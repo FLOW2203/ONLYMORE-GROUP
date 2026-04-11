@@ -1,11 +1,14 @@
 import type { Metadata } from "next";
 import { locales, defaultLocale, isRtl, getTranslations, Locale } from "@/lib/i18n";
 import { TranslationProvider } from "@/lib/TranslationContext";
+import StructuredData from "@/components/StructuredData";
 import "../globals.css";
 
 export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
+
+const BASE_URL = "https://www.onlymore.group";
 
 export async function generateMetadata({
   params,
@@ -17,43 +20,66 @@ export async function generateMetadata({
   const title =
     typeof translations.meta === "object"
       ? (translations.meta as Record<string, string>).title
-      : "ONLYMORE GROUP";
+      : "ONLYMORE Group \u2014 Optimisons vos \u0153uvres";
   const description =
     typeof translations.meta === "object"
       ? (translations.meta as Record<string, string>).description
-      : "";
+      : "Holding fintech mutualist. 5 filiales : CROWNIUM, COLHYBRI, DOJUKU SHINGI, ONLYMORE FINANCE, PLUMAYA. Inclusion financi\u00e8re par le sport.";
 
   const languages: Record<string, string> = {};
   locales.forEach((l) => {
-    languages[l] = `https://onlymore.group/${l}`;
+    languages[l] = `${BASE_URL}/${l}`;
   });
 
   return {
     title,
     description,
-    metadataBase: new URL("https://onlymore.group"),
+    keywords: [
+      "fintech",
+      "sport",
+      "inclusion financi\u00e8re",
+      "mutualist",
+      "CROWNIUM",
+      "COLHYBRI",
+      "fan ownership",
+      "local commerce",
+      "ONLYMORE",
+      "DOJUKU SHINGI",
+      "PLUMAYA",
+    ],
+    metadataBase: new URL(BASE_URL),
     alternates: {
-      canonical: `https://onlymore.group/${locale}`,
+      canonical: `${BASE_URL}/${locale}`,
       languages,
     },
     openGraph: {
       title,
       description,
-      url: `https://onlymore.group/${locale}`,
+      url: `${BASE_URL}/${locale}`,
       siteName: "ONLYMORE GROUP",
-      images: [{ url: "/og-image.png", width: 1200, height: 630 }],
-      locale: locale,
+      images: [
+        {
+          url: `${BASE_URL}/logo%20onlymore%20HD.png`,
+          width: 1200,
+          height: 630,
+          alt: "ONLYMORE Group",
+        },
+      ],
+      locale: "fr_FR",
+      alternateLocale: ["en_US", "es_ES", "pt_BR", "de_DE", "it_IT", "ar_SA", "zh_CN", "ja_JP"],
       type: "website",
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
+      images: [`${BASE_URL}/logo%20onlymore%20HD.png`],
     },
     other: {
-      "schema:type": "Organization",
-      "schema:name": "ONLYMORE GROUP",
-      "schema:url": "https://onlymore.group",
+      "geo.region": "FR-30",
+      "geo.placename": "Rodilhan, Occitanie, France",
+      "geo.position": "43.8167;4.4333",
+      ICBM: "43.8167, 4.4333",
     },
   };
 }
@@ -78,6 +104,13 @@ export default async function LocaleLayout({
           href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
           rel="stylesheet"
         />
+        <link
+          rel="preload"
+          href="/logo%20onlymore%20HD.png"
+          as="image"
+          type="image/png"
+        />
+        <StructuredData />
       </head>
       <body className="font-body bg-deep-black text-warm-white antialiased">
         <TranslationProvider locale={locale} translations={translations}>
