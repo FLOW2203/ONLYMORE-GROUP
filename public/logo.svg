@@ -1,11 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
   <defs>
-    <linearGradient id="teal-gold" x1="0%" y1="50%" x2="100%" y2="50%">
-      <stop offset="0%" stop-color="#0D7377"/>
-      <stop offset="45%" stop-color="#0D7377"/>
-      <stop offset="55%" stop-color="#C5975B"/>
-      <stop offset="100%" stop-color="#C5975B"/>
+    <!-- Teal metallic gradient -->
+    <linearGradient id="tealGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1AAFB0"/>
+      <stop offset="40%" stop-color="#0D7377"/>
+      <stop offset="100%" stop-color="#074D50"/>
     </linearGradient>
+
+    <!-- Gold metallic gradient -->
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8C078"/>
+      <stop offset="40%" stop-color="#C5975B"/>
+      <stop offset="100%" stop-color="#8A6535"/>
+    </linearGradient>
+
+    <!-- Teal highlight -->
+    <linearGradient id="tealHi" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#3EE8E8" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#0D7377" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Gold highlight -->
+    <linearGradient id="goldHi" x1="0.7" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F5DCA8" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#C5975B" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Drop shadow -->
+    <filter id="ds" x="-5%" y="-5%" width="110%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
   </defs>
-  <path d="M50 50 C50 28 28 20 20 35 C12 50 28 72 50 50 C72 28 88 20 96 35 C104 50 88 72 50 50" stroke="url(#teal-gold)" stroke-width="8" stroke-linecap="round" fill="none" transform="translate(50,0) scale(1.1)"/>
+
+  <g filter="url(#ds)">
+    <!--
+      Infinity symbol as two thick-stroked loops.
+      Left loop = teal, Right loop = gold.
+      The crossing is handled by drawing order:
+      1) Right loop back segment (behind)
+      2) Left loop full (on top at center)
+      3) Right loop front segment (on top at right)
+    -->
+
+    <!-- Right loop BACK half (goes behind left at center crossing) -->
+    <path d="M200,100 C200,56 244,22 286,22 C338,22 374,58 374,100 C374,142 338,178 286,178 C244,178 200,144 200,100"
+          fill="none" stroke="url(#goldGrad)" stroke-width="30" stroke-linecap="round"
+          stroke-dasharray="0 248 500" />
+
+    <!-- Left loop FULL -->
+    <path d="M200,100 C200,56 156,22 114,22 C62,22 26,58 26,100 C26,142 62,178 114,178 C156,178 200,144 200,100"
+          fill="none" stroke="url(#tealGrad)" stroke-width="30" stroke-linecap="round"/>
+
+    <!-- Left loop highlight (top edge) -->
+    <path d="M200,100 C200,56 156,22 114,22 C62,22 26,58 26,100 C26,142 62,178 114,178 C156,178 200,144 200,100"
+          fill="none" stroke="url(#tealHi)" stroke-width="30" stroke-linecap="round"/>
+
+    <!-- Right loop FRONT half (on top, the outer arc) -->
+    <path d="M200,100 C200,56 244,22 286,22 C338,22 374,58 374,100 C374,142 338,178 286,178 C244,178 200,144 200,100"
+          fill="none" stroke="url(#goldGrad)" stroke-width="30" stroke-linecap="round"
+          stroke-dasharray="248 500" />
+
+    <!-- Right loop highlight (top edge) -->
+    <path d="M200,100 C200,56 244,22 286,22 C338,22 374,58 374,100 C374,142 338,178 286,178 C244,178 200,144 200,100"
+          fill="none" stroke="url(#goldHi)" stroke-width="30" stroke-linecap="round"
+          stroke-dasharray="248 500" />
+
+    <!-- Inner edge highlights for metallic rim -->
+    <path d="M180,100 C180,64 152,34 114,34 C68,34 38,64 38,100"
+          fill="none" stroke="#2ED8D8" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+    <path d="M220,100 C220,64 248,34 286,34 C332,34 362,64 362,100"
+          fill="none" stroke="#F5DCA8" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+
+    <!-- Outer edge highlights -->
+    <path d="M196,100 C196,52 154,16 114,16 C58,16 20,54 20,100"
+          fill="none" stroke="#074D50" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+    <path d="M204,100 C204,52 246,16 286,16 C342,16 380,54 380,100"
+          fill="none" stroke="#7A5828" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+  </g>
+
+  <!-- Sparkle (bottom-right) -->
+  <g transform="translate(370,178)" opacity="0.5">
+    <path d="M0,-5 L1.2,-1.2 L5,0 L1.2,1.2 L0,5 L-1.2,1.2 L-5,0 L-1.2,-1.2Z" fill="#F8F6F3"/>
+  </g>
 </svg>

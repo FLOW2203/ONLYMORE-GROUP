@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useTranslation } from "@/lib/TranslationContext";
+import LogoInfinity from "./LogoInfinity";
 
 export default function Hero() {
   const { t } = useTranslation();
@@ -18,11 +19,21 @@ export default function Hero() {
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-gold/3 rounded-full blur-3xl" />
 
       <div className="relative z-10 max-w-container mx-auto text-center">
+        {/* Logo */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8, delay: 0.1 }}
+          className="mb-8"
+        >
+          <LogoInfinity size={100} className="mx-auto" />
+        </motion.div>
+
         {/* Animated badge */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
+          transition={{ duration: 0.8, delay: 0.3 }}
           className="inline-flex items-center mb-8"
         >
           <span className="px-4 py-1.5 border border-gold/40 rounded-full text-gold text-sm font-body tracking-wider animate-pulse">

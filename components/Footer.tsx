@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslation } from "@/lib/TranslationContext";
+import LogoInfinity from "./LogoInfinity";
 
 const navLinks = [
   { key: "nav.group", href: "#hero" },
@@ -29,12 +30,12 @@ export default function Footer() {
           {/* Col 1: Logo + slogan */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <img src="/logo.png" alt="ONLYMORE GROUP" className="h-8 w-auto" width={32} height={32} />
-              <span className="font-display text-lg text-warm-white">ONLYMORE</span>
+              <LogoInfinity size={24} />
+              <div>
+                <span className="font-display text-lg text-warm-white block">ONLYMORE Group</span>
+                <span className="font-body text-sm text-warm-white/50">{t("hero.title")}</span>
+              </div>
             </div>
-            <p className="font-body text-sm text-warm-white/50 mb-6 leading-relaxed">
-              {t("hero.title")}
-            </p>
             <div className="flex items-center gap-3">
               {/* LinkedIn */}
               <a
