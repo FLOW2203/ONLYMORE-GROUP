@@ -36,7 +36,7 @@ export default function InfinityDecoded() {
             transition={{ duration: 0.8 }}
             className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
           >
-            <img src="/logo.png" alt="ONLYMORE Infinity Logo" className="w-72 h-auto" />
+            <img src="/logo.svg" alt="ONLYMORE Infinity Logo" className="w-72 h-auto" />
           </motion.div>
 
           {/* Annotation: ONLY - left */}
@@ -105,7 +105,7 @@ export default function InfinityDecoded() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            src="/logo.png"
+            src="/logo.svg"
             alt="ONLYMORE Infinity Logo"
             className="w-48 sm:w-64 h-auto"
           />

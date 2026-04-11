@@ -41,7 +41,7 @@ export default function Header() {
           {/* Logo */}
           <a href="#hero" className="flex items-center gap-3 shrink-0" aria-label="ONLYMORE GROUP Home">
             <img
-              src="/logo.png"
+              src="/logo.svg"
               alt="ONLYMORE GROUP Logo"
               className="h-10 w-auto"
               width={40}
