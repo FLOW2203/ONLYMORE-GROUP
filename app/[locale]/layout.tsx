@@ -111,7 +111,7 @@ export default async function LocaleLayout({
         />
         <link
           rel="preload"
-          href="/logo%20onlymore%20HD.png"
+          href="/logo_onlymore_1024.png"
           as="image"
           type="image/png"
         />
