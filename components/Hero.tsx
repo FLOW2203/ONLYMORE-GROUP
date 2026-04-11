@@ -19,6 +19,7 @@ export default function Hero() {
   const framesRef = useRef<HTMLImageElement[]>([]);
   const currentFrameRef = useRef(0);
   const rafRef = useRef<number>(0);
+  const overlayRef = useRef<HTMLDivElement>(null);
 
   const drawFrame = useCallback((index: number) => {
     const canvas = canvasRef.current;
@@ -69,6 +70,14 @@ export default function Hero() {
           return;
         }
         const rect = container.getBoundingClientRect();
+
+        // Hide canvas + overlay when scrolled past hero zone
+        const isInHero = rect.top < window.innerHeight && rect.bottom > 0;
+        const canvas = canvasRef.current;
+        const overlay = overlayRef.current;
+        if (canvas) canvas.style.display = isInHero ? "block" : "none";
+        if (overlay) overlay.style.display = isInHero ? "block" : "none";
+
         const scrollableHeight = container.offsetHeight - window.innerHeight;
         const scrolled = -rect.top;
         const progress = Math.max(0, Math.min(scrolled / scrollableHeight, 1));
@@ -108,7 +117,7 @@ export default function Hero() {
       />
 
       {/* Dark overlay for readability */}
-      <div className="fixed top-0 left-0 w-full h-screen bg-black/50 pointer-events-none" style={{ zIndex: 1 }} />
+      <div ref={overlayRef} className="fixed top-0 left-0 w-full h-screen bg-black/60 pointer-events-none" style={{ zIndex: 1 }} />
 
       {/* Sticky hero content */}
       <div className="sticky top-0 h-screen flex flex-col items-center justify-center px-6 lg:px-16" style={{ zIndex: 10 }}>
