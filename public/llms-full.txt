@@ -1,0 +1,94 @@
+# ONLYMORE Group — Full Reference
+> Holding fintech mutualist. Inclusion financiere par le sport.
+> Fondee 2025, Rodilhan (30230), Occitanie, France.
+> Contact: onlymore2024@gmail.com
+> Fondateur: Florent Gibert
+
+## About ONLYMORE Group
+ONLYMORE Group is a mutualist fintech holding company headquartered in Rodilhan,
+Occitanie, France. Founded in 2025, the group operates at the intersection of
+financial technology, sport, and social impact. The group's mission is to enable
+financial inclusion through sport, with the vision: "Que chacun puisse vivre et
+prosperer la ou il a grandi" (So that everyone can live and prosper where they grew up).
+
+The group fights three interconnected challenges:
+1. Poverty — reducing economic exclusion in local communities
+2. Talent drain — stopping the exodus of talent from small cities
+3. Forced emigration — fighting the necessity to leave home for opportunity
+
+## Subsidiaries (5 Filiales)
+
+### CROWNIUM (LIVE)
+- URL: https://crownium.club
+- Type: Fan co-ownership fintech for sports clubs
+- Model: Mutualist SAS — fans become co-owners of their local clubs
+- Status: Live and operational
+- Description: CROWNIUM enables fans to collectively own shares in their local
+  sports clubs through a mutualist corporate structure (SAS). This democratizes
+  club ownership, keeps revenue local, and creates a sustainable funding model
+  for community sports.
+
+### COLHYBRI (LIVE)
+- URL: https://colhybri.com
+- Type: Local commerce SaaS solidarity platform
+- Status: Live and operational
+- Description: COLHYBRI is a SaaS platform that empowers local merchants through
+  digital tools and a solidarity network. It helps small businesses compete by
+  providing shared infrastructure, digital presence, and community-driven support.
+
+### DOJUKU SHINGI (COMING SOON)
+- Type: Martial arts AI application
+- Status: In development
+- Description: An AI-powered application for martial arts practitioners. DOJUKU
+  SHINGI combines traditional martial arts wisdom with modern AI technology to
+  provide personalized training, technique analysis, and community connection.
+
+### ONLYMORE FINANCE (COMING SOON)
+- Type: Lombard credit structure
+- Status: In development
+- Description: ONLYMORE FINANCE provides Lombard credit structures — loans backed
+  by financial assets. This enables individuals and businesses to access liquidity
+  without selling their investments, promoting financial inclusion and wealth
+  preservation.
+
+### PLUMAYA Editions (COMING SOON)
+- Type: Publishing and intellectual property
+- Status: In development
+- Description: PLUMAYA Editions handles publishing and intellectual property for
+  the group, including the proprietary SHINGAN notation system. PLUMAYA creates
+  and distributes educational and cultural content aligned with the group's
+  social mission.
+
+## Key URLs
+- Main site: https://www.onlymore.group
+- French: https://www.onlymore.group/fr
+- English: https://www.onlymore.group/en
+- CROWNIUM: https://crownium.club
+- COLHYBRI: https://colhybri.com
+
+## Languages Supported
+The website is available in 25 languages:
+French (default), English, Spanish, Portuguese, German, Italian, Dutch, Arabic,
+Chinese, Japanese, Korean, Turkish, Polish, Russian, Hindi, Indonesian,
+Vietnamese, Thai, Swedish, Danish, Norwegian, Finnish, Greek, Romanian, Czech.
+
+## Team
+- Florent Gibert — Founder & CEO
+- Joao — Co-founder
+- Julie — Team member
+- Stephane — Team member
+
+## Investor Information
+ONLYMORE Group is open to investors who share the vision of financial inclusion
+through sport. The group operates on a mutualist model, prioritizing social
+impact alongside financial returns.
+
+## Social Media
+- LinkedIn: https://www.linkedin.com/company/onlymore-group
+- Facebook: https://www.facebook.com/onlymore
+- Email: onlymore2024@gmail.com
+
+## Legal
+- Headquarters: Rodilhan, 30230, Occitanie, France
+- Founded: 2025
+- Structure: Holding company (mutualist model)

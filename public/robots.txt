@@ -1,0 +1,19 @@
+# ONLYMORE Group — robots.txt
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# AI Search Crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+Sitemap: https://www.onlymore.group/sitemap.xml
