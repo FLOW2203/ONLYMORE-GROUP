@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "@/lib/TranslationContext";
 import LanguageSelector from "./LanguageSelector";
+import LogoInfinity from "./LogoInfinity";
 
 const navKeys = ["nav.group", "nav.subsidiaries", "nav.impact", "nav.team", "nav.investors", "nav.contact"];
 const navAnchors = ["#hero", "#subsidiaries", "#impact", "#team", "#investors", "#contact"];
@@ -40,13 +41,7 @@ export default function Header() {
         <div className="max-w-container mx-auto flex items-center justify-between px-6 lg:px-16 h-16 lg:h-20">
           {/* Logo */}
           <a href="#hero" className="flex items-center gap-3 shrink-0" aria-label="ONLYMORE GROUP Home">
-            <img
-              src="/logo.svg"
-              alt="ONLYMORE Group - Optimisons vos oeuvres"
-              className="h-10 w-auto"
-              width={40}
-              height={40}
-            />
+            <LogoInfinity size={20} />
             <span className="hidden sm:inline font-display text-lg tracking-wide text-warm-white">
               ONLYMORE Group
             </span>

@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useTranslation } from "@/lib/TranslationContext";
+import LogoInfinity from "./LogoInfinity";
 
 export default function Hero() {
   const { t } = useTranslation();
@@ -25,13 +26,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.1 }}
           className="mb-8"
         >
-          <img
-            src="/logo.svg"
-            alt="ONLYMORE Group - Optimisons vos oeuvres"
-            className="mx-auto"
-            width={200}
-            height={200}
-          />
+          <LogoInfinity size={100} className="mx-auto" />
         </motion.div>
 
         {/* Animated badge */}

@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useTranslation } from "@/lib/TranslationContext";
+import LogoInfinity from "./LogoInfinity";
 
 const annotations = [
   { key: "infinity.only", position: "left-0 top-1/2 -translate-y-1/2 -translate-x-full pr-6 lg:pr-10", color: "text-teal", delay: 0.3 },
@@ -36,7 +37,7 @@ export default function InfinityDecoded() {
             transition={{ duration: 0.8 }}
             className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
           >
-            <img src="/logo.svg" alt="ONLYMORE Infinity Logo" className="w-72 h-auto" />
+            <LogoInfinity size={144} />
           </motion.div>
 
           {/* Annotation: ONLY - left */}
@@ -100,15 +101,14 @@ export default function InfinityDecoded() {
 
         {/* Mobile version - stacked */}
         <div className="lg:hidden flex flex-col items-center gap-8 mb-12">
-          <motion.img
+          <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            src="/logo.svg"
-            alt="ONLYMORE Infinity Logo"
-            className="w-48 sm:w-64 h-auto"
-          />
+          >
+            <LogoInfinity size={96} className="w-48 sm:w-64 h-auto" />
+          </motion.div>
           <div className="grid grid-cols-2 gap-4 text-center w-full max-w-sm">
             {[
               { key: "infinity.only", color: "text-teal" },
