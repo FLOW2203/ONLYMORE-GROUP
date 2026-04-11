@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "ONLYMORE GROUP — 优化您的传承",
+    "description": "通过体育实现普惠金融的法国集团。5家子公司致力于3大使命：减少贫困、遏制人才流失、对抗被迫移民。"
+  },
+  "nav": {
+    "group": "集团",
+    "subsidiaries": "子公司",
+    "impact": "影响力",
+    "team": "团队",
+    "investors": "投资者",
+    "contact": "联系我们"
+  },
+  "cta": {
+    "book": "预约会议"
+  },
+  "hero": {
+    "badge": "通过体育实现普惠金融",
+    "title": "优化您的传承。",
+    "why": "让每个人都能在成长的地方安居乐业。",
+    "subtitle": "5家子公司。3大使命。体育作为本地经济杠杆。",
+    "cta_primary": "了解我们的使命 →",
+    "cta_secondary": "投资者"
+  },
+  "philosophy": {
+    "title": "我们的理念",
+    "mandela": {
+      "quote": "体育拥有改变世界的力量。它拥有激励人心的力量。它拥有以其他事物难以企及的方式团结人们的力量。",
+      "author": "纳尔逊·曼德拉，劳伦斯世界体育奖，2000年"
+    },
+    "boetcker": {
+      "quote": "你不能通过摧毁富人来帮助穷人。你不能通过替人们做他们能够且应该自己做的事来永久地帮助他们。",
+      "author": "威廉·J·H·博特克"
+    },
+    "founder": {
+      "quote": "因为残疾程度太重无法工作，又不够重无法领取养老金，且太年轻无法接受手术，我被迫寻找财务解决方案……我将自己被排斥的经历转化为一项使命：让任何人都不必经历我所经历的一切。",
+      "author": "弗洛朗·吉贝尔，创始人兼首席执行官"
+    }
+  },
+  "infinity": {
+    "title": "一个符号，一个世界。",
+    "only": "O — ONLY",
+    "more": "M — MORE",
+    "engine": "引擎",
+    "circular": "循环能量 = 本地货币流通",
+    "tagline": "无始无终。本地经济永恒运转。"
+  },
+  "subsidiaries": {
+    "title": "5大支柱，1个愿景",
+    "live": "已上线",
+    "coming": "即将推出",
+    "colhybri": {
+      "desc": "SaaS互助商业平台。掌握你的社区，掌握你的未来。"
+    },
+    "crownium": {
+      "desc": "职业体育俱乐部的互助融资。"
+    },
+    "dojuku": {
+      "desc": "跨代AI武术应用。"
+    },
+    "finance": {
+      "desc": "质押贷款与财富管理。"
+    },
+    "plumaya": {
+      "desc": "出版与知识产权。"
+    }
+  },
+  "impact": {
+    "title": "3大使命，1套机制。",
+    "poverty": {
+      "title": "减少贫困",
+      "desc": "体育创造本地财富，在最需要的地方创造经济机会。"
+    },
+    "talent": {
+      "title": "遏制人才流失",
+      "desc": "充满活力的本地生态系统让人才无需远走他乡即可蓬勃发展。"
+    },
+    "emigration": {
+      "title": "对抗被迫移民",
+      "desc": "当一座城市经济繁荣时，没有人会被迫离开。"
+    },
+    "flow": {
+      "1": "体育创造本地财富",
+      "2": "居民在本地消费",
+      "3": "城市保持经济健康",
+      "4": "无人被迫离开"
+    }
+  },
+  "team": {
+    "title": "团队",
+    "florent": {
+      "role": "创始人兼首席执行官",
+      "bio": "自学成才，马赛/罗迪朗，前建筑业，功夫与空手道"
+    },
+    "joao": {
+      "role": "首席财务官",
+      "bio": "财务管理与战略"
+    },
+    "julie": {
+      "role": "商务拓展与合作伙伴关系负责人",
+      "bio": "法/英/西三语，前NXP Semiconductors"
+    },
+    "stephane": {
+      "role": "融资合伙人",
+      "bio": "融资合伙人，Winvesty"
+    }
+  },
+  "investors": {
+    "title": "投资者",
+    "description": "ONLYMORE Group目前正在进行Pre-seed轮融资，金额为€200K-€350K，投前估值为€1.3M-€2.15M。",
+    "metric1": {
+      "value": "5",
+      "label": "家子公司"
+    },
+    "metric2": {
+      "value": "2",
+      "label": "个已上线平台"
+    },
+    "metric3": {
+      "value": "Pre-seed",
+      "label": "进行中"
+    }
+  },
+  "footer": {
+    "platforms": "我们的平台",
+    "copyright": "© 2026 ONLYMORE GROUP. 保留所有权利。"
+  }
+}

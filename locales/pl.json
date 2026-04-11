@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "ONLYMORE GROUP — Zoptymalizuj swoje dziedzictwo",
+    "description": "Francuska grupa inkluzji finansowej poprzez sport. 5 spółek zależnych realizujących 3 cele: redukcja ubóstwa, zatrzymanie drenażu mózgów, walka z wymuszoną emigracją."
+  },
+  "nav": {
+    "group": "Grupa",
+    "subsidiaries": "Spółki",
+    "impact": "Wpływ",
+    "team": "Zespół",
+    "investors": "Inwestorzy",
+    "contact": "Kontakt"
+  },
+  "cta": {
+    "book": "Umów spotkanie"
+  },
+  "hero": {
+    "badge": "Inkluzja finansowa poprzez sport",
+    "title": "Zoptymalizuj swoje dziedzictwo.",
+    "why": "Aby każdy mógł żyć i rozwijać się tam, gdzie dorastał.",
+    "subtitle": "5 spółek zależnych. 3 cele. Sport jako lokalny dźwignia gospodarcza.",
+    "cta_primary": "Odkryj naszą misję →",
+    "cta_secondary": "Inwestorzy"
+  },
+  "philosophy": {
+    "title": "Nasza filozofia",
+    "mandela": {
+      "quote": "Sport ma moc zmieniania świata. Ma moc inspirowania. Ma moc jednoczenia ludzi jak niewiele innych rzeczy.",
+      "author": "Nelson Mandela, Laureus World Sports Awards, 2000"
+    },
+    "boetcker": {
+      "quote": "Nie pomożesz biednym, niszcząc bogatych. Nie pomożesz ludziom na stałe, robiąc za nich to, co mogliby i powinni robić sami.",
+      "author": "William J.H. Boetcker"
+    },
+    "founder": {
+      "quote": "Zmuszony do szukania rozwiązań finansowych, bo byłem zbyt niepełnosprawny, żeby pracować, za mało, żeby dostać rentę, i za młody na operację... Przekształciłem swoje wykluczenie w misję: żeby nikt nie przeżył tego, co ja.",
+      "author": "Florent Gibert, Założyciel i CEO"
+    }
+  },
+  "infinity": {
+    "title": "Jeden symbol. Cały świat.",
+    "only": "O — ONLY",
+    "more": "M — MORE",
+    "engine": "Silnik",
+    "circular": "Energia cyrkularna = lokalny obieg pieniądza",
+    "tagline": "Bez początku. Bez końca. Lokalna gospodarka w ciągłym ruchu."
+  },
+  "subsidiaries": {
+    "title": "5 filarów, 1 wizja",
+    "live": "Aktywna",
+    "coming": "Wkrótce",
+    "colhybri": {
+      "desc": "Platforma SaaS solidarnego handlu. Own Your Neighborhood. Own Your Future."
+    },
+    "crownium": {
+      "desc": "Wzajemne finansowanie profesjonalnych klubów sportowych."
+    },
+    "dojuku": {
+      "desc": "Międzypokoleniowa aplikacja sztuk walki z AI."
+    },
+    "finance": {
+      "desc": "Kredyt lombardowy i zarządzanie majątkiem."
+    },
+    "plumaya": {
+      "desc": "Wydawnictwo i własność intelektualna."
+    }
+  },
+  "impact": {
+    "title": "3 cele. 1 mechanizm.",
+    "poverty": {
+      "title": "Redukcja ubóstwa",
+      "desc": "Sport generuje lokalny dobrobyt, tworząc możliwości gospodarcze tam, gdzie są najbardziej potrzebne."
+    },
+    "talent": {
+      "title": "Zatrzymanie drenażu mózgów",
+      "desc": "Dynamiczne lokalne ekosystemy pozwalają talentom rozwijać się bez konieczności wyjazdu."
+    },
+    "emigration": {
+      "title": "Walka z wymuszoną emigracją",
+      "desc": "Gdy miasto prosperuje gospodarczo, nikt nie jest zmuszony go opuszczać."
+    },
+    "flow": {
+      "1": "Sport tworzy lokalny dobrobyt",
+      "2": "Mieszkańcy wydają pieniądze lokalnie",
+      "3": "Miasto pozostaje zdrowe gospodarczo",
+      "4": "Nikt nie jest zmuszony do wyjazdu"
+    }
+  },
+  "team": {
+    "title": "Zespół",
+    "florent": {
+      "role": "Założyciel i CEO",
+      "bio": "Samouk, Marsylia/Rodilhan, ex-budownictwo, kung fu i karate"
+    },
+    "joao": {
+      "role": "CFO",
+      "bio": "Zarządzanie finansami i strategia"
+    },
+    "julie": {
+      "role": "Szefowa BD i Partnerstw",
+      "bio": "Trójjęzyczna FR/EN/ES, ex-NXP Semiconductors"
+    },
+    "stephane": {
+      "role": "Partner ds. fundraisingu",
+      "bio": "Partner ds. fundraisingu, Winvesty"
+    }
+  },
+  "investors": {
+    "title": "Inwestorzy",
+    "description": "ONLYMORE Group prowadzi obecnie rundę pre-seed w wysokości €200K–€350K przy wycenie pre-money €1,3M–€2,15M.",
+    "metric1": {
+      "value": "5",
+      "label": "spółek zależnych"
+    },
+    "metric2": {
+      "value": "2",
+      "label": "aktywne platformy"
+    },
+    "metric3": {
+      "value": "Pre-seed",
+      "label": "w toku"
+    }
+  },
+  "footer": {
+    "platforms": "Nasze platformy",
+    "copyright": "© 2026 ONLYMORE GROUP. Wszelkie prawa zastrzeżone."
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "ONLYMORE GROUP \u2014 Optimize Your Legacy",
+    "description": "French financial inclusion group through sport. 5 subsidiaries serving 3 fights: reducing poverty, stopping brain drain, combating forced emigration."
+  },
+  "nav": {
+    "group": "Group",
+    "subsidiaries": "Subsidiaries",
+    "impact": "Impact",
+    "team": "Team",
+    "investors": "Investors",
+    "contact": "Contact"
+  },
+  "cta": {
+    "book": "Book a meeting"
+  },
+  "hero": {
+    "badge": "Financial Inclusion Through Sport",
+    "title": "Optimize Your Legacy.",
+    "why": "That everyone can live and thrive where they grew up.",
+    "subtitle": "5 subsidiaries. 3 fights. Sport as a local economic lever.",
+    "cta_primary": "Discover our mission \u2192",
+    "cta_secondary": "Investors"
+  },
+  "philosophy": {
+    "title": "Our Philosophy",
+    "mandela": {
+      "quote": "Sport has the power to change the world. It has the power to inspire. It has the power to unite people like few other things.",
+      "author": "Nelson Mandela, Laureus World Sports Awards, 2000"
+    },
+    "boetcker": {
+      "quote": "You cannot help the poor by destroying the rich. You cannot help men permanently by doing for them what they could and should do for themselves.",
+      "author": "William J.H. Boetcker"
+    },
+    "founder": {
+      "quote": "Forced to find financial solutions because I was too disabled to work, not enough for a pension, and too young to be operated on... I transformed my exclusion into a mission: that no one lives what I have lived.",
+      "author": "Florent Gibert, Founder & CEO"
+    }
+  },
+  "infinity": {
+    "title": "One symbol. A whole world.",
+    "only": "O \u2014 ONLY",
+    "more": "M \u2014 MORE",
+    "engine": "The engine",
+    "circular": "Circular energy = local monetary circulation",
+    "tagline": "No beginning. No end. The local economy in perpetual motion."
+  },
+  "subsidiaries": {
+    "title": "5 Pillars, 1 Vision",
+    "live": "Live",
+    "coming": "Coming Soon",
+    "colhybri": {
+      "desc": "SaaS solidarity commerce platform. Own Your Neighborhood. Own Your Future."
+    },
+    "crownium": {
+      "desc": "Mutualist funding for professional sports clubs."
+    },
+    "dojuku": {
+      "desc": "Intergenerational AI martial arts application."
+    },
+    "finance": {
+      "desc": "Lombard credit and wealth management."
+    },
+    "plumaya": {
+      "desc": "Publishing and intellectual property."
+    }
+  },
+  "impact": {
+    "title": "3 Fights. 1 Mechanism.",
+    "poverty": {
+      "title": "Reduce poverty",
+      "desc": "Sport generates local wealth, creating economic opportunities where they are needed most."
+    },
+    "talent": {
+      "title": "Stop brain drain",
+      "desc": "Dynamic local ecosystems allow talent to flourish without having to leave."
+    },
+    "emigration": {
+      "title": "Combat forced emigration",
+      "desc": "When a city thrives economically, no one is forced to leave it."
+    },
+    "flow": {
+      "1": "Sport creates local wealth",
+      "2": "Residents spend locally",
+      "3": "The city remains economically healthy",
+      "4": "No one is forced to leave"
+    }
+  },
+  "team": {
+    "title": "The Team",
+    "florent": {
+      "role": "Founder & CEO",
+      "bio": "Self-taught, Marseille/Rodilhan, ex-construction, kung fu & karate"
+    },
+    "joao": {
+      "role": "CFO",
+      "bio": "Financial direction and strategy"
+    },
+    "julie": {
+      "role": "Head of BD & Partnerships",
+      "bio": "Trilingual FR/EN/ES, ex-NXP Semiconductors"
+    },
+    "stephane": {
+      "role": "Fundraising Partner",
+      "bio": "Fundraising partner, Winvesty"
+    }
+  },
+  "investors": {
+    "title": "Investors",
+    "description": "ONLYMORE Group is currently raising a pre-seed round of \u20ac200K-\u20ac350K at a pre-money valuation of \u20ac1.3M-\u20ac2.15M.",
+    "metric1": {
+      "value": "5",
+      "label": "subsidiaries"
+    },
+    "metric2": {
+      "value": "2",
+      "label": "live platforms"
+    },
+    "metric3": {
+      "value": "Pre-seed",
+      "label": "in progress"
+    }
+  },
+  "footer": {
+    "platforms": "Our Platforms",
+    "copyright": "\u00a9 2026 ONLYMORE GROUP. All rights reserved."
+  }
+}

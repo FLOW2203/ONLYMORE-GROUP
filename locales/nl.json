@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "ONLYMORE GROUP — Optimaliseer uw nalatenschap",
+    "description": "Franse groep voor financiële inclusie door sport. 5 dochterondernemingen ten dienste van 3 strijdpunten: armoede verminderen, braindrain stoppen, gedwongen emigratie bestrijden."
+  },
+  "nav": {
+    "group": "Groep",
+    "subsidiaries": "Dochterondernemingen",
+    "impact": "Impact",
+    "team": "Team",
+    "investors": "Investeerders",
+    "contact": "Contact"
+  },
+  "cta": {
+    "book": "Boek een vergadering"
+  },
+  "hero": {
+    "badge": "Financiële Inclusie Door Sport",
+    "title": "Optimaliseer uw nalatenschap.",
+    "why": "Dat iedereen kan leven en bloeien waar hij is opgegroeid.",
+    "subtitle": "5 dochterondernemingen. 3 strijdpunten. Sport als lokale economische hefboom.",
+    "cta_primary": "Ontdek onze missie →",
+    "cta_secondary": "Investeerders"
+  },
+  "philosophy": {
+    "title": "Onze Filosofie",
+    "mandela": {
+      "quote": "Sport heeft de kracht om de wereld te veranderen. Het heeft de kracht om te inspireren. Het heeft de kracht om mensen te verenigen zoals weinig andere dingen dat kunnen.",
+      "author": "Nelson Mandela, Laureus World Sports Awards, 2000"
+    },
+    "boetcker": {
+      "quote": "Je kunt de armen niet helpen door de rijken te vernietigen. Je kunt mensen niet blijvend helpen door voor hen te doen wat zij zelf kunnen en moeten doen.",
+      "author": "William J.H. Boetcker"
+    },
+    "founder": {
+      "quote": "Gedwongen om financiële oplossingen te vinden omdat ik te gehandicapt was om te werken, niet genoeg voor een uitkering, en te jong om geopereerd te worden... Ik heb mijn uitsluiting omgezet in een missie: dat niemand meemaakt wat ik heb meegemaakt.",
+      "author": "Florent Gibert, Oprichter & CEO"
+    }
+  },
+  "infinity": {
+    "title": "Eén symbool. Een hele wereld.",
+    "only": "O — ONLY",
+    "more": "M — MORE",
+    "engine": "De motor",
+    "circular": "Circulaire energie = lokale geldcirculatie",
+    "tagline": "Geen begin. Geen einde. De lokale economie in eeuwige beweging."
+  },
+  "subsidiaries": {
+    "title": "5 Pijlers, 1 Visie",
+    "live": "Live",
+    "coming": "Coming Soon",
+    "colhybri": {
+      "desc": "SaaS-platform voor solidaire handel. Own Your Neighborhood. Own Your Future."
+    },
+    "crownium": {
+      "desc": "Mutualistische financiering voor professionele sportclubs."
+    },
+    "dojuku": {
+      "desc": "Intergenerationele AI-applicatie voor vechtsporten."
+    },
+    "finance": {
+      "desc": "Lombardkrediet en vermogensbeheer."
+    },
+    "plumaya": {
+      "desc": "Uitgeverij en intellectueel eigendom."
+    }
+  },
+  "impact": {
+    "title": "3 Strijdpunten. 1 Mechanisme.",
+    "poverty": {
+      "title": "Armoede verminderen",
+      "desc": "Sport genereert lokale welvaart en creëert economische kansen waar ze het meest nodig zijn."
+    },
+    "talent": {
+      "title": "Braindrain stoppen",
+      "desc": "Dynamische lokale ecosystemen stellen talent in staat om te bloeien zonder te hoeven vertrekken."
+    },
+    "emigration": {
+      "title": "Gedwongen emigratie bestrijden",
+      "desc": "Wanneer een stad economisch bloeit, is niemand gedwongen om te vertrekken."
+    },
+    "flow": {
+      "1": "Sport creëert lokale welvaart",
+      "2": "Bewoners besteden lokaal",
+      "3": "De stad blijft economisch gezond",
+      "4": "Niemand is gedwongen te vertrekken"
+    }
+  },
+  "team": {
+    "title": "Het Team",
+    "florent": {
+      "role": "Oprichter & CEO",
+      "bio": "Autodidact, Marseille/Rodilhan, ex-bouw, kung fu & karate"
+    },
+    "joao": {
+      "role": "CFO",
+      "bio": "Financiële directie en strategie"
+    },
+    "julie": {
+      "role": "Head of BD & Partnerships",
+      "bio": "Drietalig FR/EN/ES, ex-NXP Semiconductors"
+    },
+    "stephane": {
+      "role": "Fundraising Partner",
+      "bio": "Partner fondsenwerving, Winvesty"
+    }
+  },
+  "investors": {
+    "title": "Investeerders",
+    "description": "ONLYMORE Group haalt momenteel een pre-seed ronde op van €200K-€350K tegen een pre-money waardering van €1.3M-€2.15M.",
+    "metric1": {
+      "value": "5",
+      "label": "dochterondernemingen"
+    },
+    "metric2": {
+      "value": "2",
+      "label": "live platforms"
+    },
+    "metric3": {
+      "value": "Pre-seed",
+      "label": "in uitvoering"
+    }
+  },
+  "footer": {
+    "platforms": "Onze Platforms",
+    "copyright": "© 2026 ONLYMORE GROUP. Alle rechten voorbehouden."
+  }
+}

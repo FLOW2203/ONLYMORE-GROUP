@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "ONLYMORE GROUP — Optimaliser din arv",
+    "description": "Fransk finansiell inkluderingsgruppe gjennom sport. 5 datterselskaper som tjener 3 kamper: redusere fattigdom, stoppe hjerneflukt, bekjempe tvungen emigrasjon."
+  },
+  "nav": {
+    "group": "Konsern",
+    "subsidiaries": "Datterselskaper",
+    "impact": "Innvirkning",
+    "team": "Team",
+    "investors": "Investorer",
+    "contact": "Kontakt"
+  },
+  "cta": {
+    "book": "Bestill et møte"
+  },
+  "hero": {
+    "badge": "Finansiell inkludering gjennom sport",
+    "title": "Optimaliser din arv.",
+    "why": "At alle kan leve og trives der de vokste opp.",
+    "subtitle": "5 datterselskaper. 3 kamper. Sport som lokal økonomisk drivkraft.",
+    "cta_primary": "Oppdag vårt oppdrag →",
+    "cta_secondary": "Investorer"
+  },
+  "philosophy": {
+    "title": "Vår filosofi",
+    "mandela": {
+      "quote": "Sport har kraften til å forandre verden. Den har kraften til å inspirere. Den har kraften til å forene mennesker som få andre ting.",
+      "author": "Nelson Mandela, Laureus World Sports Awards, 2000"
+    },
+    "boetcker": {
+      "quote": "Du kan ikke hjelpe de fattige ved å ødelegge de rike. Du kan ikke hjelpe mennesker permanent ved å gjøre for dem det de kunne og burde gjøre selv.",
+      "author": "William J.H. Boetcker"
+    },
+    "founder": {
+      "quote": "Tvunget til å finne økonomiske løsninger fordi jeg var for funksjonshemmet til å jobbe, ikke nok for pensjon, og for ung til å bli operert... Jeg forvandlet min ekskludering til et oppdrag: at ingen skal oppleve det jeg har opplevd.",
+      "author": "Florent Gibert, Grunnlegger og administrerende direktør"
+    }
+  },
+  "infinity": {
+    "title": "Ett symbol. En hel verden.",
+    "only": "O — ONLY",
+    "more": "M — MORE",
+    "engine": "Motoren",
+    "circular": "Sirkulær energi = lokal pengesirkulasjon",
+    "tagline": "Ingen begynnelse. Ingen slutt. Den lokale økonomien i evig bevegelse."
+  },
+  "subsidiaries": {
+    "title": "5 pilarer, 1 visjon",
+    "live": "Aktiv",
+    "coming": "Kommer snart",
+    "colhybri": {
+      "desc": "SaaS solidaritetshandelsplattform. Eie ditt nabolag. Eie din fremtid."
+    },
+    "crownium": {
+      "desc": "Gjensidig finansiering for profesjonelle idrettsklubber."
+    },
+    "dojuku": {
+      "desc": "Intergenerasjonell AI-kampsportapplikasjon."
+    },
+    "finance": {
+      "desc": "Lombardkreditt og formuesforvaltning."
+    },
+    "plumaya": {
+      "desc": "Forlagsvirksomhet og immaterielle rettigheter."
+    }
+  },
+  "impact": {
+    "title": "3 kamper. 1 mekanisme.",
+    "poverty": {
+      "title": "Redusere fattigdom",
+      "desc": "Sport skaper lokal velstand og økonomiske muligheter der de trengs mest."
+    },
+    "talent": {
+      "title": "Stoppe hjerneflukt",
+      "desc": "Dynamiske lokale økosystemer lar talent blomstre uten å måtte dra."
+    },
+    "emigration": {
+      "title": "Bekjempe tvungen emigrasjon",
+      "desc": "Når en by trives økonomisk, er ingen tvunget til å forlate den."
+    },
+    "flow": {
+      "1": "Sport skaper lokal velstand",
+      "2": "Innbyggerne handler lokalt",
+      "3": "Byen forblir økonomisk sunn",
+      "4": "Ingen er tvunget til å dra"
+    }
+  },
+  "team": {
+    "title": "Teamet",
+    "florent": {
+      "role": "Grunnlegger og administrerende direktør",
+      "bio": "Selvlært, Marseille/Rodilhan, eks-bygg og anlegg, kung fu og karate"
+    },
+    "joao": {
+      "role": "Finansdirektør",
+      "bio": "Finansiell ledelse og strategi"
+    },
+    "julie": {
+      "role": "Leder for forretningsutvikling og partnerskap",
+      "bio": "Trespråklig FR/EN/ES, eks-NXP Semiconductors"
+    },
+    "stephane": {
+      "role": "Partner for innsamling",
+      "bio": "Partner for innsamling, Winvesty"
+    }
+  },
+  "investors": {
+    "title": "Investorer",
+    "description": "ONLYMORE Group gjennomfører for tiden en pre-seed-runde på €200K–€350K med en pre-money-verdsettelse på €1,3M–€2,15M.",
+    "metric1": {
+      "value": "5",
+      "label": "datterselskaper"
+    },
+    "metric2": {
+      "value": "2",
+      "label": "aktive plattformer"
+    },
+    "metric3": {
+      "value": "Pre-seed",
+      "label": "pågår"
+    }
+  },
+  "footer": {
+    "platforms": "Våre plattformer",
+    "copyright": "© 2026 ONLYMORE GROUP. Alle rettigheter forbeholdt."
+  }
+}

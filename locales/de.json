@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "ONLYMORE GROUP — Optimieren Sie Ihr Vermächtnis",
+    "description": "Französische Gruppe für finanzielle Inklusion durch Sport. 5 Tochtergesellschaften im Dienste von 3 Kämpfen: Armut reduzieren, Abwanderung von Fachkräften stoppen, Zwangsemigration bekämpfen."
+  },
+  "nav": {
+    "group": "Gruppe",
+    "subsidiaries": "Tochtergesellschaften",
+    "impact": "Wirkung",
+    "team": "Team",
+    "investors": "Investoren",
+    "contact": "Kontakt"
+  },
+  "cta": {
+    "book": "Termin vereinbaren"
+  },
+  "hero": {
+    "badge": "Finanzielle Inklusion durch Sport",
+    "title": "Optimieren Sie Ihr Vermächtnis.",
+    "why": "Dass jeder dort leben und gedeihen kann, wo er aufgewachsen ist.",
+    "subtitle": "5 Tochtergesellschaften. 3 Kämpfe. Sport als lokaler Wirtschaftshebel.",
+    "cta_primary": "Entdecken Sie unsere Mission →",
+    "cta_secondary": "Investoren"
+  },
+  "philosophy": {
+    "title": "Unsere Philosophie",
+    "mandela": {
+      "quote": "Sport hat die Kraft, die Welt zu verändern. Er hat die Kraft zu inspirieren. Er hat die Kraft, Menschen zu vereinen wie kaum etwas anderes.",
+      "author": "Nelson Mandela, Laureus World Sports Awards, 2000"
+    },
+    "boetcker": {
+      "quote": "Man kann den Armen nicht helfen, indem man die Reichen zerstört. Man kann den Menschen nicht dauerhaft helfen, indem man für sie tut, was sie selbst tun könnten und sollten.",
+      "author": "William J.H. Boetcker"
+    },
+    "founder": {
+      "quote": "Gezwungen, finanzielle Lösungen zu finden, weil ich zu behindert zum Arbeiten war, nicht genug für eine Rente, und zu jung für eine Operation... Ich verwandelte meine Ausgrenzung in eine Mission: dass niemand erleben muss, was ich erlebt habe.",
+      "author": "Florent Gibert, Gründer & CEO"
+    }
+  },
+  "infinity": {
+    "title": "Ein Symbol. Eine ganze Welt.",
+    "only": "O — ONLY",
+    "more": "M — MORE",
+    "engine": "Der Motor",
+    "circular": "Kreislaufenergie = lokaler Geldumlauf",
+    "tagline": "Kein Anfang. Kein Ende. Die lokale Wirtschaft in ständiger Bewegung."
+  },
+  "subsidiaries": {
+    "title": "5 Säulen, 1 Vision",
+    "live": "Aktiv",
+    "coming": "Demnächst",
+    "colhybri": {
+      "desc": "SaaS-Plattform für solidarischen Handel. Own Your Neighborhood. Own Your Future."
+    },
+    "crownium": {
+      "desc": "Gegenseitige Finanzierung für professionelle Sportvereine."
+    },
+    "dojuku": {
+      "desc": "Generationenübergreifende KI-Kampfkunst-Anwendung."
+    },
+    "finance": {
+      "desc": "Lombardkredit und Vermögensverwaltung."
+    },
+    "plumaya": {
+      "desc": "Verlagswesen und geistiges Eigentum."
+    }
+  },
+  "impact": {
+    "title": "3 Kämpfe. 1 Mechanismus.",
+    "poverty": {
+      "title": "Armut reduzieren",
+      "desc": "Sport schafft lokalen Wohlstand und eröffnet wirtschaftliche Chancen dort, wo sie am meisten gebraucht werden."
+    },
+    "talent": {
+      "title": "Abwanderung von Fachkräften stoppen",
+      "desc": "Dynamische lokale Ökosysteme ermöglichen es Talenten, sich zu entfalten, ohne wegziehen zu müssen."
+    },
+    "emigration": {
+      "title": "Zwangsemigration bekämpfen",
+      "desc": "Wenn eine Stadt wirtschaftlich floriert, wird niemand gezwungen, sie zu verlassen."
+    },
+    "flow": {
+      "1": "Sport schafft lokalen Wohlstand",
+      "2": "Bewohner geben vor Ort aus",
+      "3": "Die Stadt bleibt wirtschaftlich gesund",
+      "4": "Niemand wird gezwungen zu gehen"
+    }
+  },
+  "team": {
+    "title": "Das Team",
+    "florent": {
+      "role": "Gründer & CEO",
+      "bio": "Autodidakt, Marseille/Rodilhan, ehem. Bauwesen, Kung Fu & Karate"
+    },
+    "joao": {
+      "role": "CFO",
+      "bio": "Finanzleitung und Strategie"
+    },
+    "julie": {
+      "role": "Leiterin BD & Partnerschaften",
+      "bio": "Dreisprachig FR/EN/ES, ehem. NXP Semiconductors"
+    },
+    "stephane": {
+      "role": "Partner für Kapitalbeschaffung",
+      "bio": "Partner für Kapitalbeschaffung, Winvesty"
+    }
+  },
+  "investors": {
+    "title": "Investoren",
+    "description": "Die ONLYMORE Group führt derzeit eine Pre-Seed-Runde von €200K-€350K bei einer Pre-Money-Bewertung von €1,3M-€2,15M durch.",
+    "metric1": {
+      "value": "5",
+      "label": "Tochtergesellschaften"
+    },
+    "metric2": {
+      "value": "2",
+      "label": "aktive Plattformen"
+    },
+    "metric3": {
+      "value": "Pre-seed",
+      "label": "in Bearbeitung"
+    }
+  },
+  "footer": {
+    "platforms": "Unsere Plattformen",
+    "copyright": "© 2026 ONLYMORE GROUP. Alle Rechte vorbehalten."
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "ONLYMORE GROUP — Optimoi perintösi",
+    "description": "Ranskalainen taloudellisen osallisuuden konserni urheilun kautta. 5 tytäryhtiötä, 3 taistelua: köyhyyden vähentäminen, aivovuodon pysäyttäminen, pakkomuuton torjunta."
+  },
+  "nav": {
+    "group": "Konserni",
+    "subsidiaries": "Tytäryhtiöt",
+    "impact": "Vaikutus",
+    "team": "Tiimi",
+    "investors": "Sijoittajat",
+    "contact": "Yhteystiedot"
+  },
+  "cta": {
+    "book": "Varaa tapaaminen"
+  },
+  "hero": {
+    "badge": "Taloudellinen osallisuus urheilun kautta",
+    "title": "Optimoi perintösi.",
+    "why": "Että jokainen voi elää ja kukoistaa siellä, missä kasvoi.",
+    "subtitle": "5 tytäryhtiötä. 3 taistelua. Urheilu paikallisena taloudellisena vipuvoimana.",
+    "cta_primary": "Tutustu tehtäväämme →",
+    "cta_secondary": "Sijoittajat"
+  },
+  "philosophy": {
+    "title": "Filosofiamme",
+    "mandela": {
+      "quote": "Urheilulla on voima muuttaa maailmaa. Sillä on voima inspiroida. Sillä on voima yhdistää ihmisiä kuten harvalla muulla asialla.",
+      "author": "Nelson Mandela, Laureus World Sports Awards, 2000"
+    },
+    "boetcker": {
+      "quote": "Et voi auttaa köyhiä tuhoamalla rikkaat. Et voi auttaa ihmisiä pysyvästi tekemällä heidän puolestaan sitä, mitä he voisivat ja heidän pitäisi tehdä itse.",
+      "author": "William J.H. Boetcker"
+    },
+    "founder": {
+      "quote": "Pakotettu etsimään taloudellisia ratkaisuja, koska olin liian vammainen töihin, ei tarpeeksi eläkkeelle, ja liian nuori leikattavaksi... Muutin syrjäytymiseni tehtäväksi: ettei kukaan joutuisi kokemaan sitä, minkä minä olen kokenut.",
+      "author": "Florent Gibert, Perustaja ja toimitusjohtaja"
+    }
+  },
+  "infinity": {
+    "title": "Yksi symboli. Kokonainen maailma.",
+    "only": "O — ONLY",
+    "more": "M — MORE",
+    "engine": "Moottori",
+    "circular": "Kiertävä energia = paikallinen rahankierto",
+    "tagline": "Ei alkua. Ei loppua. Paikallinen talous ikuisessa liikkeessä."
+  },
+  "subsidiaries": {
+    "title": "5 pilaria, 1 visio",
+    "live": "Toiminnassa",
+    "coming": "Tulossa pian",
+    "colhybri": {
+      "desc": "SaaS-solidaarisuuskaupan alusta. Omista naapurustosi. Omista tulevaisuutesi."
+    },
+    "crownium": {
+      "desc": "Keskinäinen rahoitus ammattilaisurheiluseuroille."
+    },
+    "dojuku": {
+      "desc": "Sukupolvien välinen tekoälykamppailulajisovellus."
+    },
+    "finance": {
+      "desc": "Lombardiluotto ja varallisuudenhallinta."
+    },
+    "plumaya": {
+      "desc": "Kustannustoiminta ja immateriaalioikeudet."
+    }
+  },
+  "impact": {
+    "title": "3 taistelua. 1 mekanismi.",
+    "poverty": {
+      "title": "Vähentää köyhyyttä",
+      "desc": "Urheilu luo paikallista vaurautta ja taloudellisia mahdollisuuksia sinne, missä niitä eniten tarvitaan."
+    },
+    "talent": {
+      "title": "Pysäyttää aivovuoto",
+      "desc": "Dynaamiset paikalliset ekosysteemit antavat lahjakkuuksien kukoistaa ilman, että heidän tarvitsee lähteä."
+    },
+    "emigration": {
+      "title": "Torjua pakkomuuttoa",
+      "desc": "Kun kaupunki kukoistaa taloudellisesti, kenenkään ei ole pakko lähteä."
+    },
+    "flow": {
+      "1": "Urheilu luo paikallista vaurautta",
+      "2": "Asukkaat kuluttavat paikallisesti",
+      "3": "Kaupunki pysyy taloudellisesti terveenä",
+      "4": "Kenenkään ei ole pakko lähteä"
+    }
+  },
+  "team": {
+    "title": "Tiimi",
+    "florent": {
+      "role": "Perustaja ja toimitusjohtaja",
+      "bio": "Itseoppinut, Marseille/Rodilhan, ent. rakennusala, kung fu ja karate"
+    },
+    "joao": {
+      "role": "Talousjohtaja",
+      "bio": "Taloudellinen johtaminen ja strategia"
+    },
+    "julie": {
+      "role": "Liiketoiminnan kehityksen ja kumppanuuksien johtaja",
+      "bio": "Kolmikielinen FR/EN/ES, ent. NXP Semiconductors"
+    },
+    "stephane": {
+      "role": "Varainhankintakumppani",
+      "bio": "Varainhankintakumppani, Winvesty"
+    }
+  },
+  "investors": {
+    "title": "Sijoittajat",
+    "description": "ONLYMORE Group kerää parhaillaan pre-seed-kierrosta €200K–€350K pre-money-arvostuksella €1,3M–€2,15M.",
+    "metric1": {
+      "value": "5",
+      "label": "tytäryhtiötä"
+    },
+    "metric2": {
+      "value": "2",
+      "label": "toiminnassa olevaa alustaa"
+    },
+    "metric3": {
+      "value": "Pre-seed",
+      "label": "käynnissä"
+    }
+  },
+  "footer": {
+    "platforms": "Alustamme",
+    "copyright": "© 2026 ONLYMORE GROUP. Kaikki oikeudet pidätetään."
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "ONLYMORE GROUP — Ottimizza la tua eredità",
+    "description": "Gruppo francese di inclusione finanziaria attraverso lo sport. 5 filiali al servizio di 3 battaglie: ridurre la povertà, fermare la fuga dei cervelli, combattere l'emigrazione forzata."
+  },
+  "nav": {
+    "group": "Gruppo",
+    "subsidiaries": "Filiali",
+    "impact": "Impatto",
+    "team": "Team",
+    "investors": "Investitori",
+    "contact": "Contatti"
+  },
+  "cta": {
+    "book": "Prenota un incontro"
+  },
+  "hero": {
+    "badge": "Inclusione Finanziaria Attraverso lo Sport",
+    "title": "Ottimizza la tua eredità.",
+    "why": "Che tutti possano vivere e prosperare dove sono cresciuti.",
+    "subtitle": "5 filiali. 3 battaglie. Lo sport come leva economica locale.",
+    "cta_primary": "Scopri la nostra missione →",
+    "cta_secondary": "Investitori"
+  },
+  "philosophy": {
+    "title": "La Nostra Filosofia",
+    "mandela": {
+      "quote": "Lo sport ha il potere di cambiare il mondo. Ha il potere di ispirare. Ha il potere di unire le persone come poche altre cose.",
+      "author": "Nelson Mandela, Laureus World Sports Awards, 2000"
+    },
+    "boetcker": {
+      "quote": "Non si possono aiutare i poveri distruggendo i ricchi. Non si possono aiutare gli uomini in modo permanente facendo al posto loro ciò che potrebbero e dovrebbero fare da soli.",
+      "author": "William J.H. Boetcker"
+    },
+    "founder": {
+      "quote": "Costretto a trovare soluzioni finanziarie perché ero troppo disabile per lavorare, non abbastanza per una pensione, e troppo giovane per essere operato... Ho trasformato la mia esclusione in una missione: che nessuno viva ciò che ho vissuto io.",
+      "author": "Florent Gibert, Fondatore & CEO"
+    }
+  },
+  "infinity": {
+    "title": "Un simbolo. Un intero mondo.",
+    "only": "O — ONLY",
+    "more": "M — MORE",
+    "engine": "Il motore",
+    "circular": "Energia circolare = circolazione monetaria locale",
+    "tagline": "Nessun inizio. Nessuna fine. L'economia locale in moto perpetuo."
+  },
+  "subsidiaries": {
+    "title": "5 Pilastri, 1 Visione",
+    "live": "Live",
+    "coming": "Coming Soon",
+    "colhybri": {
+      "desc": "Piattaforma SaaS di commercio solidale. Own Your Neighborhood. Own Your Future."
+    },
+    "crownium": {
+      "desc": "Finanziamento mutualistico per club sportivi professionistici."
+    },
+    "dojuku": {
+      "desc": "Applicazione IA di arti marziali intergenerazionale."
+    },
+    "finance": {
+      "desc": "Credito Lombard e gestione patrimoniale."
+    },
+    "plumaya": {
+      "desc": "Editoria e proprietà intellettuale."
+    }
+  },
+  "impact": {
+    "title": "3 Battaglie. 1 Meccanismo.",
+    "poverty": {
+      "title": "Ridurre la povertà",
+      "desc": "Lo sport genera ricchezza locale, creando opportunità economiche dove sono più necessarie."
+    },
+    "talent": {
+      "title": "Fermare la fuga dei cervelli",
+      "desc": "Ecosistemi locali dinamici permettono ai talenti di fiorire senza dover partire."
+    },
+    "emigration": {
+      "title": "Combattere l'emigrazione forzata",
+      "desc": "Quando una città prospera economicamente, nessuno è costretto a lasciarla."
+    },
+    "flow": {
+      "1": "Lo sport crea ricchezza locale",
+      "2": "I residenti spendono localmente",
+      "3": "La città resta economicamente sana",
+      "4": "Nessuno è costretto a partire"
+    }
+  },
+  "team": {
+    "title": "Il Team",
+    "florent": {
+      "role": "Fondatore & CEO",
+      "bio": "Autodidatta, Marsiglia/Rodilhan, ex-edilizia, kung fu & karate"
+    },
+    "joao": {
+      "role": "CFO",
+      "bio": "Direzione finanziaria e strategia"
+    },
+    "julie": {
+      "role": "Head of BD & Partnerships",
+      "bio": "Trilingue FR/EN/ES, ex-NXP Semiconductors"
+    },
+    "stephane": {
+      "role": "Fundraising Partner",
+      "bio": "Partner raccolta fondi, Winvesty"
+    }
+  },
+  "investors": {
+    "title": "Investitori",
+    "description": "ONLYMORE Group sta attualmente raccogliendo un round pre-seed di €200K-€350K con una valutazione pre-money di €1.3M-€2.15M.",
+    "metric1": {
+      "value": "5",
+      "label": "filiali"
+    },
+    "metric2": {
+      "value": "2",
+      "label": "piattaforme live"
+    },
+    "metric3": {
+      "value": "Pre-seed",
+      "label": "in corso"
+    }
+  },
+  "footer": {
+    "platforms": "Le Nostre Piattaforme",
+    "copyright": "© 2026 ONLYMORE GROUP. Tutti i diritti riservati."
+  }
+}
