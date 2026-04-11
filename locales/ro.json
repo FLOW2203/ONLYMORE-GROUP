@@ -15,10 +15,10 @@
     "book": "Programează o întâlnire"
   },
   "hero": {
-    "badge": "Incluziune financiară prin sport",
+    "badge": "ESS · SDG 1 · SDG 8 · SDG 10 · SDG 11",
     "title": "Optimizează-ți moștenirea.",
-    "why": "Ca fiecare să poată trăi și prospera acolo unde a crescut.",
-    "subtitle": "5 filiale. 3 lupte. Sportul ca pârghie economică locală.",
+    "why": "The mutualist infrastructure. Built for the many. Powered by sport.",
+    "subtitle": "5 entities. 220 years of mutualism. 6 UN Global Goals.",
     "cta_primary": "Descoperă misiunea noastră →",
     "cta_secondary": "Investitori"
   },
@@ -123,6 +123,7 @@
   },
   "footer": {
     "platforms": "Platformele noastre",
-    "copyright": "© 2026 ONLYMORE GROUP. Toate drepturile rezervate."
+    "copyright": "© 2026 ONLYMORE GROUP. Toate drepturile rezervate.",
+    "slogan": "The mutualist infrastructure. Built for the many. Powered by sport."
   }
 }

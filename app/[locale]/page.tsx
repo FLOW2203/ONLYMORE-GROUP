@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import ESSImpact from "@/components/ESSImpact";
 import Philosophy from "@/components/Philosophy";
 import InfinityDecoded from "@/components/InfinityDecoded";
 import Subsidiaries from "@/components/Subsidiaries";
@@ -13,6 +14,7 @@ export default function HomePage() {
     <main>
       <Header />
       <Hero />
+      <ESSImpact />
       <Philosophy />
       <InfinityDecoded />
       <Subsidiaries />

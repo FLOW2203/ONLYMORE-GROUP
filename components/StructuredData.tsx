@@ -21,6 +21,16 @@ export default function StructuredData() {
       email: "onlymore2024@gmail.com",
       contactType: "customer service",
     },
+    knowsAbout: [
+      "Fan Ownership",
+      "Mutualist Finance",
+      "ESS",
+      "UN Global Goals",
+      "Sports Financial Inclusion",
+      "Local Commerce SaaS",
+    ],
+    award: "EU Parliament Resolution P10_TA(2025)0212 \u2014 552 votes",
+    areaServed: ["Europe", "Americas", "Asia-Pacific"],
   };
 
   const website = {

@@ -15,10 +15,10 @@
     "book": "Rezervovat schůzku"
   },
   "hero": {
-    "badge": "Finanční inkluze prostřednictvím sportu",
+    "badge": "ESS · SDG 1 · SDG 8 · SDG 10 · SDG 11",
     "title": "Optimalizujte svůj odkaz.",
-    "why": "Aby každý mohl žít a prosperovat tam, kde vyrostl.",
-    "subtitle": "5 dceřiných společností. 3 boje. Sport jako místní ekonomická páka.",
+    "why": "The mutualist infrastructure. Built for the many. Powered by sport.",
+    "subtitle": "5 entities. 220 years of mutualism. 6 UN Global Goals.",
     "cta_primary": "Objevte naši misi →",
     "cta_secondary": "Investoři"
   },
@@ -123,6 +123,7 @@
   },
   "footer": {
     "platforms": "Naše platformy",
-    "copyright": "© 2026 ONLYMORE GROUP. Všechna práva vyhrazena."
+    "copyright": "© 2026 ONLYMORE GROUP. Všechna práva vyhrazena.",
+    "slogan": "The mutualist infrastructure. Built for the many. Powered by sport."
   }
 }

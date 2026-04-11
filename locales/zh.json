@@ -15,10 +15,10 @@
     "book": "预约会议"
   },
   "hero": {
-    "badge": "通过体育实现普惠金融",
+    "badge": "ESS · SDG 1 · SDG 8 · SDG 10 · SDG 11",
     "title": "优化您的传承。",
-    "why": "让每个人都能在成长的地方安居乐业。",
-    "subtitle": "5家子公司。3大使命。体育作为本地经济杠杆。",
+    "why": "The mutualist infrastructure. Built for the many. Powered by sport.",
+    "subtitle": "5 entities. 220 years of mutualism. 6 UN Global Goals.",
     "cta_primary": "了解我们的使命 →",
     "cta_secondary": "投资者"
   },
@@ -123,6 +123,7 @@
   },
   "footer": {
     "platforms": "我们的平台",
-    "copyright": "© 2026 ONLYMORE GROUP. 保留所有权利。"
+    "copyright": "© 2026 ONLYMORE GROUP. 保留所有权利。",
+    "slogan": "The mutualist infrastructure. Built for the many. Powered by sport."
   }
 }

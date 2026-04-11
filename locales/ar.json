@@ -15,10 +15,10 @@
     "book": "احجز اجتماعًا"
   },
   "hero": {
-    "badge": "الشمول المالي من خلال الرياضة",
+    "badge": "ESS · SDG 1 · SDG 8 · SDG 10 · SDG 11",
     "title": "حسّن إرثك.",
-    "why": "أن يتمكن كل شخص من العيش والازدهار حيث نشأ.",
-    "subtitle": "5 شركات تابعة. 3 معارك. الرياضة كرافعة اقتصادية محلية.",
+    "why": "The mutualist infrastructure. Built for the many. Powered by sport.",
+    "subtitle": "5 entities. 220 years of mutualism. 6 UN Global Goals.",
     "cta_primary": "اكتشف مهمتنا ←",
     "cta_secondary": "المستثمرون"
   },
@@ -123,6 +123,7 @@
   },
   "footer": {
     "platforms": "منصاتنا",
-    "copyright": "© 2026 ONLYMORE GROUP. جميع الحقوق محفوظة."
+    "copyright": "© 2026 ONLYMORE GROUP. جميع الحقوق محفوظة.",
+    "slogan": "The mutualist infrastructure. Built for the many. Powered by sport."
   }
 }

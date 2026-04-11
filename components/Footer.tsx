@@ -36,6 +36,9 @@ export default function Footer() {
                 <span className="font-body text-sm text-warm-white/50">{t("hero.title")}</span>
               </div>
             </div>
+            <p className="font-body text-xs text-warm-white/40 mb-4 leading-relaxed">
+              {t("footer.slogan")}
+            </p>
             <div className="flex items-center gap-3">
               {/* LinkedIn */}
               <a
@@ -123,6 +126,48 @@ export default function Footer() {
               </li>
             </ul>
           </div>
+        </div>
+
+        {/* ESS & SDG badges */}
+        <div className="flex flex-wrap items-center gap-3 mb-8">
+          <span className="px-3 py-1 rounded-full border border-teal/30 bg-teal/10 text-teal-light text-xs font-body font-medium tracking-wide">
+            ESS
+          </span>
+          {[
+            { n: 1, color: "#E5243B" },
+            { n: 8, color: "#A21942" },
+            { n: 10, color: "#DD1367" },
+            { n: 11, color: "#FD9D24" },
+            { n: 17, color: "#19486A" },
+          ].map((sdg) => (
+            <span
+              key={sdg.n}
+              className="w-7 h-7 rounded-full flex items-center justify-center text-white text-[10px] font-bold font-body"
+              style={{ backgroundColor: sdg.color }}
+            >
+              {sdg.n}
+            </span>
+          ))}
+        </div>
+
+        {/* External links */}
+        <div className="flex items-center gap-4 mb-8">
+          <a
+            href="https://ess-france.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-body text-xs text-warm-white/40 hover:text-teal-light transition-colors"
+          >
+            ess-france.org &uarr;
+          </a>
+          <a
+            href="https://globalgoals.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-body text-xs text-warm-white/40 hover:text-teal-light transition-colors"
+          >
+            globalgoals.org &uarr;
+          </a>
         </div>
 
         {/* Separator */}

@@ -15,10 +15,10 @@
     "book": "Varaa tapaaminen"
   },
   "hero": {
-    "badge": "Taloudellinen osallisuus urheilun kautta",
+    "badge": "ESS · SDG 1 · SDG 8 · SDG 10 · SDG 11",
     "title": "Optimoi perintösi.",
-    "why": "Että jokainen voi elää ja kukoistaa siellä, missä kasvoi.",
-    "subtitle": "5 tytäryhtiötä. 3 taistelua. Urheilu paikallisena taloudellisena vipuvoimana.",
+    "why": "The mutualist infrastructure. Built for the many. Powered by sport.",
+    "subtitle": "5 entities. 220 years of mutualism. 6 UN Global Goals.",
     "cta_primary": "Tutustu tehtäväämme →",
     "cta_secondary": "Sijoittajat"
   },
@@ -123,6 +123,7 @@
   },
   "footer": {
     "platforms": "Alustamme",
-    "copyright": "© 2026 ONLYMORE GROUP. Kaikki oikeudet pidätetään."
+    "copyright": "© 2026 ONLYMORE GROUP. Kaikki oikeudet pidätetään.",
+    "slogan": "The mutualist infrastructure. Built for the many. Powered by sport."
   }
 }

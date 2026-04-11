@@ -15,10 +15,10 @@
     "book": "Jadwalkan pertemuan"
   },
   "hero": {
-    "badge": "Inklusi Keuangan Melalui Olahraga",
+    "badge": "ESS · SDG 1 · SDG 8 · SDG 10 · SDG 11",
     "title": "Optimalkan Warisan Anda.",
-    "why": "Agar setiap orang bisa hidup dan berkembang di tempat mereka dibesarkan.",
-    "subtitle": "5 anak perusahaan. 3 perjuangan. Olahraga sebagai pengungkit ekonomi lokal.",
+    "why": "The mutualist infrastructure. Built for the many. Powered by sport.",
+    "subtitle": "5 entities. 220 years of mutualism. 6 UN Global Goals.",
     "cta_primary": "Temukan misi kami →",
     "cta_secondary": "Investor"
   },
@@ -123,6 +123,7 @@
   },
   "footer": {
     "platforms": "Platform Kami",
-    "copyright": "© 2026 ONLYMORE GROUP. Hak cipta dilindungi."
+    "copyright": "© 2026 ONLYMORE GROUP. Hak cipta dilindungi.",
+    "slogan": "The mutualist infrastructure. Built for the many. Powered by sport."
   }
 }
