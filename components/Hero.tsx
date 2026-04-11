@@ -12,11 +12,20 @@ export default function Hero() {
       id="hero"
       className="relative min-h-screen flex flex-col items-center justify-center px-6 lg:px-16 overflow-hidden"
     >
-      {/* Background gradient mesh */}
-      <div className="absolute inset-0 bg-deep-black" />
-      <div className="absolute inset-0 bg-gradient-to-br from-deep-black via-teal/5 to-deep-black" />
-      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-teal/3 rounded-full blur-3xl" />
-      <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-gold/3 rounded-full blur-3xl" />
+      {/* Video background */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
+        style={{ opacity: 0.6 }}
+      >
+        <source src="/onlymore_logo_final.mp4" type="video/mp4" />
+      </video>
+
+      {/* Dark overlay for text readability */}
+      <div className="absolute inset-0 bg-black/50" />
 
       <div className="relative z-10 max-w-container mx-auto text-center">
         {/* Logo */}
