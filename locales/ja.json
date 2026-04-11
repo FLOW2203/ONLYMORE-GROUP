@@ -15,10 +15,10 @@
     "book": "ミーティングを予約"
   },
   "hero": {
-    "badge": "スポーツを通じた金融包摂",
+    "badge": "ESS · SDG 1 · SDG 8 · SDG 10 · SDG 11",
     "title": "あなたのレガシーを最適化する。",
-    "why": "すべての人が生まれ育った場所で暮らし、繁栄できるように。",
-    "subtitle": "5つの子会社。3つの課題。地域経済のテコとしてのスポーツ。",
+    "why": "The mutualist infrastructure. Built for the many. Powered by sport.",
+    "subtitle": "5 entities. 220 years of mutualism. 6 UN Global Goals.",
     "cta_primary": "私たちのミッションを知る →",
     "cta_secondary": "投資家"
   },
@@ -123,6 +123,7 @@
   },
   "footer": {
     "platforms": "プラットフォーム",
-    "copyright": "© 2026 ONLYMORE GROUP. All rights reserved."
+    "copyright": "© 2026 ONLYMORE GROUP. All rights reserved.",
+    "slogan": "The mutualist infrastructure. Built for the many. Powered by sport."
   }
 }

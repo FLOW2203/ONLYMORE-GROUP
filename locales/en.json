@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "ONLYMORE GROUP \u2014 Optimize Your Legacy",
+    "title": "ONLYMORE GROUP — Optimize Your Legacy",
     "description": "French financial inclusion group through sport. 5 subsidiaries serving 3 fights: reducing poverty, stopping brain drain, combating forced emigration."
   },
   "nav": {
@@ -15,11 +15,11 @@
     "book": "Book a meeting"
   },
   "hero": {
-    "badge": "Financial Inclusion Through Sport",
+    "badge": "ESS · SDG 1 · SDG 8 · SDG 10 · SDG 11",
     "title": "Optimize Your Legacy.",
-    "why": "That everyone can live and thrive where they grew up.",
-    "subtitle": "5 subsidiaries. 3 fights. Sport as a local economic lever.",
-    "cta_primary": "Discover our mission \u2192",
+    "why": "The mutualist infrastructure. Built for the many. Powered by sport.",
+    "subtitle": "5 entities. 220 years of mutualism. 6 UN Global Goals.",
+    "cta_primary": "Discover our mission →",
     "cta_secondary": "Investors"
   },
   "philosophy": {
@@ -39,8 +39,8 @@
   },
   "infinity": {
     "title": "One symbol. A whole world.",
-    "only": "O \u2014 ONLY",
-    "more": "M \u2014 MORE",
+    "only": "O — ONLY",
+    "more": "M — MORE",
     "engine": "The engine",
     "circular": "Circular energy = local monetary circulation",
     "tagline": "No beginning. No end. The local economy in perpetual motion."
@@ -107,7 +107,7 @@
   },
   "investors": {
     "title": "Investors",
-    "description": "ONLYMORE Group is currently raising a pre-seed round of \u20ac200K-\u20ac350K at a pre-money valuation of \u20ac1.3M-\u20ac2.15M.",
+    "description": "ONLYMORE Group is currently raising a pre-seed round of €200K-€350K at a pre-money valuation of €1.3M-€2.15M.",
     "metric1": {
       "value": "5",
       "label": "subsidiaries"
@@ -123,6 +123,7 @@
   },
   "footer": {
     "platforms": "Our Platforms",
-    "copyright": "\u00a9 2026 ONLYMORE GROUP. All rights reserved."
+    "copyright": "© 2026 ONLYMORE GROUP. All rights reserved.",
+    "slogan": "The mutualist infrastructure. Built for the many. Powered by sport."
   }
 }

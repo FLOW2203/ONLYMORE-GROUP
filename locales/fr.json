@@ -1,25 +1,25 @@
 {
   "meta": {
-    "title": "ONLYMORE GROUP \u2014 Optimisons vos \u0153uvres",
-    "description": "Groupe fran\u00e7ais d'inclusion financi\u00e8re par le sport. 5 filiales au service de 3 combats : r\u00e9duire la pauvret\u00e9, stopper la fuite des talents, combattre l'\u00e9migration forc\u00e9e."
+    "title": "ONLYMORE GROUP — Optimisons vos œuvres",
+    "description": "Groupe français d'inclusion financière par le sport. 5 filiales au service de 3 combats : réduire la pauvreté, stopper la fuite des talents, combattre l'émigration forcée."
   },
   "nav": {
     "group": "Groupe",
     "subsidiaries": "Filiales",
     "impact": "Impact",
-    "team": "\u00c9quipe",
+    "team": "Équipe",
     "investors": "Investisseurs",
     "contact": "Contact"
   },
   "cta": {
-    "book": "R\u00e9server un rendez-vous"
+    "book": "Réserver un rendez-vous"
   },
   "hero": {
-    "badge": "Inclusion Financi\u00e8re par le Sport",
-    "title": "Optimisons vos \u0153uvres.",
-    "why": "Que chacun puisse vivre et prosp\u00e9rer l\u00e0 o\u00f9 il a grandi.",
-    "subtitle": "5 filiales. 3 combats. Le sport comme levier \u00e9conomique local.",
-    "cta_primary": "D\u00e9couvrir notre mission \u2192",
+    "badge": "ESS · SDG 1 · SDG 8 · SDG 10 · SDG 11",
+    "title": "Optimisons vos œuvres.",
+    "why": "The mutualist infrastructure. Built for the many. Powered by sport.",
+    "subtitle": "5 entities. 220 years of mutualism. 6 UN Global Goals.",
+    "cta_primary": "Découvrir notre mission →",
     "cta_secondary": "Investisseurs"
   },
   "philosophy": {
@@ -29,72 +29,72 @@
       "author": "Nelson Mandela, Laureus World Sports Awards, 2000"
     },
     "boetcker": {
-      "quote": "Vous ne pouvez pas aider le pauvre en ruinant le riche. Vous ne pouvez pas aider les hommes continuellement en faisant \u00e0 leur place ce qu'ils devraient faire eux-m\u00eames.",
+      "quote": "Vous ne pouvez pas aider le pauvre en ruinant le riche. Vous ne pouvez pas aider les hommes continuellement en faisant à leur place ce qu'ils devraient faire eux-mêmes.",
       "author": "William J.H. Boetcker"
     },
     "founder": {
-      "quote": "Contraint de trouver des solutions financi\u00e8res parce que j'\u00e9tais trop handicap\u00e9 pour travailler, pas assez pour une pension, et trop jeune pour \u00eatre op\u00e9r\u00e9... J'ai transform\u00e9 mon exclusion en mission : que personne ne vive ce que j'ai v\u00e9cu.",
+      "quote": "Contraint de trouver des solutions financières parce que j'étais trop handicapé pour travailler, pas assez pour une pension, et trop jeune pour être opéré... J'ai transformé mon exclusion en mission : que personne ne vive ce que j'ai vécu.",
       "author": "Florent Gibert, Founder & CEO"
     }
   },
   "infinity": {
     "title": "Un symbole. Tout un monde.",
-    "only": "O \u2014 ONLY",
-    "more": "M \u2014 MORE",
+    "only": "O — ONLY",
+    "more": "M — MORE",
     "engine": "Le moteur",
-    "circular": "\u00c9nergie circulaire = circulation mon\u00e9taire locale",
-    "tagline": "Pas de d\u00e9but. Pas de fin. L'\u00e9conomie locale en mouvement perp\u00e9tuel."
+    "circular": "Énergie circulaire = circulation monétaire locale",
+    "tagline": "Pas de début. Pas de fin. L'économie locale en mouvement perpétuel."
   },
   "subsidiaries": {
     "title": "5 Piliers, 1 Vision",
     "live": "Live",
     "coming": "Coming Soon",
     "colhybri": {
-      "desc": "Plateforme SaaS de commerce solidaire. Chaque geste compte. Le v\u00f4tre aussi."
+      "desc": "Plateforme SaaS de commerce solidaire. Chaque geste compte. Le vôtre aussi."
     },
     "crownium": {
       "desc": "Financement mutualiste de clubs sportifs professionnels."
     },
     "dojuku": {
-      "desc": "Application IA d'arts martiaux interg\u00e9n\u00e9rationnelle."
+      "desc": "Application IA d'arts martiaux intergénérationnelle."
     },
     "finance": {
-      "desc": "Cr\u00e9dit Lombard et gestion de patrimoine."
+      "desc": "Crédit Lombard et gestion de patrimoine."
     },
     "plumaya": {
-      "desc": "\u00c9dition et propri\u00e9t\u00e9 intellectuelle."
+      "desc": "Édition et propriété intellectuelle."
     }
   },
   "impact": {
-    "title": "3 Combats. 1 M\u00e9canisme.",
+    "title": "3 Combats. 1 Mécanisme.",
     "poverty": {
-      "title": "R\u00e9duire la pauvret\u00e9",
-      "desc": "Le sport g\u00e9n\u00e8re de la richesse locale, cr\u00e9ant des opportunit\u00e9s \u00e9conomiques l\u00e0 o\u00f9 elles sont le plus n\u00e9cessaires."
+      "title": "Réduire la pauvreté",
+      "desc": "Le sport génère de la richesse locale, créant des opportunités économiques là où elles sont le plus nécessaires."
     },
     "talent": {
       "title": "Stopper la fuite des talents",
-      "desc": "Des \u00e9cosyst\u00e8mes locaux dynamiques permettent aux talents de s'\u00e9panouir sans avoir \u00e0 partir."
+      "desc": "Des écosystèmes locaux dynamiques permettent aux talents de s'épanouir sans avoir à partir."
     },
     "emigration": {
-      "title": "Combattre l'\u00e9migration forc\u00e9e",
-      "desc": "Quand une ville prosp\u00e8re \u00e9conomiquement, personne n'est contraint de la quitter."
+      "title": "Combattre l'émigration forcée",
+      "desc": "Quand une ville prospère économiquement, personne n'est contraint de la quitter."
     },
     "flow": {
-      "1": "Le sport cr\u00e9e de la richesse locale",
+      "1": "Le sport crée de la richesse locale",
       "2": "Les habitants consomment localement",
-      "3": "La ville reste \u00e9conomiquement saine",
-      "4": "Personne n'est oblig\u00e9 de partir"
+      "3": "La ville reste économiquement saine",
+      "4": "Personne n'est obligé de partir"
     }
   },
   "team": {
-    "title": "L'\u00c9quipe",
+    "title": "L'Équipe",
     "florent": {
       "role": "Founder & CEO",
-      "bio": "Autodidacte, Marseille/Rodilhan, ex-BTP, kung fu & karat\u00e9"
+      "bio": "Autodidacte, Marseille/Rodilhan, ex-BTP, kung fu & karaté"
     },
     "joao": {
       "role": "CFO",
-      "bio": "Direction financi\u00e8re et strat\u00e9gie"
+      "bio": "Direction financière et stratégie"
     },
     "julie": {
       "role": "Head of BD & Partnerships",
@@ -102,12 +102,12 @@
     },
     "stephane": {
       "role": "Fundraising Partner",
-      "bio": "Partenaire lev\u00e9e de fonds, Winvesty"
+      "bio": "Partenaire levée de fonds, Winvesty"
     }
   },
   "investors": {
     "title": "Investisseurs",
-    "description": "ONLYMORE Group l\u00e8ve actuellement un tour pre-seed de \u20ac200K-\u20ac350K \u00e0 une valorisation pre-money de \u20ac1.3M-\u20ac2.15M.",
+    "description": "ONLYMORE Group lève actuellement un tour pre-seed de €200K-€350K à une valorisation pre-money de €1.3M-€2.15M.",
     "metric1": {
       "value": "5",
       "label": "filiales"
@@ -123,6 +123,7 @@
   },
   "footer": {
     "platforms": "Nos Plateformes",
-    "copyright": "\u00a9 2026 ONLYMORE GROUP. Tous droits r\u00e9serv\u00e9s."
+    "copyright": "© 2026 ONLYMORE GROUP. Tous droits réservés.",
+    "slogan": "The mutualist infrastructure. Built for the many. Powered by sport."
   }
 }

@@ -15,10 +15,10 @@
     "book": "Reservar una reunión"
   },
   "hero": {
-    "badge": "Inclusión Financiera a Través del Deporte",
+    "badge": "ESS · SDG 1 · SDG 8 · SDG 10 · SDG 11",
     "title": "Optimiza Tu Legado.",
-    "why": "Que todos puedan vivir y prosperar donde crecieron.",
-    "subtitle": "5 filiales. 3 luchas. El deporte como palanca económica local.",
+    "why": "The mutualist infrastructure. Built for the many. Powered by sport.",
+    "subtitle": "5 entities. 220 years of mutualism. 6 UN Global Goals.",
     "cta_primary": "Descubre nuestra misión →",
     "cta_secondary": "Inversores"
   },
@@ -123,6 +123,7 @@
   },
   "footer": {
     "platforms": "Nuestras Plataformas",
-    "copyright": "© 2026 ONLYMORE GROUP. Todos los derechos reservados."
+    "copyright": "© 2026 ONLYMORE GROUP. Todos los derechos reservados.",
+    "slogan": "The mutualist infrastructure. Built for the many. Powered by sport."
   }
 }

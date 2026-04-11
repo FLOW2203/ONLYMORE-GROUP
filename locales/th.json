@@ -15,10 +15,10 @@
     "book": "นัดหมายประชุม"
   },
   "hero": {
-    "badge": "การเงินเพื่อการมีส่วนร่วมผ่านกีฬา",
+    "badge": "ESS · SDG 1 · SDG 8 · SDG 10 · SDG 11",
     "title": "เพิ่มประสิทธิภาพมรดกของคุณ",
-    "why": "เพื่อให้ทุกคนสามารถมีชีวิตและเติบโตในที่ที่พวกเขาเติบโตมา",
-    "subtitle": "บริษัทในเครือ 5 แห่ง การต่อสู้ 3 ด้าน กีฬาเป็นคานงัดเศรษฐกิจท้องถิ่น",
+    "why": "The mutualist infrastructure. Built for the many. Powered by sport.",
+    "subtitle": "5 entities. 220 years of mutualism. 6 UN Global Goals.",
     "cta_primary": "ค้นพบภารกิจของเรา →",
     "cta_secondary": "นักลงทุน"
   },
@@ -123,6 +123,7 @@
   },
   "footer": {
     "platforms": "แพลตฟอร์มของเรา",
-    "copyright": "© 2026 ONLYMORE GROUP. สงวนลิขสิทธิ์"
+    "copyright": "© 2026 ONLYMORE GROUP. สงวนลิขสิทธิ์",
+    "slogan": "The mutualist infrastructure. Built for the many. Powered by sport."
   }
 }

@@ -15,10 +15,10 @@
     "book": "Κλείστε μια συνάντηση"
   },
   "hero": {
-    "badge": "Χρηματοοικονομική ένταξη μέσω του αθλητισμού",
+    "badge": "ESS · SDG 1 · SDG 8 · SDG 10 · SDG 11",
     "title": "Βελτιστοποιήστε την κληρονομιά σας.",
-    "why": "Ότι ο καθένας μπορεί να ζει και να ευημερεί εκεί που μεγάλωσε.",
-    "subtitle": "5 θυγατρικές. 3 αγώνες. Ο αθλητισμός ως τοπικός οικονομικός μοχλός.",
+    "why": "The mutualist infrastructure. Built for the many. Powered by sport.",
+    "subtitle": "5 entities. 220 years of mutualism. 6 UN Global Goals.",
     "cta_primary": "Ανακαλύψτε την αποστολή μας →",
     "cta_secondary": "Επενδυτές"
   },
@@ -123,6 +123,7 @@
   },
   "footer": {
     "platforms": "Οι πλατφόρμες μας",
-    "copyright": "© 2026 ONLYMORE GROUP. Με επιφύλαξη παντός δικαιώματος."
+    "copyright": "© 2026 ONLYMORE GROUP. Με επιφύλαξη παντός δικαιώματος.",
+    "slogan": "The mutualist infrastructure. Built for the many. Powered by sport."
   }
 }

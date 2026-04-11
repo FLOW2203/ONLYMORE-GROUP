@@ -15,10 +15,10 @@
     "book": "Book et møde"
   },
   "hero": {
-    "badge": "Finansiel Inklusion Gennem Sport",
+    "badge": "ESS · SDG 1 · SDG 8 · SDG 10 · SDG 11",
     "title": "Optimer Din Arv.",
-    "why": "At alle kan leve og trives der, hvor de voksede op.",
-    "subtitle": "5 datterselskaber. 3 kampe. Sport som lokal økonomisk løftestang.",
+    "why": "The mutualist infrastructure. Built for the many. Powered by sport.",
+    "subtitle": "5 entities. 220 years of mutualism. 6 UN Global Goals.",
     "cta_primary": "Opdag vores mission →",
     "cta_secondary": "Investorer"
   },
@@ -123,6 +123,7 @@
   },
   "footer": {
     "platforms": "Vores Platforme",
-    "copyright": "© 2026 ONLYMORE GROUP. Alle rettigheder forbeholdes."
+    "copyright": "© 2026 ONLYMORE GROUP. Alle rettigheder forbeholdes.",
+    "slogan": "The mutualist infrastructure. Built for the many. Powered by sport."
   }
 }

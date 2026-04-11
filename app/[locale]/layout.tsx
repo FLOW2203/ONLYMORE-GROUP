@@ -22,9 +22,7 @@ export async function generateMetadata({
       ? (translations.meta as Record<string, string>).title
       : "ONLYMORE Group \u2014 Optimisons vos \u0153uvres";
   const description =
-    typeof translations.meta === "object"
-      ? (translations.meta as Record<string, string>).description
-      : "Holding fintech mutualist. 5 filiales : CROWNIUM, COLHYBRI, DOJUKU SHINGI, ONLYMORE FINANCE, PLUMAYA. Inclusion financi\u00e8re par le sport.";
+    "ONLYMORE Group \u2014 The mutualist infrastructure. Built for the many. Powered by sport. ESS fintech holding. 5 entities addressing 6 UN SDGs through sport, local commerce, and martial arts.";
 
   const languages: Record<string, string> = {};
   locales.forEach((l) => {
@@ -46,6 +44,13 @@ export async function generateMetadata({
       "ONLYMORE",
       "DOJUKU SHINGI",
       "PLUMAYA",
+      "ESS",
+      "\u00c9conomie Sociale Solidaire",
+      "UN Global Goals",
+      "SDG",
+      "mutualist finance",
+      "impact investing",
+      "social economy",
     ],
     metadataBase: new URL(BASE_URL),
     alternates: {
