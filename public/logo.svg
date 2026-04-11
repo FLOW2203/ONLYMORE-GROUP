@@ -1,172 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
   <defs>
-    <!-- Teal metallic gradient (left loop) -->
-    <linearGradient id="tealMain" x1="0%" y1="0%" x2="50%" y2="100%">
+    <!-- Teal metallic gradient -->
+    <linearGradient id="tealGrad" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#1AAFB0"/>
-      <stop offset="30%" stop-color="#0D7377"/>
-      <stop offset="60%" stop-color="#0A5C5F"/>
+      <stop offset="40%" stop-color="#0D7377"/>
       <stop offset="100%" stop-color="#074D50"/>
     </linearGradient>
 
-    <!-- Teal highlight for 3D effect -->
-    <linearGradient id="tealHighlight" x1="20%" y1="0%" x2="80%" y2="100%">
-      <stop offset="0%" stop-color="#2ED8D8" stop-opacity="0.6"/>
-      <stop offset="50%" stop-color="#0D7377" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#063E40" stop-opacity="0.4"/>
-    </linearGradient>
-
-    <!-- Gold metallic gradient (right loop) -->
-    <linearGradient id="goldMain" x1="50%" y1="0%" x2="100%" y2="100%">
+    <!-- Gold metallic gradient -->
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#E8C078"/>
-      <stop offset="30%" stop-color="#C5975B"/>
-      <stop offset="60%" stop-color="#A67D48"/>
+      <stop offset="40%" stop-color="#C5975B"/>
       <stop offset="100%" stop-color="#8A6535"/>
     </linearGradient>
 
-    <!-- Gold highlight for 3D effect -->
-    <linearGradient id="goldHighlight" x1="20%" y1="0%" x2="80%" y2="100%">
-      <stop offset="0%" stop-color="#F5DCA8" stop-opacity="0.7"/>
-      <stop offset="50%" stop-color="#C5975B" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#7A5828" stop-opacity="0.5"/>
+    <!-- Teal highlight -->
+    <linearGradient id="tealHi" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#3EE8E8" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#0D7377" stop-opacity="0"/>
     </linearGradient>
 
-    <!-- Center blend gradient -->
-    <linearGradient id="centerBlend" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0D7377"/>
-      <stop offset="50%" stop-color="#6B8A68"/>
-      <stop offset="100%" stop-color="#C5975B"/>
+    <!-- Gold highlight -->
+    <linearGradient id="goldHi" x1="0.7" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F5DCA8" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#C5975B" stop-opacity="0"/>
     </linearGradient>
 
-    <!-- Inner shadow for depth -->
-    <radialGradient id="innerShadowLeft" cx="30%" cy="50%" r="40%">
-      <stop offset="0%" stop-color="#0D7377" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#042E30" stop-opacity="0.6"/>
-    </radialGradient>
-
-    <radialGradient id="innerShadowRight" cx="70%" cy="50%" r="40%">
-      <stop offset="0%" stop-color="#C5975B" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#5A3D1A" stop-opacity="0.5"/>
-    </radialGradient>
-
-    <!-- Specular highlight -->
-    <radialGradient id="specularLeft" cx="25%" cy="35%" r="25%" fx="25%" fy="30%">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
-    </radialGradient>
-
-    <radialGradient id="specularRight" cx="75%" cy="35%" r="25%" fx="75%" fy="30%">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
-    </radialGradient>
-
-    <!-- Drop shadow filter -->
-    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
-      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.25"/>
+    <!-- Drop shadow -->
+    <filter id="ds" x="-5%" y="-5%" width="110%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.3"/>
     </filter>
-
-    <!-- Soft glow filter -->
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <!-- Clip paths for left and right halves -->
-    <clipPath id="leftHalf">
-      <rect x="0" y="0" width="200" height="200"/>
-    </clipPath>
-    <clipPath id="rightHalf">
-      <rect x="200" y="0" width="200" height="200"/>
-    </clipPath>
-    <clipPath id="centerStrip">
-      <rect x="170" y="0" width="60" height="200"/>
-    </clipPath>
   </defs>
 
-  <!-- Main infinity shape - shadow layer -->
-  <g filter="url(#shadow)">
-    <!-- Left loop (teal) - back strand going behind -->
-    <path d="M200 100
-             C200 55, 155 20, 115 20
-             C65 20, 30 55, 30 100
-             C30 145, 65 180, 115 180
-             C155 180, 200 145, 200 100Z"
-          fill="url(#tealMain)" clip-path="url(#leftHalf)"/>
+  <g filter="url(#ds)">
+    <!--
+      Infinity symbol as two thick-stroked loops.
+      Left loop = teal, Right loop = gold.
+      The crossing is handled by drawing order:
+      1) Right loop back segment (behind)
+      2) Left loop full (on top at center)
+      3) Right loop front segment (on top at right)
+    -->
 
-    <!-- Right loop (gold) - front strand going over -->
-    <path d="M200 100
-             C200 55, 245 20, 285 20
-             C335 20, 370 55, 370 100
-             C370 145, 335 180, 285 180
-             C245 180, 200 145, 200 100Z"
-          fill="url(#goldMain)" clip-path="url(#rightHalf)"/>
+    <!-- Right loop BACK half (goes behind left at center crossing) -->
+    <path d="M200,100 C200,56 244,22 286,22 C338,22 374,58 374,100 C374,142 338,178 286,178 C244,178 200,144 200,100"
+          fill="none" stroke="url(#goldGrad)" stroke-width="30" stroke-linecap="round"
+          stroke-dasharray="0 248 500" />
 
-    <!-- 3D ribbon effect - teal outer ring -->
-    <path d="M200 100
-             C200 60, 160 28, 115 28
-             C60 28, 22 65, 22 100
-             C22 135, 60 172, 115 172
-             C160 172, 200 140, 200 100Z"
-          fill="none" stroke="url(#tealMain)" stroke-width="28"
-          clip-path="url(#leftHalf)"/>
+    <!-- Left loop FULL -->
+    <path d="M200,100 C200,56 156,22 114,22 C62,22 26,58 26,100 C26,142 62,178 114,178 C156,178 200,144 200,100"
+          fill="none" stroke="url(#tealGrad)" stroke-width="30" stroke-linecap="round"/>
 
-    <!-- 3D ribbon effect - gold outer ring -->
-    <path d="M200 100
-             C200 60, 240 28, 285 28
-             C340 28, 378 65, 378 100
-             C378 135, 340 172, 285 172
-             C240 172, 200 140, 200 100Z"
-          fill="none" stroke="url(#goldMain)" stroke-width="28"
-          clip-path="url(#rightHalf)"/>
+    <!-- Left loop highlight (top edge) -->
+    <path d="M200,100 C200,56 156,22 114,22 C62,22 26,58 26,100 C26,142 62,178 114,178 C156,178 200,144 200,100"
+          fill="none" stroke="url(#tealHi)" stroke-width="30" stroke-linecap="round"/>
 
-    <!-- Center crossing blend -->
-    <path d="M200 100
-             C200 60, 160 28, 115 28
-             C60 28, 22 65, 22 100
-             C22 135, 60 172, 115 172
-             C160 172, 200 140, 200 100
-             C200 60, 240 28, 285 28
-             C340 28, 378 65, 378 100
-             C378 135, 340 172, 285 172
-             C240 172, 200 140, 200 100Z"
-          fill="none" stroke="url(#centerBlend)" stroke-width="28"
-          clip-path="url(#centerStrip)"/>
+    <!-- Right loop FRONT half (on top, the outer arc) -->
+    <path d="M200,100 C200,56 244,22 286,22 C338,22 374,58 374,100 C374,142 338,178 286,178 C244,178 200,144 200,100"
+          fill="none" stroke="url(#goldGrad)" stroke-width="30" stroke-linecap="round"
+          stroke-dasharray="248 500" />
+
+    <!-- Right loop highlight (top edge) -->
+    <path d="M200,100 C200,56 244,22 286,22 C338,22 374,58 374,100 C374,142 338,178 286,178 C244,178 200,144 200,100"
+          fill="none" stroke="url(#goldHi)" stroke-width="30" stroke-linecap="round"
+          stroke-dasharray="248 500" />
+
+    <!-- Inner edge highlights for metallic rim -->
+    <path d="M180,100 C180,64 152,34 114,34 C68,34 38,64 38,100"
+          fill="none" stroke="#2ED8D8" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+    <path d="M220,100 C220,64 248,34 286,34 C332,34 362,64 362,100"
+          fill="none" stroke="#F5DCA8" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+
+    <!-- Outer edge highlights -->
+    <path d="M196,100 C196,52 154,16 114,16 C58,16 20,54 20,100"
+          fill="none" stroke="#074D50" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+    <path d="M204,100 C204,52 246,16 286,16 C342,16 380,54 380,100"
+          fill="none" stroke="#7A5828" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
   </g>
 
-  <!-- Highlight layers for 3D metallic effect -->
-  <g opacity="0.7">
-    <!-- Teal specular highlight (top-left of left loop) -->
-    <ellipse cx="95" cy="65" rx="45" ry="25" fill="url(#specularLeft)" transform="rotate(-15 95 65)"/>
-
-    <!-- Gold specular highlight (top-right of right loop) -->
-    <ellipse cx="305" cy="65" rx="45" ry="25" fill="url(#specularRight)" transform="rotate(15 305 65)"/>
-  </g>
-
-  <!-- Inner depth shadows -->
-  <g opacity="0.4">
-    <ellipse cx="95" cy="130" rx="40" ry="22" fill="#042E30" transform="rotate(10 95 130)"/>
-    <ellipse cx="305" cy="130" rx="40" ry="22" fill="#5A3D1A" transform="rotate(-10 305 130)"/>
-  </g>
-
-  <!-- Edge highlights for metallic rim -->
-  <g opacity="0.25">
-    <path d="M200 100
-             C200 62, 158 32, 115 32
-             C62 32, 26 67, 26 100"
-          fill="none" stroke="#4FFFFF" stroke-width="2" stroke-linecap="round"/>
-    <path d="M200 100
-             C200 62, 242 32, 285 32
-             C338 32, 374 67, 374 100"
-          fill="none" stroke="#FFE0A0" stroke-width="2" stroke-linecap="round"/>
-  </g>
-
-  <!-- Sparkle element (bottom-right, matching the reference) -->
-  <g transform="translate(365, 175)" opacity="0.6">
-    <path d="M0 -6 L1.5 -1.5 L6 0 L1.5 1.5 L0 6 L-1.5 1.5 L-6 0 L-1.5 -1.5 Z"
-          fill="#F8F6F3"/>
-    <path d="M0 -3 L0.75 -0.75 L3 0 L0.75 0.75 L0 3 L-0.75 0.75 L-3 0 L-0.75 -0.75 Z"
-          fill="#FFFFFF"/>
+  <!-- Sparkle (bottom-right) -->
+  <g transform="translate(370,178)" opacity="0.5">
+    <path d="M0,-5 L1.2,-1.2 L5,0 L1.2,1.2 L0,5 L-1.2,1.2 L-5,0 L-1.2,-1.2Z" fill="#F8F6F3"/>
   </g>
 </svg>
