@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-teal: #0D7377;
+  --color-teal-dark: #0A5C5F;
+  --color-gold: #C5975B;
+  --color-gold-dark: #A67D48;
+  --color-deep-black: #0A0A0A;
+  --color-warm-white: #F8F6F3;
+  --color-neutral-gray: #6B7280;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: var(--color-deep-black);
+  color: var(--color-warm-white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: var(--color-teal);
+  color: var(--color-warm-white);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
+}
+
+[dir="rtl"] {
+  text-align: right;
+}

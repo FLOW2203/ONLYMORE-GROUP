@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "ONLYMORE GROUP — Optimalizujte svůj odkaz",
+    "description": "Francouzská skupina finanční inkluze prostřednictvím sportu. 5 dceřiných společností sloužících 3 bojům: snížení chudoby, zastavení odlivu mozků, boj proti nucené emigraci."
+  },
+  "nav": {
+    "group": "Skupina",
+    "subsidiaries": "Dceřiné společnosti",
+    "impact": "Dopad",
+    "team": "Tým",
+    "investors": "Investoři",
+    "contact": "Kontakt"
+  },
+  "cta": {
+    "book": "Rezervovat schůzku"
+  },
+  "hero": {
+    "badge": "Finanční inkluze prostřednictvím sportu",
+    "title": "Optimalizujte svůj odkaz.",
+    "why": "Aby každý mohl žít a prosperovat tam, kde vyrostl.",
+    "subtitle": "5 dceřiných společností. 3 boje. Sport jako místní ekonomická páka.",
+    "cta_primary": "Objevte naši misi →",
+    "cta_secondary": "Investoři"
+  },
+  "philosophy": {
+    "title": "Naše filosofie",
+    "mandela": {
+      "quote": "Sport má moc změnit svět. Má moc inspirovat. Má moc sjednotit lidi jako máloco jiného.",
+      "author": "Nelson Mandela, Laureus World Sports Awards, 2000"
+    },
+    "boetcker": {
+      "quote": "Nemůžete pomoci chudým tím, že zničíte bohaté. Nemůžete lidem trvale pomoci tím, že za ně budete dělat to, co mohou a mají dělat sami.",
+      "author": "William J.H. Boetcker"
+    },
+    "founder": {
+      "quote": "Nucen hledat finanční řešení, protože jsem byl příliš invalidní na práci, nedostatečně na důchod a příliš mladý na operaci... Proměnil jsem své vyloučení v poslání: aby nikdo nezažil to, co jsem zažil já.",
+      "author": "Florent Gibert, Zakladatel a generální ředitel"
+    }
+  },
+  "infinity": {
+    "title": "Jeden symbol. Celý svět.",
+    "only": "O — ONLY",
+    "more": "M — MORE",
+    "engine": "Motor",
+    "circular": "Kruhová energie = místní peněžní oběh",
+    "tagline": "Žádný začátek. Žádný konec. Místní ekonomika v neustálém pohybu."
+  },
+  "subsidiaries": {
+    "title": "5 pilířů, 1 vize",
+    "live": "Aktivní",
+    "coming": "Již brzy",
+    "colhybri": {
+      "desc": "SaaS platforma solidárního obchodu. Vlastněte své sousedství. Vlastněte svou budoucnost."
+    },
+    "crownium": {
+      "desc": "Vzájemné financování profesionálních sportovních klubů."
+    },
+    "dojuku": {
+      "desc": "Mezigenerační AI aplikace bojových umění."
+    },
+    "finance": {
+      "desc": "Lombardní úvěr a správa majetku."
+    },
+    "plumaya": {
+      "desc": "Nakladatelství a duševní vlastnictví."
+    }
+  },
+  "impact": {
+    "title": "3 boje. 1 mechanismus.",
+    "poverty": {
+      "title": "Snížit chudobu",
+      "desc": "Sport vytváří místní bohatství a ekonomické příležitosti tam, kde jsou nejvíce potřeba."
+    },
+    "talent": {
+      "title": "Zastavit odliv mozků",
+      "desc": "Dynamické místní ekosystémy umožňují talentům rozkvétat, aniž by museli odcházet."
+    },
+    "emigration": {
+      "title": "Bojovat proti nucené emigraci",
+      "desc": "Když město ekonomicky prosperuje, nikdo není nucen ho opustit."
+    },
+    "flow": {
+      "1": "Sport vytváří místní bohatství",
+      "2": "Obyvatelé utrácejí místně",
+      "3": "Město zůstává ekonomicky zdravé",
+      "4": "Nikdo není nucen odejít"
+    }
+  },
+  "team": {
+    "title": "Tým",
+    "florent": {
+      "role": "Zakladatel a generální ředitel",
+      "bio": "Samouk, Marseille/Rodilhan, bývalé stavebnictví, kung fu a karate"
+    },
+    "joao": {
+      "role": "Finanční ředitel",
+      "bio": "Finanční řízení a strategie"
+    },
+    "julie": {
+      "role": "Vedoucí obchodního rozvoje a partnerství",
+      "bio": "Trojjazyčná FR/EN/ES, bývalá NXP Semiconductors"
+    },
+    "stephane": {
+      "role": "Partner pro získávání finančních prostředků",
+      "bio": "Partner pro získávání finančních prostředků, Winvesty"
+    }
+  },
+  "investors": {
+    "title": "Investoři",
+    "description": "ONLYMORE Group v současné době provádí pre-seed kolo ve výši €200K–€350K při pre-money ocenění €1,3M–€2,15M.",
+    "metric1": {
+      "value": "5",
+      "label": "dceřiných společností"
+    },
+    "metric2": {
+      "value": "2",
+      "label": "aktivní platformy"
+    },
+    "metric3": {
+      "value": "Pre-seed",
+      "label": "probíhá"
+    }
+  },
+  "footer": {
+    "platforms": "Naše platformy",
+    "copyright": "© 2026 ONLYMORE GROUP. Všechna práva vyhrazena."
+  }
+}

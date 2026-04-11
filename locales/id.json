@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "ONLYMORE GROUP — Optimalkan Warisan Anda",
+    "description": "Grup inklusi keuangan Prancis melalui olahraga. 5 anak perusahaan menjalankan 3 perjuangan: mengurangi kemiskinan, menghentikan brain drain, melawan emigrasi paksa."
+  },
+  "nav": {
+    "group": "Grup",
+    "subsidiaries": "Anak Perusahaan",
+    "impact": "Dampak",
+    "team": "Tim",
+    "investors": "Investor",
+    "contact": "Kontak"
+  },
+  "cta": {
+    "book": "Jadwalkan pertemuan"
+  },
+  "hero": {
+    "badge": "Inklusi Keuangan Melalui Olahraga",
+    "title": "Optimalkan Warisan Anda.",
+    "why": "Agar setiap orang bisa hidup dan berkembang di tempat mereka dibesarkan.",
+    "subtitle": "5 anak perusahaan. 3 perjuangan. Olahraga sebagai pengungkit ekonomi lokal.",
+    "cta_primary": "Temukan misi kami →",
+    "cta_secondary": "Investor"
+  },
+  "philosophy": {
+    "title": "Filosofi Kami",
+    "mandela": {
+      "quote": "Olahraga memiliki kekuatan untuk mengubah dunia. Ia memiliki kekuatan untuk menginspirasi. Ia memiliki kekuatan untuk menyatukan orang seperti sedikit hal lainnya.",
+      "author": "Nelson Mandela, Laureus World Sports Awards, 2000"
+    },
+    "boetcker": {
+      "quote": "Anda tidak bisa membantu orang miskin dengan menghancurkan orang kaya. Anda tidak bisa membantu orang secara permanen dengan melakukan untuk mereka apa yang seharusnya bisa dan harus mereka lakukan sendiri.",
+      "author": "William J.H. Boetcker"
+    },
+    "founder": {
+      "quote": "Terpaksa mencari solusi keuangan karena saya terlalu cacat untuk bekerja, tidak cukup untuk pensiun, dan terlalu muda untuk dioperasi... Saya mengubah eksklusi saya menjadi misi: agar tidak ada yang mengalami apa yang telah saya alami.",
+      "author": "Florent Gibert, Pendiri & CEO"
+    }
+  },
+  "infinity": {
+    "title": "Satu simbol. Satu dunia utuh.",
+    "only": "O — ONLY",
+    "more": "M — MORE",
+    "engine": "Mesin penggerak",
+    "circular": "Energi sirkular = sirkulasi moneter lokal",
+    "tagline": "Tanpa awal. Tanpa akhir. Ekonomi lokal dalam gerak abadi."
+  },
+  "subsidiaries": {
+    "title": "5 Pilar, 1 Visi",
+    "live": "Aktif",
+    "coming": "Segera Hadir",
+    "colhybri": {
+      "desc": "Platform perdagangan solidaritas SaaS. Own Your Neighborhood. Own Your Future."
+    },
+    "crownium": {
+      "desc": "Pendanaan mutualis untuk klub olahraga profesional."
+    },
+    "dojuku": {
+      "desc": "Aplikasi seni bela diri AI antargenerasi."
+    },
+    "finance": {
+      "desc": "Kredit lombard dan manajemen kekayaan."
+    },
+    "plumaya": {
+      "desc": "Penerbitan dan kekayaan intelektual."
+    }
+  },
+  "impact": {
+    "title": "3 Perjuangan. 1 Mekanisme.",
+    "poverty": {
+      "title": "Mengurangi kemiskinan",
+      "desc": "Olahraga menghasilkan kekayaan lokal, menciptakan peluang ekonomi di tempat yang paling membutuhkan."
+    },
+    "talent": {
+      "title": "Menghentikan brain drain",
+      "desc": "Ekosistem lokal yang dinamis memungkinkan talenta berkembang tanpa harus pergi."
+    },
+    "emigration": {
+      "title": "Melawan emigrasi paksa",
+      "desc": "Ketika sebuah kota sejahtera secara ekonomi, tidak ada yang terpaksa meninggalkannya."
+    },
+    "flow": {
+      "1": "Olahraga menciptakan kekayaan lokal",
+      "2": "Warga membelanjakan uang secara lokal",
+      "3": "Kota tetap sehat secara ekonomi",
+      "4": "Tidak ada yang terpaksa pergi"
+    }
+  },
+  "team": {
+    "title": "Tim",
+    "florent": {
+      "role": "Pendiri & CEO",
+      "bio": "Otodidak, Marseille/Rodilhan, mantan konstruksi, kung fu & karate"
+    },
+    "joao": {
+      "role": "CFO",
+      "bio": "Pengarahan keuangan dan strategi"
+    },
+    "julie": {
+      "role": "Kepala BD & Kemitraan",
+      "bio": "Trilingual FR/EN/ES, mantan NXP Semiconductors"
+    },
+    "stephane": {
+      "role": "Mitra Penggalangan Dana",
+      "bio": "Mitra penggalangan dana, Winvesty"
+    }
+  },
+  "investors": {
+    "title": "Investor",
+    "description": "ONLYMORE Group saat ini sedang menggalang putaran pre-seed sebesar €200K–€350K dengan valuasi pre-money €1,3M–€2,15M.",
+    "metric1": {
+      "value": "5",
+      "label": "anak perusahaan"
+    },
+    "metric2": {
+      "value": "2",
+      "label": "platform aktif"
+    },
+    "metric3": {
+      "value": "Pre-seed",
+      "label": "sedang berlangsung"
+    }
+  },
+  "footer": {
+    "platforms": "Platform Kami",
+    "copyright": "© 2026 ONLYMORE GROUP. Hak cipta dilindungi."
+  }
+}

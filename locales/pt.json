@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "ONLYMORE GROUP — Otimize o Seu Legado",
+    "description": "Grupo francês de inclusão financeira através do desporto. 5 filiais ao serviço de 3 lutas: reduzir a pobreza, travar a fuga de cérebros, combater a emigração forçada."
+  },
+  "nav": {
+    "group": "Grupo",
+    "subsidiaries": "Filiais",
+    "impact": "Impacto",
+    "team": "Equipa",
+    "investors": "Investidores",
+    "contact": "Contacto"
+  },
+  "cta": {
+    "book": "Agendar uma reunião"
+  },
+  "hero": {
+    "badge": "Inclusão Financeira Através do Desporto",
+    "title": "Otimize o Seu Legado.",
+    "why": "Que todos possam viver e prosperar onde cresceram.",
+    "subtitle": "5 filiais. 3 lutas. O desporto como alavanca económica local.",
+    "cta_primary": "Descubra a nossa missão →",
+    "cta_secondary": "Investidores"
+  },
+  "philosophy": {
+    "title": "A Nossa Filosofia",
+    "mandela": {
+      "quote": "O desporto tem o poder de mudar o mundo. Tem o poder de inspirar. Tem o poder de unir as pessoas como poucas outras coisas.",
+      "author": "Nelson Mandela, Laureus World Sports Awards, 2000"
+    },
+    "boetcker": {
+      "quote": "Não se pode ajudar os pobres destruindo os ricos. Não se pode ajudar permanentemente os homens fazendo por eles o que eles poderiam e deveriam fazer por si mesmos.",
+      "author": "William J.H. Boetcker"
+    },
+    "founder": {
+      "quote": "Obrigado a encontrar soluções financeiras porque estava demasiado incapacitado para trabalhar, não o suficiente para uma pensão, e demasiado jovem para ser operado... Transformei a minha exclusão numa missão: que ninguém viva o que eu vivi.",
+      "author": "Florent Gibert, Fundador e CEO"
+    }
+  },
+  "infinity": {
+    "title": "Um símbolo. Todo um mundo.",
+    "only": "O — ONLY",
+    "more": "M — MORE",
+    "engine": "O motor",
+    "circular": "Energia circular = circulação monetária local",
+    "tagline": "Sem início. Sem fim. A economia local em movimento perpétuo."
+  },
+  "subsidiaries": {
+    "title": "5 Pilares, 1 Visão",
+    "live": "Ativo",
+    "coming": "Em Breve",
+    "colhybri": {
+      "desc": "Plataforma SaaS de comércio solidário. Own Your Neighborhood. Own Your Future."
+    },
+    "crownium": {
+      "desc": "Financiamento mutualista para clubes desportivos profissionais."
+    },
+    "dojuku": {
+      "desc": "Aplicação de artes marciais intergeracional com IA."
+    },
+    "finance": {
+      "desc": "Crédito lombardo e gestão de patrimónios."
+    },
+    "plumaya": {
+      "desc": "Edição e propriedade intelectual."
+    }
+  },
+  "impact": {
+    "title": "3 Lutas. 1 Mecanismo.",
+    "poverty": {
+      "title": "Reduzir a pobreza",
+      "desc": "O desporto gera riqueza local, criando oportunidades económicas onde são mais necessárias."
+    },
+    "talent": {
+      "title": "Travar a fuga de cérebros",
+      "desc": "Ecossistemas locais dinâmicos permitem que o talento floresça sem ter de partir."
+    },
+    "emigration": {
+      "title": "Combater a emigração forçada",
+      "desc": "Quando uma cidade prospera economicamente, ninguém é forçado a abandoná-la."
+    },
+    "flow": {
+      "1": "O desporto cria riqueza local",
+      "2": "Os residentes gastam localmente",
+      "3": "A cidade mantém-se economicamente saudável",
+      "4": "Ninguém é forçado a partir"
+    }
+  },
+  "team": {
+    "title": "A Equipa",
+    "florent": {
+      "role": "Fundador e CEO",
+      "bio": "Autodidata, Marselha/Rodilhan, ex-construção, kung fu e karate"
+    },
+    "joao": {
+      "role": "CFO",
+      "bio": "Direção financeira e estratégia"
+    },
+    "julie": {
+      "role": "Diretora de BD e Parcerias",
+      "bio": "Trilingue FR/EN/ES, ex-NXP Semiconductors"
+    },
+    "stephane": {
+      "role": "Parceiro de Angariação de Fundos",
+      "bio": "Parceiro de angariação de fundos, Winvesty"
+    }
+  },
+  "investors": {
+    "title": "Investidores",
+    "description": "O ONLYMORE Group está atualmente a realizar uma ronda pre-seed de €200K-€350K com uma avaliação pre-money de €1,3M-€2,15M.",
+    "metric1": {
+      "value": "5",
+      "label": "filiais"
+    },
+    "metric2": {
+      "value": "2",
+      "label": "plataformas ativas"
+    },
+    "metric3": {
+      "value": "Pre-seed",
+      "label": "em curso"
+    }
+  },
+  "footer": {
+    "platforms": "As Nossas Plataformas",
+    "copyright": "© 2026 ONLYMORE GROUP. Todos os direitos reservados."
+  }
+}

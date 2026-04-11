@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "ONLYMORE GROUP — Optimizează-ți moștenirea",
+    "description": "Grup francez de incluziune financiară prin sport. 5 filiale care servesc 3 lupte: reducerea sărăciei, oprirea exodului de creiere, combaterea emigrării forțate."
+  },
+  "nav": {
+    "group": "Grup",
+    "subsidiaries": "Filiale",
+    "impact": "Impact",
+    "team": "Echipă",
+    "investors": "Investitori",
+    "contact": "Contact"
+  },
+  "cta": {
+    "book": "Programează o întâlnire"
+  },
+  "hero": {
+    "badge": "Incluziune financiară prin sport",
+    "title": "Optimizează-ți moștenirea.",
+    "why": "Ca fiecare să poată trăi și prospera acolo unde a crescut.",
+    "subtitle": "5 filiale. 3 lupte. Sportul ca pârghie economică locală.",
+    "cta_primary": "Descoperă misiunea noastră →",
+    "cta_secondary": "Investitori"
+  },
+  "philosophy": {
+    "title": "Filosofia noastră",
+    "mandela": {
+      "quote": "Sportul are puterea de a schimba lumea. Are puterea de a inspira. Are puterea de a uni oamenii așa cum puține alte lucruri o pot face.",
+      "author": "Nelson Mandela, Laureus World Sports Awards, 2000"
+    },
+    "boetcker": {
+      "quote": "Nu poți ajuta săracii distrugându-i pe cei bogați. Nu poți ajuta oamenii permanent făcând pentru ei ceea ce ar putea și ar trebui să facă singuri.",
+      "author": "William J.H. Boetcker"
+    },
+    "founder": {
+      "quote": "Obligat să găsesc soluții financiare pentru că eram prea handicapat pentru a lucra, nu suficient pentru o pensie și prea tânăr pentru a fi operat... Mi-am transformat excluderea într-o misiune: ca nimeni să nu trăiască ceea ce am trăit eu.",
+      "author": "Florent Gibert, Fondator și Director General"
+    }
+  },
+  "infinity": {
+    "title": "Un simbol. O lume întreagă.",
+    "only": "O — ONLY",
+    "more": "M — MORE",
+    "engine": "Motorul",
+    "circular": "Energie circulară = circulație monetară locală",
+    "tagline": "Fără început. Fără sfârșit. Economia locală în mișcare perpetuă."
+  },
+  "subsidiaries": {
+    "title": "5 piloni, 1 viziune",
+    "live": "Activ",
+    "coming": "În curând",
+    "colhybri": {
+      "desc": "Platformă SaaS de comerț solidar. Stăpânește-ți cartierul. Stăpânește-ți viitorul."
+    },
+    "crownium": {
+      "desc": "Finanțare mutualistă pentru cluburi sportive profesioniste."
+    },
+    "dojuku": {
+      "desc": "Aplicație intergenerațională de arte marțiale cu inteligență artificială."
+    },
+    "finance": {
+      "desc": "Credit lombard și gestionarea averii."
+    },
+    "plumaya": {
+      "desc": "Editură și proprietate intelectuală."
+    }
+  },
+  "impact": {
+    "title": "3 lupte. 1 mecanism.",
+    "poverty": {
+      "title": "Reducerea sărăciei",
+      "desc": "Sportul generează bogăție locală, creând oportunități economice acolo unde sunt cel mai necesare."
+    },
+    "talent": {
+      "title": "Oprirea exodului de creiere",
+      "desc": "Ecosistemele locale dinamice permit talentelor să înflorească fără a fi nevoite să plece."
+    },
+    "emigration": {
+      "title": "Combaterea emigrării forțate",
+      "desc": "Când un oraș prosperă economic, nimeni nu este forțat să îl părăsească."
+    },
+    "flow": {
+      "1": "Sportul creează bogăție locală",
+      "2": "Locuitorii cheltuiesc local",
+      "3": "Orașul rămâne sănătos economic",
+      "4": "Nimeni nu este forțat să plece"
+    }
+  },
+  "team": {
+    "title": "Echipa",
+    "florent": {
+      "role": "Fondator și Director General",
+      "bio": "Autodidact, Marseille/Rodilhan, fost construcții, kung fu și karate"
+    },
+    "joao": {
+      "role": "Director Financiar",
+      "bio": "Direcție financiară și strategie"
+    },
+    "julie": {
+      "role": "Responsabilă Dezvoltare Comercială și Parteneriate",
+      "bio": "Trilingvă FR/EN/ES, fostă NXP Semiconductors"
+    },
+    "stephane": {
+      "role": "Partener de Strângere de Fonduri",
+      "bio": "Partener de strângere de fonduri, Winvesty"
+    }
+  },
+  "investors": {
+    "title": "Investitori",
+    "description": "ONLYMORE Group realizează în prezent o rundă de finanțare pre-seed de €200K–€350K la o evaluare pre-money de €1,3M–€2,15M.",
+    "metric1": {
+      "value": "5",
+      "label": "filiale"
+    },
+    "metric2": {
+      "value": "2",
+      "label": "platforme active"
+    },
+    "metric3": {
+      "value": "Pre-seed",
+      "label": "în desfășurare"
+    }
+  },
+  "footer": {
+    "platforms": "Platformele noastre",
+    "copyright": "© 2026 ONLYMORE GROUP. Toate drepturile rezervate."
+  }
+}

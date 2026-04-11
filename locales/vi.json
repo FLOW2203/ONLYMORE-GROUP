@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "ONLYMORE GROUP — Tối Ưu Hóa Di Sản Của Bạn",
+    "description": "Tập đoàn tài chính hòa nhập Pháp thông qua thể thao. 5 công ty con phục vụ 3 cuộc chiến: giảm nghèo, ngăn chảy máu chất xám, chống di cư cưỡng bức."
+  },
+  "nav": {
+    "group": "Tập đoàn",
+    "subsidiaries": "Công ty con",
+    "impact": "Tác động",
+    "team": "Đội ngũ",
+    "investors": "Nhà đầu tư",
+    "contact": "Liên hệ"
+  },
+  "cta": {
+    "book": "Đặt lịch họp"
+  },
+  "hero": {
+    "badge": "Tài Chính Hòa Nhập Thông Qua Thể Thao",
+    "title": "Tối Ưu Hóa Di Sản Của Bạn.",
+    "why": "Để mọi người đều có thể sống và phát triển nơi họ lớn lên.",
+    "subtitle": "5 công ty con. 3 cuộc chiến. Thể thao là đòn bẩy kinh tế địa phương.",
+    "cta_primary": "Khám phá sứ mệnh của chúng tôi →",
+    "cta_secondary": "Nhà đầu tư"
+  },
+  "philosophy": {
+    "title": "Triết Lý Của Chúng Tôi",
+    "mandela": {
+      "quote": "Thể thao có sức mạnh thay đổi thế giới. Nó có sức mạnh truyền cảm hứng. Nó có sức mạnh đoàn kết con người theo cách mà ít điều gì khác có thể làm được.",
+      "author": "Nelson Mandela, Giải thưởng Thể thao Thế giới Laureus, 2000"
+    },
+    "boetcker": {
+      "quote": "Bạn không thể giúp người nghèo bằng cách hủy diệt người giàu. Bạn không thể giúp con người một cách lâu dài bằng cách làm thay họ những gì họ có thể và nên tự làm.",
+      "author": "William J.H. Boetcker"
+    },
+    "founder": {
+      "quote": "Buộc phải tìm giải pháp tài chính vì tôi quá khuyết tật để làm việc, không đủ điều kiện nhận trợ cấp, và quá trẻ để phẫu thuật... Tôi đã biến sự loại trừ của mình thành một sứ mệnh: để không ai phải sống những gì tôi đã trải qua.",
+      "author": "Florent Gibert, Nhà sáng lập & CEO"
+    }
+  },
+  "infinity": {
+    "title": "Một biểu tượng. Cả một thế giới.",
+    "only": "O — ONLY",
+    "more": "M — MORE",
+    "engine": "Động cơ",
+    "circular": "Năng lượng tuần hoàn = lưu thông tiền tệ địa phương",
+    "tagline": "Không khởi đầu. Không kết thúc. Nền kinh tế địa phương vận động không ngừng."
+  },
+  "subsidiaries": {
+    "title": "5 Trụ Cột, 1 Tầm Nhìn",
+    "live": "Đang hoạt động",
+    "coming": "Sắp ra mắt",
+    "colhybri": {
+      "desc": "Nền tảng thương mại đoàn kết SaaS. Sở Hữu Khu Phố Của Bạn. Sở Hữu Tương Lai Của Bạn."
+    },
+    "crownium": {
+      "desc": "Tài trợ tương hỗ cho các câu lạc bộ thể thao chuyên nghiệp."
+    },
+    "dojuku": {
+      "desc": "Ứng dụng võ thuật AI liên thế hệ."
+    },
+    "finance": {
+      "desc": "Tín dụng Lombard và quản lý tài sản."
+    },
+    "plumaya": {
+      "desc": "Xuất bản và sở hữu trí tuệ."
+    }
+  },
+  "impact": {
+    "title": "3 Cuộc Chiến. 1 Cơ Chế.",
+    "poverty": {
+      "title": "Giảm nghèo",
+      "desc": "Thể thao tạo ra sự thịnh vượng địa phương, mở ra cơ hội kinh tế nơi cần thiết nhất."
+    },
+    "talent": {
+      "title": "Ngăn chảy máu chất xám",
+      "desc": "Hệ sinh thái địa phương năng động cho phép nhân tài phát triển mà không cần phải rời đi."
+    },
+    "emigration": {
+      "title": "Chống di cư cưỡng bức",
+      "desc": "Khi một thành phố phát triển kinh tế, không ai bị buộc phải rời bỏ nó."
+    },
+    "flow": {
+      "1": "Thể thao tạo ra sự thịnh vượng địa phương",
+      "2": "Cư dân chi tiêu tại địa phương",
+      "3": "Thành phố duy trì sức khỏe kinh tế",
+      "4": "Không ai bị buộc phải rời đi"
+    }
+  },
+  "team": {
+    "title": "Đội Ngũ",
+    "florent": {
+      "role": "Nhà sáng lập & CEO",
+      "bio": "Tự học, Marseille/Rodilhan, từng làm xây dựng, kung fu & karate"
+    },
+    "joao": {
+      "role": "CFO",
+      "bio": "Quản lý và chiến lược tài chính"
+    },
+    "julie": {
+      "role": "Trưởng phòng Phát triển Kinh doanh & Đối tác",
+      "bio": "Thông thạo 3 ngôn ngữ FR/EN/ES, từng làm tại NXP Semiconductors"
+    },
+    "stephane": {
+      "role": "Đối tác Gọi vốn",
+      "bio": "Đối tác gọi vốn, Winvesty"
+    }
+  },
+  "investors": {
+    "title": "Nhà Đầu Tư",
+    "description": "ONLYMORE Group hiện đang huy động vòng pre-seed từ €200K-€350K với định giá pre-money €1.3M-€2.15M.",
+    "metric1": {
+      "value": "5",
+      "label": "công ty con"
+    },
+    "metric2": {
+      "value": "2",
+      "label": "nền tảng đang hoạt động"
+    },
+    "metric3": {
+      "value": "Pre-seed",
+      "label": "đang tiến hành"
+    }
+  },
+  "footer": {
+    "platforms": "Nền Tảng Của Chúng Tôi",
+    "copyright": "© 2026 ONLYMORE GROUP. Bảo lưu mọi quyền."
+  }
+}

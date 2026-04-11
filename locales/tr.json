@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "ONLYMORE GROUP — Mirasınızı Optimize Edin",
+    "description": "Spor yoluyla finansal kapsayıcılık sağlayan Fransız grup. 3 mücadeleye hizmet eden 5 bağlı şirket: yoksulluğu azaltmak, beyin göçünü durdurmak, zorla göçle mücadele etmek."
+  },
+  "nav": {
+    "group": "Grup",
+    "subsidiaries": "Bağlı Şirketler",
+    "impact": "Etki",
+    "team": "Ekip",
+    "investors": "Yatırımcılar",
+    "contact": "İletişim"
+  },
+  "cta": {
+    "book": "Toplantı ayarlayın"
+  },
+  "hero": {
+    "badge": "Spor Yoluyla Finansal Kapsayıcılık",
+    "title": "Mirasınızı Optimize Edin.",
+    "why": "Herkesin büyüdüğü yerde yaşayabilmesi ve gelişebilmesi.",
+    "subtitle": "5 bağlı şirket. 3 mücadele. Yerel ekonomik kaldıraç olarak spor.",
+    "cta_primary": "Misyonumuzu keşfedin →",
+    "cta_secondary": "Yatırımcılar"
+  },
+  "philosophy": {
+    "title": "Felsefemiz",
+    "mandela": {
+      "quote": "Sporun dünyayı değiştirme gücü vardır. İlham verme gücü vardır. İnsanları çok az şeyin yapabileceği şekilde birleştirme gücü vardır.",
+      "author": "Nelson Mandela, Laureus World Sports Awards, 2000"
+    },
+    "boetcker": {
+      "quote": "Zenginleri yok ederek yoksullara yardım edemezsiniz. İnsanların kendileri için yapabilecekleri ve yapmaları gereken şeyleri onlar için yaparak onlara kalıcı olarak yardım edemezsiniz.",
+      "author": "William J.H. Boetcker"
+    },
+    "founder": {
+      "quote": "Çalışamayacak kadar engelli, maaş alacak kadar değil ve ameliyat olmak için çok genç olduğum için finansal çözümler bulmak zorunda kaldım... Dışlanmışlığımı bir misyona dönüştürdüm: kimse benim yaşadıklarımı yaşamasın.",
+      "author": "Florent Gibert, Kurucu & CEO"
+    }
+  },
+  "infinity": {
+    "title": "Bir sembol. Koskoca bir dünya.",
+    "only": "O — ONLY",
+    "more": "M — MORE",
+    "engine": "Motor",
+    "circular": "Döngüsel enerji = yerel parasal dolaşım",
+    "tagline": "Başlangıcı yok. Sonu yok. Sürekli hareket halinde yerel ekonomi."
+  },
+  "subsidiaries": {
+    "title": "5 Sütun, 1 Vizyon",
+    "live": "Live",
+    "coming": "Coming Soon",
+    "colhybri": {
+      "desc": "SaaS dayanışma ticaret platformu. Own Your Neighborhood. Own Your Future."
+    },
+    "crownium": {
+      "desc": "Profesyonel spor kulüpleri için karşılıklı yardımlaşma finansmanı."
+    },
+    "dojuku": {
+      "desc": "Nesiller arası yapay zeka dövüş sanatları uygulaması."
+    },
+    "finance": {
+      "desc": "Lombard kredisi ve varlık yönetimi."
+    },
+    "plumaya": {
+      "desc": "Yayıncılık ve fikri mülkiyet."
+    }
+  },
+  "impact": {
+    "title": "3 Mücadele. 1 Mekanizma.",
+    "poverty": {
+      "title": "Yoksulluğu azaltmak",
+      "desc": "Spor yerel zenginlik yaratır ve en çok ihtiyaç duyulan yerlerde ekonomik fırsatlar oluşturur."
+    },
+    "talent": {
+      "title": "Beyin göçünü durdurmak",
+      "desc": "Dinamik yerel ekosistemler, yeteneklerin ayrılmak zorunda kalmadan gelişmesini sağlar."
+    },
+    "emigration": {
+      "title": "Zorla göçle mücadele etmek",
+      "desc": "Bir şehir ekonomik olarak geliştiğinde, kimse ayrılmak zorunda kalmaz."
+    },
+    "flow": {
+      "1": "Spor yerel zenginlik yaratır",
+      "2": "Sakinler yerel olarak harcama yapar",
+      "3": "Şehir ekonomik olarak sağlıklı kalır",
+      "4": "Kimse ayrılmak zorunda kalmaz"
+    }
+  },
+  "team": {
+    "title": "Ekip",
+    "florent": {
+      "role": "Kurucu & CEO",
+      "bio": "Otodidakt, Marsilya/Rodilhan, eski inşaat sektörü, kung fu & karate"
+    },
+    "joao": {
+      "role": "CFO",
+      "bio": "Finansal yönetim ve strateji"
+    },
+    "julie": {
+      "role": "Head of BD & Partnerships",
+      "bio": "Üç dilli FR/EN/ES, eski NXP Semiconductors"
+    },
+    "stephane": {
+      "role": "Fundraising Partner",
+      "bio": "Fon toplama ortağı, Winvesty"
+    }
+  },
+  "investors": {
+    "title": "Yatırımcılar",
+    "description": "ONLYMORE Group şu anda €1.3M-€2.15M pre-money değerleme ile €200K-€350K'lık bir pre-seed turunda yatırım toplamaktadır.",
+    "metric1": {
+      "value": "5",
+      "label": "bağlı şirket"
+    },
+    "metric2": {
+      "value": "2",
+      "label": "canlı platform"
+    },
+    "metric3": {
+      "value": "Pre-seed",
+      "label": "devam ediyor"
+    }
+  },
+  "footer": {
+    "platforms": "Platformlarımız",
+    "copyright": "© 2026 ONLYMORE GROUP. Tüm hakları saklıdır."
+  }
+}
