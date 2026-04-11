@@ -42,13 +42,13 @@ export default function Header() {
           <a href="#hero" className="flex items-center gap-3 shrink-0" aria-label="ONLYMORE GROUP Home">
             <img
               src="/logo.svg"
-              alt="ONLYMORE GROUP Logo"
+              alt="ONLYMORE Group - Optimisons vos oeuvres"
               className="h-10 w-auto"
               width={40}
               height={40}
             />
             <span className="hidden sm:inline font-display text-lg tracking-wide text-warm-white">
-              ONLYMORE
+              ONLYMORE Group
             </span>
           </a>
 
