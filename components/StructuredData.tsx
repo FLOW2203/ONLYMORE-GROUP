@@ -29,7 +29,7 @@ export default function StructuredData() {
       "Sports Financial Inclusion",
       "Local Commerce SaaS",
     ],
-    award: "EU Parliament Resolution P10_TA(2025)0212 \u2014 552 votes",
+    award: "EU Parliament Resolution P10_TA(2025)0212 — 552 votes",
     areaServed: ["Europe", "Americas", "Asia-Pacific"],
   };
 
