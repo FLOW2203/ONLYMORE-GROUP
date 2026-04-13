@@ -27,8 +27,8 @@ const members: Member[] = [
   {
     key: "team.stephane",
     name: "Stephane Picard",
-    initials: "SP",
-    linkedin: "#",
+    image: "/images/stephane_400.jpg",
+    linkedin: "https://linkedin.com/in/stephane-picard",
   },
 ];
 
