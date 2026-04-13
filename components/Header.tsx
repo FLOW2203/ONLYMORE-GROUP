@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "@/lib/TranslationContext";
 import LanguageSelector from "./LanguageSelector";
 import LogoInfinity from "./LogoInfinity";
+import { BOOKING_URL } from "@/lib/links";
 
 const navKeys = ["nav.group", "nav.subsidiaries", "nav.impact", "nav.team", "nav.investors", "nav.contact"];
 const navAnchors = ["#hero", "#subsidiaries", "#impact", "#team", "#investors", "#contact"];
@@ -64,7 +65,9 @@ export default function Header() {
           <div className="flex items-center gap-4">
             <LanguageSelector />
             <a
-              href="#investors"
+              href={BOOKING_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="hidden md:inline-flex items-center px-5 py-2.5 bg-gold text-deep-black font-body text-sm font-semibold rounded-lg hover:bg-gold-light transition-colors duration-300"
             >
               {t("cta.book")}
@@ -106,7 +109,9 @@ export default function Header() {
               </a>
             ))}
             <a
-              href="#investors"
+              href={BOOKING_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setMobileOpen(false)}
               className="mt-4 px-8 py-3 bg-gold text-deep-black font-body font-semibold rounded-lg text-lg"
             >

@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useTranslation } from "@/lib/TranslationContext";
+import { BOOKING_URL } from "@/lib/links";
 
 const metrics = ["investors.metric1", "investors.metric2", "investors.metric3"];
 
@@ -60,7 +61,9 @@ export default function Investors() {
           transition={{ duration: 0.7, delay: 0.4 }}
         >
           <a
-            href="mailto:onlymore2024@gmail.com?subject=Meeting%20Request"
+            href={BOOKING_URL}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center px-10 py-4 bg-gold text-deep-black font-body font-semibold rounded-lg hover:bg-gold-light transition-colors duration-300 text-base lg:text-lg"
           >
             {t("cta.book")}
