@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useTranslation } from "@/lib/TranslationContext";
 
 const sdgBadges = [
   { number: 1, label: "No Poverty", color: "#E5243B" },
@@ -11,14 +12,18 @@ const sdgBadges = [
   { number: 17, label: "Partnerships", color: "#19486A" },
 ];
 
-const stats = [
-  "13,000+ professional sports clubs addressable",
-  "€4.2B annual talent drain in European football",
-  "EU Parliament: 552 votes, 86.4% for cooperative model",
-  "220 years of French mutualism",
+const statKeys = [
+  "ess.stats.clubs",
+  "ess.stats.drain",
+  "ess.stats.parliament",
+  "ess.stats.uefa",
+  "ess.stats.mutualism",
 ];
 
 export default function ESSImpact() {
+  const { t } = useTranslation();
+  const stats = statKeys.map((key) => t(key));
+
   return (
     <section
       id="ess-impact"

@@ -121,5 +121,14 @@
     "platforms": "Nos Plateformes",
     "copyright": "© 2026 ONLYMORE GROUP. Tous droits réservés.",
     "slogan": "The mutualist infrastructure. Built for the many. Powered by sport."
+  },
+  "ess": {
+    "stats": {
+      "clubs": "13 000+ clubs sportifs professionnels adressables",
+      "drain": "4,2 Mds € de fuite annuelle des talents dans le football européen",
+      "parliament": "Parlement européen : 552 votes, 86,4% pour le modèle coopératif",
+      "uefa": "UEFA Squad Cost Rule : plafond 70% des coûts d'effectif, validant le modèle de revenus CROWNIUM",
+      "mutualism": "220 ans de mutualisme français"
+    }
   }
 }
