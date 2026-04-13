@@ -96,10 +96,6 @@
       "role": "CFO",
       "bio": "Økonomisk ledelse og strategi"
     },
-    "julie": {
-      "role": "Chef for Forretningsudvikling & Partnerskaber",
-      "bio": "Tresproget FR/EN/ES, tidl. NXP Semiconductors"
-    },
     "stephane": {
       "role": "Fundraising-partner",
       "bio": "Fundraising-partner, Winvesty"
@@ -125,5 +121,14 @@
     "platforms": "Vores Platforme",
     "copyright": "© 2026 ONLYMORE GROUP. Alle rettigheder forbeholdes.",
     "slogan": "The mutualist infrastructure. Built for the many. Powered by sport."
+  },
+  "ess": {
+    "stats": {
+      "clubs": "13,000+ professional sports clubs addressable",
+      "drain": "€4.2B annual talent drain in European football",
+      "parliament": "EU Parliament: 552 votes, 86.4% for cooperative model",
+      "uefa": "UEFA Squad Cost Rule: 70% cap on squad costs, validating CROWNIUM's revenue model",
+      "mutualism": "220 years of French mutualism"
+    }
   }
 }

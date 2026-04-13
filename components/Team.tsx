@@ -3,11 +3,33 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "@/lib/TranslationContext";
 
-const members = [
-  { key: "team.florent", initials: "FG", name: "Florent Gibert" },
-  { key: "team.joao", initials: "JA", name: "Joao Almeida" },
-  { key: "team.julie", initials: "JM", name: "Julie Mariage" },
-  { key: "team.stephane", initials: "SP", name: "Stephane Picard" },
+type Member = {
+  key: string;
+  name: string;
+  initials?: string;
+  image?: string;
+  linkedin: string;
+};
+
+const members: Member[] = [
+  {
+    key: "team.florent",
+    name: "Florent Gibert",
+    image: "/images/florent_400.jpg",
+    linkedin: "https://linkedin.com/in/florent-gibert-71bb1b184",
+  },
+  {
+    key: "team.joao",
+    name: "Joao Almeida",
+    image: "/images/joao_400.jpg",
+    linkedin: "https://linkedin.com/in/joao-almeida-mba-msc",
+  },
+  {
+    key: "team.stephane",
+    name: "Stephane Picard",
+    image: "/images/stephane_400.jpg",
+    linkedin: "https://linkedin.com/in/stephane-picard",
+  },
 ];
 
 export default function Team() {
@@ -26,7 +48,7 @@ export default function Team() {
           {t("team.title")}
         </motion.h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-4xl mx-auto">
           {members.map((member, i) => (
             <motion.div
               key={member.key}
@@ -36,10 +58,22 @@ export default function Team() {
               transition={{ duration: 0.5, delay: i * 0.1 }}
               className="text-center group"
             >
-              {/* Avatar placeholder */}
-              <div className="w-24 h-24 mx-auto mb-5 rounded-full bg-gradient-to-br from-teal/10 to-gold/10 border border-black/5 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
-                <span className="font-display text-xl text-deep-black/40">{member.initials}</span>
-              </div>
+              {/* Avatar */}
+              {member.image ? (
+                <div className="w-30 h-30 mx-auto mb-5 rounded-full overflow-hidden border border-black/5 group-hover:scale-105 transition-transform duration-300" style={{ width: "120px", height: "120px" }}>
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    width={120}
+                    height={120}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              ) : (
+                <div className="mx-auto mb-5 rounded-full bg-gradient-to-br from-teal/10 to-gold/10 border border-black/5 flex items-center justify-center group-hover:scale-105 transition-transform duration-300" style={{ width: "120px", height: "120px" }}>
+                  <span className="font-display text-2xl text-deep-black/40">{member.initials}</span>
+                </div>
+              )}
 
               {/* Name */}
               <h3 className="font-display text-lg text-deep-black mb-1">{member.name}</h3>
@@ -56,7 +90,9 @@ export default function Team() {
 
               {/* LinkedIn */}
               <a
-                href="#"
+                href={member.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label={`LinkedIn ${member.name}`}
                 className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-black/5 hover:bg-teal/10 transition-colors"
               >

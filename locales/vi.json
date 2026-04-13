@@ -96,10 +96,6 @@
       "role": "CFO",
       "bio": "Quản lý và chiến lược tài chính"
     },
-    "julie": {
-      "role": "Trưởng phòng Phát triển Kinh doanh & Đối tác",
-      "bio": "Thông thạo 3 ngôn ngữ FR/EN/ES, từng làm tại NXP Semiconductors"
-    },
     "stephane": {
       "role": "Đối tác Gọi vốn",
       "bio": "Đối tác gọi vốn, Winvesty"
@@ -125,5 +121,14 @@
     "platforms": "Nền Tảng Của Chúng Tôi",
     "copyright": "© 2026 ONLYMORE GROUP. Bảo lưu mọi quyền.",
     "slogan": "The mutualist infrastructure. Built for the many. Powered by sport."
+  },
+  "ess": {
+    "stats": {
+      "clubs": "13,000+ professional sports clubs addressable",
+      "drain": "€4.2B annual talent drain in European football",
+      "parliament": "EU Parliament: 552 votes, 86.4% for cooperative model",
+      "uefa": "UEFA Squad Cost Rule: 70% cap on squad costs, validating CROWNIUM's revenue model",
+      "mutualism": "220 years of French mutualism"
+    }
   }
 }

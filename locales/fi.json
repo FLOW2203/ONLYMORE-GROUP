@@ -96,10 +96,6 @@
       "role": "Talousjohtaja",
       "bio": "Taloudellinen johtaminen ja strategia"
     },
-    "julie": {
-      "role": "Liiketoiminnan kehityksen ja kumppanuuksien johtaja",
-      "bio": "Kolmikielinen FR/EN/ES, ent. NXP Semiconductors"
-    },
     "stephane": {
       "role": "Varainhankintakumppani",
       "bio": "Varainhankintakumppani, Winvesty"
@@ -125,5 +121,14 @@
     "platforms": "Alustamme",
     "copyright": "© 2026 ONLYMORE GROUP. Kaikki oikeudet pidätetään.",
     "slogan": "The mutualist infrastructure. Built for the many. Powered by sport."
+  },
+  "ess": {
+    "stats": {
+      "clubs": "13,000+ professional sports clubs addressable",
+      "drain": "€4.2B annual talent drain in European football",
+      "parliament": "EU Parliament: 552 votes, 86.4% for cooperative model",
+      "uefa": "UEFA Squad Cost Rule: 70% cap on squad costs, validating CROWNIUM's revenue model",
+      "mutualism": "220 years of French mutualism"
+    }
   }
 }
