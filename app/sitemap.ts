@@ -29,6 +29,10 @@ const pages: { path: string; priority: number }[] = [
   { path: "/press", priority: 0.6 },
   { path: "/regulatory", priority: 0.6 },
   { path: "/accessibility", priority: 0.3 },
+  { path: "/insights", priority: 0.7 },
+  { path: "/insights/linfini-decode", priority: 0.6 },
+  { path: "/insights/le-caffe-sospeso-digitalise", priority: 0.6 },
+  { path: "/insights/le-berkshire-hathaway-du-sport", priority: 0.6 },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
