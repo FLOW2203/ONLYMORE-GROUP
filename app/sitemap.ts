@@ -1,10 +1,9 @@
 import type { MetadataRoute } from "next";
+import { locales } from "@/lib/i18n";
 
 const BASE_URL = "https://www.onlymore.group";
 
-const sitemapLocales = [
-  "fr", "en", "es", "pt", "de", "it", "ar", "zh", "ja", "ko", "ru", "nl", "pl",
-];
+const sitemapLocales = locales;
 
 const pages: { path: string; priority: number }[] = [
   { path: "", priority: 1.0 },
