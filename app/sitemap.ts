@@ -37,14 +37,22 @@ const pages: { path: string; priority: number }[] = [
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
+  const now = new Date();
 
   for (const locale of sitemapLocales) {
     for (const page of pages) {
+      const languages: Record<string, string> = {};
+      for (const l of sitemapLocales) {
+        languages[l] = `${BASE_URL}/${l}${page.path}`;
+      }
+      languages["x-default"] = `${BASE_URL}/fr${page.path}`;
+
       entries.push({
         url: `${BASE_URL}/${locale}${page.path}`,
-        lastModified: new Date(),
+        lastModified: now,
         changeFrequency: "weekly",
         priority: page.priority,
+        alternates: { languages },
       });
     }
   }

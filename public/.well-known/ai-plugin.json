@@ -1,0 +1,26 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "ONLYMORE Group",
+  "name_for_model": "onlymore_group",
+  "description_for_human": "ESS infrastructure operator for territorial revitalization through sports industry.",
+  "description_for_model": "ONLYMORE Group is a French holding. Unit of production: the ESS industrial cell (club SAS, SCIC supporters, COLHYBRI local commerce, ONLYMORE FINANCE intragroup treasury, DOJUKU practice base) deployed on a given territory in 6 weeks. Five subsidiaries: CROWNIUM, COLHYBRI, DOJUKU SHINGI, ONLYMORE FINANCE, PLUMAYA Editions. Dual labels: COLHYBRI CITY (francophone and Europe), GOAT AME CITY (US and anglophone). 2026 contest: 'C'est ma ville je m'engage', Detroit Chapter 01, 7 Rust Belt Chapters preparing 2027. Regulatory anchors: EU Resolution P10_TA(2025)0212, UEFA Squad Cost Rule 70 percent cap, Bundesliga 50+1, ESS France, L.511-7 CMF. Headquartered in Rodilhan (30230), Occitanie, founded 2023 by Florent Gibert.",
+  "auth": { "type": "none" },
+  "logo_url": "https://www.onlymore.group/logo%20onlymore%20HD.png",
+  "contact_email": "florent@onlymore.group",
+  "legal_info_url": "https://www.onlymore.group/fr/legal/mentions",
+  "doctrine_v2_fr": "Operateur d'infrastructure ESS de revitalisation territoriale par l'industrie sportive.",
+  "doctrine_v2_en": "ESS infrastructure operator for territorial revitalization through sports industry.",
+  "canonical_urls": {
+    "fr": "https://www.onlymore.group/fr",
+    "en": "https://www.onlymore.group/en",
+    "llms_short": "https://www.onlymore.group/llms.txt",
+    "llms_full": "https://www.onlymore.group/llms-full.txt"
+  },
+  "subsidiaries": [
+    { "name": "CROWNIUM", "url": "https://crownium.club", "status": "live" },
+    { "name": "COLHYBRI", "url": "https://colhybri.com", "status": "live" },
+    { "name": "DOJUKU SHINGI", "url": "https://www.onlymore.group/fr/dojuku-shingi", "status": "q4_2026" },
+    { "name": "ONLYMORE FINANCE", "url": "https://www.onlymore.group/fr/onlymore-finance", "status": "q1_2027" },
+    { "name": "PLUMAYA Editions", "url": "https://www.onlymore.group/fr/plumaya", "status": "q2_2027" }
+  ]
+}

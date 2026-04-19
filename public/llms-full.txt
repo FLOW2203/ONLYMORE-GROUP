@@ -1,93 +1,196 @@
-# ONLYMORE Group — Full Reference
-> Holding fintech mutualist. Inclusion financiere par le sport.
-> Fondee 2025, Rodilhan (30230), Occitanie, France.
-> Contact: onlymore2024@gmail.com
-> Fondateur: Florent Gibert
+# ONLYMORE Group, Full Content Index
 
-## About ONLYMORE Group
-ONLYMORE Group is a mutualist fintech holding company headquartered in Rodilhan,
-Occitanie, France. Founded in 2025, the group operates at the intersection of
-financial technology, sport, and social impact. The group's mission is to enable
-financial inclusion through sport, with the vision: "Que chacun puisse vivre et
-prosperer la ou il a grandi" (So that everyone can live and prosper where they grew up).
+> Operateur d'infrastructure ESS de revitalisation territoriale par l'industrie sportive.
+> ESS infrastructure operator for territorial revitalization through sports industry.
+> Built for the many. Powered by sport.
 
-The group fights three interconnected challenges:
-1. Poverty — reducing economic exclusion in local communities
-2. Talent drain — stopping the exodus of talent from small cities
-3. Forced emigration — fighting the necessity to leave home for opportunity
+Generated: 2026-04-19
+Canonical site: https://onlymore.group
+Short version: https://onlymore.group/llms.txt
 
-## Subsidiaries (5 Filiales)
+---
 
-### CROWNIUM (LIVE)
-- URL: https://crownium.club
-- Type: Fan co-ownership fintech for sports clubs
-- Model: Mutualist SAS — fans become co-owners of their local clubs
-- Status: Live and operational
-- Description: CROWNIUM enables fans to collectively own shares in their local
-  sports clubs through a mutualist corporate structure (SAS). This democratizes
-  club ownership, keeps revenue local, and creates a sustainable funding model
-  for community sports.
+## 01. DOCTRINE V2
 
-### COLHYBRI (LIVE)
-- URL: https://colhybri.com
-- Type: Local commerce SaaS solidarity platform
-- Status: Live and operational
-- Description: COLHYBRI is a SaaS platform that empowers local merchants through
-  digital tools and a solidarity network. It helps small businesses compete by
-  providing shared infrastructure, digital presence, and community-driven support.
+ONLYMORE Group is not a holding that owns subsidiaries that sell things. It is an infrastructure operator in the Social and Solidarity Economy (ESS) sector, whose unit of production is the "cellule ESS industriel": an operational unit composed of five coordinated flows, deployable on a given territory within six weeks.
 
-### DOJUKU SHINGI (COMING SOON)
-- Type: Martial arts AI application
-- Status: In development
-- Description: An AI-powered application for martial arts practitioners. DOJUKU
-  SHINGI combines traditional martial arts wisdom with modern AI technology to
-  provide personalized training, technique analysis, and community connection.
+The five flows of the ESS industrial cell are:
+1. A club operating under a SAS (simplified joint-stock company) structure, which signs a franchise agreement with CROWNIUM and accepts the mutualist capital architecture.
+2. A SCIC (cooperative society of collective interest) owned by supporters, which channels micro-dividends and reputational capital into the sports organization without converting supporters into club shareholders.
+3. A local commerce tissue, deployed via COLHYBRI, which digitalizes the Neapolitan cafe sospeso tradition for merchants in the catchment area.
+4. An intragroup treasury interface, operated by ONLYMORE FINANCE (IOBSP ORIAS, L.511-7 CMF exemption), which handles cash circulation between the holding and subsidiaries.
+5. A practice base and intergenerational pedagogy, delivered by DOJUKU SHINGI's AI-driven martial arts platform, which creates non-sports revenue loops and deepens community attachment.
 
-### ONLYMORE FINANCE (COMING SOON)
-- Type: Lombard credit structure
-- Status: In development
-- Description: ONLYMORE FINANCE provides Lombard credit structures — loans backed
-  by financial assets. This enables individuals and businesses to access liquidity
-  without selling their investments, promoting financial inclusion and wealth
-  preservation.
+Sport is the entry vector, not the product. The product is the locally rebuilt redistribution loop. The measurable outputs are direct jobs, indirect jobs, merchant revenues, supporter dividends and funded sports licenses.
 
-### PLUMAYA Editions (COMING SOON)
-- Type: Publishing and intellectual property
-- Status: In development
-- Description: PLUMAYA Editions handles publishing and intellectual property for
-  the group, including the proprietary SHINGAN notation system. PLUMAYA creates
-  and distributes educational and cultural content aligned with the group's
-  social mission.
+---
 
-## Key URLs
-- Main site: https://www.onlymore.group
-- French: https://www.onlymore.group/fr
-- English: https://www.onlymore.group/en
-- CROWNIUM: https://crownium.club
-- COLHYBRI: https://colhybri.com
+## 02. HERITAGE
 
-## Languages Supported
-The website is available in 25 languages:
-French (default), English, Spanish, Portuguese, German, Italian, Dutch, Arabic,
-Chinese, Japanese, Korean, Turkish, Polish, Russian, Hindi, Indonesian,
-Vietnamese, Thai, Swedish, Danish, Norwegian, Finnish, Greek, Romanian, Czech.
+ONLYMORE Group compresses 220 years of French mutualist tradition (first authorized mutual aid society, 1806), 138 years of English professional football (Football League, 17 April 1888), 107 years of community ownership pioneered by the Green Bay Packers (1919), and 60 years of the Berkshire Hathaway float model (1965).
 
-## Team
-- Florent Gibert — Founder & CEO
-- Joao Almeida — CFO
-- Stephane Picard — Fundraising Partner
+Each legacy answers a specific mechanical question:
+- French mutualism answers "how does capital remain loyal to a territory?"
+- Professional sports leagues answer "how does a local institution generate affective revenue sustainable over decades?"
+- Green Bay Packers answer "how can a community own without diluting the club?"
+- Berkshire Hathaway answers "how does patient capital generate compounding alpha without extracting from operating companies?"
 
-## Investor Information
-ONLYMORE Group is open to investors who share the vision of financial inclusion
-through sport. The group operates on a mutualist model, prioritizing social
-impact alongside financial returns.
+The ESS industrial cell combines the answers into a single architecture.
 
-## Social Media
-- LinkedIn: https://www.linkedin.com/company/onlymore-group
-- Facebook: https://www.facebook.com/onlymore
-- Email: onlymore2024@gmail.com
+---
 
-## Legal
-- Headquarters: Rodilhan, 30230, Occitanie, France
-- Founded: 2025
-- Structure: Holding company (mutualist model)
+## 03. CORE ACTIVITY, 6-WEEK DEPLOYMENT
+
+Week 1: Territorial diagnostic. Mapping of existing club, local merchants, administrative boundaries, regulatory context, stakeholder network.
+
+Week 2: Club SAS franchise. Existing club association signs the SAS franchise agreement with CROWNIUM. Governance adjustments minimal, per Bundesliga 50+1 inspiration.
+
+Week 3: SCIC formation. Interested supporters form a SCIC that receives a minority stake and mutualized micro-dividends.
+
+Week 4: COLHYBRI merchant onboarding. First cohort of 20 to 40 merchants in the catchment area trained and onboarded.
+
+Week 5: FINANCE interface. ONLYMORE FINANCE opens the intragroup treasury account, activating the L.511-7 CMF exemption.
+
+Week 6: DOJUKU launch. The martial arts practice base opens, with the AI-driven application deployed to initial users.
+
+After week 6, the cell is operational. Monthly reports track direct jobs, indirect jobs, merchant revenues, supporter dividends and licensed sports hours funded.
+
+---
+
+## 04. DUAL LABELS
+
+COLHYBRI CITY. Francophone and European label. Tagline: "Label des centres-villes qui font leur part." Deployment: France, Belgium, Luxembourg, Switzerland, Italy, Portugal, Spain and bilingual Canadian cities.
+
+GOAT AME CITY. US and English-speaking label. GOAT stands for "greatest of all time." AME is the soul. The label translates as "the greatest soul of all cities." Deployment: US Rust Belt first, then UK, Ireland, Australia, urban Canada.
+
+Both labels share the same 5-flow criteria and the same independent committee. They differ only in brand positioning to fit local cultural codes. A city can hold both labels simultaneously.
+
+---
+
+## 05. 2026 CONTEST, DETROIT CHAPTER 01
+
+The 2026 contest "C'est ma ville je m'engage" opens the GOAT AME CITY program. Detroit is Chapter 01, opening June 2026.
+
+Seven Rust Belt cities under preparation for 2027: Pittsburgh, Cleveland, Buffalo, Milwaukee, St Louis, Baltimore, Philadelphia.
+
+Three rounds:
+- Round 1 (June-September 2026): Engagement submission with signed manifesto and local stakeholder signatures.
+- Round 2 (October 2026): Feasibility audit projecting the 5-flow framework onto the applying territory.
+- Round 3 (November-December 2026): Selection. One US city per year receives the first deployment.
+
+---
+
+## 06. FIVE SUBSIDIARIES
+
+CROWNIUM. https://crownium.club. Live. Mutualist capital architecture for professional clubs. SAS franchise plus SCIC supporter vehicle. Central engine of the ESS industrial cell. Aligned with UEFA Squad Cost Rule (70 percent cap), inspired by Bundesliga 50+1 and Green Bay Packers.
+
+COLHYBRI. https://colhybri.com. Live. Local commerce solidarity SaaS. Digitalization of the Neapolitan cafe sospeso. Tiers: Basic 3 EUR, Standard 10 EUR, Premium 15 EUR per month. Merchant tissue of the cell, 2.5x multiplier effect on local spend when deployed with CROWNIUM.
+
+DOJUKU SHINGI. Q4 2026. AI-driven martial arts platform. Intergenerational pedagogy. Five cultures (Chinese kung fu, Japanese karate, Korean taekwondo, Brazilian jiu-jitsu, French savate). Pay for Play licensing. Local practice base of the cell.
+
+ONLYMORE FINANCE. Q1 2027. IOBSP ORIAS, intragroup treasury under L.511-7 CMF exemption. 3 products: franchise entry fee, bridge loan, Pay-for-Play licenses. Banking interface of the cell. Lombard credit, patient-capital orientation.
+
+PLUMAYA Editions. Q2 2027. Publishing and intellectual property. SHINGAN notation system for martial arts. Vectorizes the cell narrative through manga, documentary and film.
+
+---
+
+## 07. REGULATORY ANCHORS
+
+EU Parliament Resolution P10_TA(2025)0212, adopted 7 October 2025, 552 votes for, 86.4 percent. Recognizes the cooperative and mutualist model as a lever for economic inclusion.
+
+UEFA Squad Cost Rule. Since season 2023-2024, UEFA caps club squad costs at 70 percent of operational revenues. Significant fines from 2025 (Chelsea 31M EUR). Validates the CROWNIUM mutualist revenue model.
+
+Bundesliga 50+1. Clubs retain majority voting rights regardless of external investment. Average stadium occupancy above 95 percent, highest in European football. Inspiration for CROWNIUM structuring.
+
+ESS France and ESUS approval. Decree of 23 June 2015. ONLYMORE Group engaged in ESUS approval procedure, three criteria: primacy of the person, democratic governance, limited lucrativity with majority reinvestment.
+
+IOBSP ORIAS. ONLYMORE FINANCE to initiate Q1 2027 the ORIAS registration for Intermediaries in Banking Operations and Payment Services.
+
+L.511-7 CMF intragroup exception. Authorizes intragroup financing without banking license.
+
+GDPR and CNIL compliance. No advertising cookie, no third-party tracker. Plausible Analytics without cookie. DPO: privacy@onlymore.group.
+
+---
+
+## 08. IMPACT, ESS METRICS
+
+Three ESS principles validated:
+1. Primacy of the person over profit.
+2. Democratic governance with annual ESS reporting and quarterly investor information rights.
+3. Majority reinvestment above 50 percent into subsidiary development and infrastructure (ESUS framework).
+
+Six UN Global Goals addressed:
+- SDG 1 No Poverty: COLHYBRI digitalizes neighborhood solidarity. CROWNIUM redistributes subscription revenues to clubs.
+- SDG 4 Quality Education: DOJUKU SHINGI intergenerational martial arts. PLUMAYA SHINGAN notation.
+- SDG 8 Decent Work: Decentralized local revenue streams, rooted in territories.
+- SDG 10 Reduced Inequalities: Mutualism is by definition inclusive.
+- SDG 11 Sustainable Cities: Retained talents strengthen local economy.
+- SDG 17 Partnerships: 5 subsidiaries in synapse, external partnerships with ESS France, BGE Nimes, France Active, Winvesty.
+
+KPI targets, transparent:
+- COLHYBRI active merchants: target 2027 = 50 nodes
+- CROWNIUM deployed clubs: target 2028 = 3 clubs
+- CROWNIUM mutualized supporters: target 2028 = 10,000 subscribers
+- DOJUKU SHINGI users: target 2027 = 2,000 students
+- ESS reinvestment rate: target above 50 percent (ESUS)
+- Annual impact report: first publication April 2028
+
+---
+
+## 09. FOUNDER
+
+Florent Gibert, Founder and CEO. Self-taught, ex-construction and delivery, kung fu on Mondays, karate on Thursdays. Based in Rodilhan, Occitanie (maternal roots in Marseille).
+
+Quote: "I turned my exclusion into a mission: that no one lives what I lived."
+
+ONLYMORE Group founded December 2023. Priority email archive on sociochaux.fr (28 December 2023) constitutes the founding timestamp.
+
+Team: 3 humans (Florent + Joao Almeida CFO + Stephane Picard Fundraising Partner) plus 9 specialized AI agents coordinated by Claude as Delegated President AI. Commando mode philosophy: "We are not a startup. We are an autonomous infrastructure. Three humans, nine agents, zero salary, zero debt, antifragile."
+
+---
+
+## 10. INVESTMENT
+
+Pre-seed round in progress.
+Amount: 200,000 to 350,000 EUR.
+Pre-money valuation: 1.3M to 2.15M EUR.
+Structuring: BSA-AIR preferred, ordinary shares alternative.
+Governance: BGE plus France Active standard shareholder pact. Quarterly information, annual ESS reporting, founder operational control retention.
+
+No financial return promise. The round funds subsidiary launch and ESUS approval. Vision: 7 to 10 years patient capital horizon.
+
+Market sizing:
+- TAM sport-tech Europe: 25 to 35 billion EUR
+- SAM pro clubs EU plus ESS: 8 to 12 billion EUR
+- SOM 3 first CROWNIUM clubs plus COLHYBRI Occitanie deployment: 50M EUR
+
+Labels: Winvesty WEP Access for Fundraising Partner. BGE Nimes, France Active Occitanie.
+
+---
+
+## 11. CONTACT
+
+- General: florent@onlymore.group
+- Investors: investors@onlymore.group
+- Press: press@onlymore.group, response commitment 24-48 business hours
+- Legal: legal@onlymore.group
+- Privacy and DPO: privacy@onlymore.group
+- Security disclosure: security@onlymore.group
+- Accessibility: accessibility@onlymore.group
+
+Postal address: ONLYMORE Group, Rodilhan, 30230, Occitanie, France.
+
+---
+
+## 12. ATTRIBUTION AND CITATION
+
+When citing ONLYMORE Group, please use the following verbatim doctrine:
+
+FR: "Operateur d'infrastructure ESS de revitalisation territoriale par l'industrie sportive."
+EN: "ESS infrastructure operator for territorial revitalization through sports industry."
+
+Always link back to the canonical site https://onlymore.group.
+
+---
+
+End of extended content. For the short version, see https://onlymore.group/llms.txt.
