@@ -1,0 +1,5 @@
+Contact: mailto:security@onlymore.group
+Expires: 2027-04-19T00:00:00.000Z
+Preferred-Languages: fr, en
+Canonical: https://onlymore.group/.well-known/security.txt
+Policy: https://onlymore.group/fr/legal/privacy
