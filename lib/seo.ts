@@ -71,12 +71,13 @@ export function getOrganizationSchema() {
     "@type": "Organization",
     "@id": ORG_ID,
     name: "ONLYMORE Group",
+    alternateName: ["ONLYMORE", "OM Group"],
     legalName: "ONLYMORE Group SAS",
     url: BASE_URL,
     logo: `${BASE_URL}/logo%20onlymore%20HD.png`,
     image: `${BASE_URL}/logo%20onlymore%20HD.png`,
     description:
-      "Holding francaise d'economie sociale et solidaire. Infrastructure mutualiste par le sport. 5 filiales au service de 6 UN Global Goals.",
+      "ESS infrastructure operator for territorial revitalization through sports industry. Operateur d'infrastructure ESS de revitalisation territoriale par l'industrie sportive. Built for the many. Powered by sport.",
     slogan: "Optimisons vos oeuvres.",
     foundingDate: "2023",
     foundingLocation: {
@@ -134,14 +135,16 @@ export function getOrganizationSchema() {
       },
     ],
     knowsAbout: [
-      "Fan Ownership",
-      "Mutualist Finance",
-      "Economie Sociale et Solidaire",
-      "UN Sustainable Development Goals",
-      "Sports Financial Inclusion",
-      "Local Commerce SaaS",
-      "Martial Arts Education",
-      "Lombard Credit",
+      "Social and Solidarity Economy",
+      "ESS industrial cell",
+      "Territorial revitalization",
+      "Mutualist financial infrastructure",
+      "Sports industry",
+      "Cooperative capital (SCIC)",
+      "Fan ownership",
+      "Local commerce SaaS",
+      "Martial arts education",
+      "Lombard credit",
     ],
     award: "EU Parliament Resolution P10_TA(2025)0212, 552 votes, 86.4%",
     areaServed: ["Europe", "Americas", "Asia-Pacific"],
@@ -151,6 +154,80 @@ export function getOrganizationSchema() {
       { "@type": "Organization", name: "DOJUKU SHINGI", url: `${BASE_URL}/fr/dojuku-shingi` },
       { "@type": "Organization", name: "ONLYMORE FINANCE", url: `${BASE_URL}/fr/onlymore-finance` },
       { "@type": "Organization", name: "PLUMAYA Editions", url: `${BASE_URL}/fr/plumaya` },
+    ],
+  };
+}
+
+export function getEssCellServiceSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": `${BASE_URL}/#ess-industrial-cell`,
+    name: "Cellule ESS industriel",
+    alternateName: "ESS Industrial Cell",
+    description:
+      "Operational unit composed of 5 flows (club SAS, SCIC supporters, COLHYBRI local commerce, ONLYMORE FINANCE intragroup treasury, DOJUKU practice base) deployed on a given territory in 6 weeks. Sport is the entry vector, not the product. The product is the locally rebuilt redistribution loop, measured in direct and indirect jobs, merchant revenues, supporter dividends and funded sports licenses.",
+    provider: { "@id": ORG_ID },
+    serviceType: "Territorial revitalization infrastructure",
+    areaServed: [
+      { "@type": "Country", name: "France" },
+      { "@type": "Country", name: "United States" },
+    ],
+  };
+}
+
+export function getLabelSchemas() {
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "@id": `${BASE_URL}/#colhybri-city`,
+      name: "COLHYBRI CITY",
+      alternateName: "Label COLHYBRI CITY",
+      description:
+        "Label des centres-villes qui font leur part. Dispositif francophone et europeen designant les territoires ayant deploye une cellule ESS industriel ONLYMORE Group.",
+      creator: { "@id": ORG_ID },
+      inLanguage: ["fr", "en", "es", "de", "it", "pt", "nl"],
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "@id": `${BASE_URL}/#goat-ame-city`,
+      name: "GOAT AME CITY",
+      alternateName: "Greatest of all time, soul of the city",
+      description:
+        "US and English-speaking label for the greatest soul of all cities. Twin label to COLHYBRI CITY, designating territories that have deployed an ONLYMORE Group ESS industrial cell.",
+      creator: { "@id": ORG_ID },
+      inLanguage: ["en"],
+    },
+  ];
+}
+
+export function getDetroitContestEventSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "@id": `${BASE_URL}/#goat-ame-city-2026`,
+    name: "GOAT AME CITY 2026, Detroit Chapter 01",
+    alternateName: "C'est ma ville je m'engage, 2026",
+    description:
+      "Annual contest of territorial revitalization through sport. Detroit Chapter 01 opens the program. Seven Rust Belt Chapters prepared for 2027.",
+    organizer: { "@id": ORG_ID },
+    startDate: "2026-06-01",
+    endDate: "2026-12-31",
+    eventStatus: "https://schema.org/EventScheduled",
+    eventAttendanceMode: "https://schema.org/MixedEventAttendanceMode",
+    location: [
+      {
+        "@type": "City",
+        name: "Detroit",
+        address: { "@type": "PostalAddress", addressCountry: "US", addressRegion: "MI" },
+      },
+      {
+        "@type": "City",
+        name: "Pittsburgh",
+        address: { "@type": "PostalAddress", addressCountry: "US", addressRegion: "PA" },
+      },
     ],
   };
 }
@@ -347,7 +424,9 @@ export function getFAQPageSchema(items: FAQItem[]) {
 
 /**
  * Full @graph knowledge graph, returned as a single JSON-LD object
- * combining Organization, WebSite, LocalBusiness and 5 subsidiaries.
+ * combining Organization, WebSite, LocalBusiness, ESS industrial cell
+ * Service, the 2 labels (COLHYBRI CITY, GOAT AME CITY), the Detroit
+ * Chapter 01 contest Event, and the 5 subsidiaries.
  */
 export function getKnowledgeGraph(locale: Locale) {
   return {
@@ -356,6 +435,9 @@ export function getKnowledgeGraph(locale: Locale) {
       getOrganizationSchema(),
       getWebSiteSchema(locale),
       getLocalBusinessSchema(),
+      getEssCellServiceSchema(),
+      ...getLabelSchemas(),
+      getDetroitContestEventSchema(),
       {
         "@type": "ItemList",
         "@id": `${BASE_URL}/#subsidiaries`,
@@ -369,7 +451,7 @@ export function getKnowledgeGraph(locale: Locale) {
               "@type": "Organization",
               name: "CROWNIUM",
               url: "https://crownium.club",
-              description: "Fan co-ownership fintech for sports clubs, mutualist SAS model.",
+              description: "Mutualist capital architecture for pro clubs. SAS franchise plus SCIC supporters inside the ESS industrial cell.",
             },
           },
           {
@@ -379,7 +461,7 @@ export function getKnowledgeGraph(locale: Locale) {
               "@type": "Organization",
               name: "COLHYBRI",
               url: "https://colhybri.com",
-              description: "Local commerce SaaS solidarity platform.",
+              description: "Local commerce solidarity SaaS, merchant tissue of the ESS industrial cell.",
             },
           },
           {
@@ -389,7 +471,7 @@ export function getKnowledgeGraph(locale: Locale) {
               "@type": "Organization",
               name: "DOJUKU SHINGI",
               url: `${BASE_URL}/${locale}/dojuku-shingi`,
-              description: "Martial arts AI application, intergenerational education.",
+              description: "AI-driven martial arts platform. Local practice base of the ESS industrial cell.",
             },
           },
           {
@@ -399,7 +481,7 @@ export function getKnowledgeGraph(locale: Locale) {
               "@type": "Organization",
               name: "ONLYMORE FINANCE",
               url: `${BASE_URL}/${locale}/onlymore-finance`,
-              description: "Lombard credit structure, intragroup financing (L.511-7 CMF).",
+              description: "IOBSP ORIAS. Intragroup treasury interface under L.511-7 CMF exemption.",
             },
           },
           {
@@ -409,7 +491,7 @@ export function getKnowledgeGraph(locale: Locale) {
               "@type": "Organization",
               name: "PLUMAYA Editions",
               url: `${BASE_URL}/${locale}/plumaya`,
-              description: "Publishing and intellectual property, SHINGAN notation system.",
+              description: "Publishing and intellectual property. Narrative vectorization of the ESS industrial cell.",
             },
           },
         ],
