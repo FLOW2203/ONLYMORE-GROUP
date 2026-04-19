@@ -21,6 +21,10 @@ const pages: { path: string; priority: number }[] = [
   { path: "/investisseurs", priority: 0.7 },
   { path: "/impact", priority: 0.7 },
   { path: "/contact", priority: 0.7 },
+  { path: "/legal/mentions", priority: 0.3 },
+  { path: "/legal/privacy", priority: 0.3 },
+  { path: "/legal/terms", priority: 0.3 },
+  { path: "/legal/cookies", priority: 0.3 },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

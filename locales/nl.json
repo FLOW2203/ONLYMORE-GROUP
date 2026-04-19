@@ -120,7 +120,18 @@
   "footer": {
     "platforms": "Onze Platforms",
     "copyright": "© 2026 ONLYMORE GROUP. Alle rechten voorbehouden.",
-    "slogan": "The mutualist infrastructure. Built for the many. Powered by sport."
+    "slogan": "The mutualist infrastructure. Built for the many. Powered by sport.",
+    "legal_heading": "Juridisch",
+    "mentions": "Colofon",
+    "privacy": "Privacy",
+    "terms": "Voorwaarden",
+    "cookies": "Cookies",
+    "accessibility": "Toegankelijkheid",
+    "contact_heading": "Contact",
+    "general": "Algemeen",
+    "investors": "Investeerders",
+    "press": "Pers",
+    "privacy_contact": "Gegevensbescherming"
   },
   "ess": {
     "stats": {
