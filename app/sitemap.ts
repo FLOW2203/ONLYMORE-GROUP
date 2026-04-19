@@ -24,6 +24,11 @@ const pages: { path: string; priority: number }[] = [
   { path: "/legal/privacy", priority: 0.3 },
   { path: "/legal/terms", priority: 0.3 },
   { path: "/legal/cookies", priority: 0.3 },
+  { path: "/about", priority: 0.8 },
+  { path: "/philosophy", priority: 0.7 },
+  { path: "/press", priority: 0.6 },
+  { path: "/regulatory", priority: 0.6 },
+  { path: "/accessibility", priority: 0.3 },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
