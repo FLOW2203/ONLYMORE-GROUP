@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useTranslation } from "@/lib/TranslationContext";
 import LogoInfinity from "./LogoInfinity";
 
@@ -12,6 +13,13 @@ const navLinks = [
   { key: "nav.contact", href: "#contact" },
 ];
 
+const contactEmails = [
+  { key: "footer.general", email: "florent@onlymore.group" },
+  { key: "footer.investors", email: "investors@onlymore.group" },
+  { key: "footer.press", email: "press@onlymore.group" },
+  { key: "footer.privacy_contact", email: "privacy@onlymore.group" },
+];
+
 const platforms = [
   { name: "COLHYBRI", url: "https://colhybri.com" },
   { name: "CROWNIUM", url: "https://crownium.club" },
@@ -21,12 +29,19 @@ const platforms = [
 ];
 
 export default function Footer() {
-  const { t } = useTranslation();
+  const { t, locale } = useTranslation();
+
+  const legalLinks = [
+    { key: "footer.mentions", href: `/${locale}/legal/mentions` },
+    { key: "footer.privacy", href: `/${locale}/legal/privacy` },
+    { key: "footer.terms", href: `/${locale}/legal/terms` },
+    { key: "footer.cookies", href: `/${locale}/legal/cookies` },
+  ];
 
   return (
     <footer className="py-16 lg:py-20 bg-deep-black border-t border-white/5">
       <div className="max-w-container mx-auto px-6 lg:px-16">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8 mb-12">
           {/* Col 1: Logo + slogan */}
           <div>
             <div className="flex items-center gap-3 mb-4">
@@ -52,7 +67,7 @@ export default function Footer() {
               </a>
               {/* Email */}
               <a
-                href="mailto:onlymore2024@gmail.com"
+                href="mailto:florent@onlymore.group"
                 aria-label="Email"
                 className="w-9 h-9 rounded-full bg-white/5 hover:bg-teal/20 flex items-center justify-center transition-colors"
               >
@@ -110,19 +125,51 @@ export default function Footer() {
           {/* Col 4: Contact */}
           <div>
             <h4 className="font-display text-sm text-warm-white uppercase tracking-widest mb-4">
-              Contact
+              {t("footer.contact_heading") !== "footer.contact_heading" ? t("footer.contact_heading") : "Contact"}
             </h4>
             <ul className="space-y-2.5">
+              {contactEmails.map((c) => (
+                <li key={c.email} className="flex flex-col">
+                  <span className="font-body text-xs text-warm-white/40 mb-0.5">
+                    {t(c.key) !== c.key ? t(c.key) : c.email}
+                  </span>
+                  <a
+                    href={`mailto:${c.email}`}
+                    className="font-body text-sm text-warm-white/60 hover:text-gold transition-colors break-all"
+                  >
+                    {c.email}
+                  </a>
+                </li>
+              ))}
+              <li className="font-body text-sm text-warm-white/30 pt-1">
+                Rodilhan, Occitanie, France
+              </li>
+            </ul>
+          </div>
+
+          {/* Col 5: Legal */}
+          <div>
+            <h4 className="font-display text-sm text-warm-white uppercase tracking-widest mb-4">
+              {t("footer.legal_heading") !== "footer.legal_heading" ? t("footer.legal_heading") : "Legal"}
+            </h4>
+            <ul className="space-y-2.5">
+              {legalLinks.map((link) => (
+                <li key={link.key}>
+                  <Link
+                    href={link.href}
+                    className="font-body text-sm text-warm-white/50 hover:text-gold transition-colors"
+                  >
+                    {t(link.key) !== link.key ? t(link.key) : link.key}
+                  </Link>
+                </li>
+              ))}
               <li>
-                <a
-                  href="mailto:onlymore2024@gmail.com"
+                <Link
+                  href={`/${locale}/accessibility`}
                   className="font-body text-sm text-warm-white/50 hover:text-gold transition-colors"
                 >
-                  onlymore2024@gmail.com
-                </a>
-              </li>
-              <li className="font-body text-sm text-warm-white/30">
-                Rodilhan, France
+                  {t("footer.accessibility") !== "footer.accessibility" ? t("footer.accessibility") : "Accessibility"}
+                </Link>
               </li>
             </ul>
           </div>

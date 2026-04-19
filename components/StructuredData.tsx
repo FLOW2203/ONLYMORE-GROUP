@@ -1,125 +1,56 @@
-export default function StructuredData() {
-  const organization = {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    name: "ONLYMORE Group",
-    url: "https://www.onlymore.group",
-    logo: "https://www.onlymore.group/logo%20onlymore%20HD.png",
-    description:
-      "Holding fintech mutualist specialisee en inclusion financiere par le sport",
-    foundingDate: "2025",
-    foundingLocation: {
-      "@type": "Place",
-      name: "Rodilhan, Occitanie, France",
-    },
-    sameAs: [
-      "https://www.linkedin.com/company/onlymore-group",
-      "https://www.facebook.com/onlymore",
-    ],
-    contactPoint: {
-      "@type": "ContactPoint",
-      email: "onlymore2024@gmail.com",
-      contactType: "customer service",
-    },
-    knowsAbout: [
-      "Fan Ownership",
-      "Mutualist Finance",
-      "ESS",
-      "UN Global Goals",
-      "Sports Financial Inclusion",
-      "Local Commerce SaaS",
-    ],
-    award: "EU Parliament Resolution P10_TA(2025)0212 — 552 votes",
-    areaServed: ["Europe", "Americas", "Asia-Pacific"],
-  };
+import {
+  getKnowledgeGraph,
+  getDefaultTeamSchemas,
+  getBreadcrumbListSchema,
+  getServiceSchema,
+  getArticleSchema,
+  getFAQPageSchema,
+} from "@/lib/seo";
+import type { Locale } from "@/lib/i18n";
 
-  const website = {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    name: "ONLYMORE Group",
-    url: "https://www.onlymore.group",
-    potentialAction: {
-      "@type": "SearchAction",
-      target: "https://www.onlymore.group/fr/search?q={search_term_string}",
-      "query-input": "required name=search_term_string",
-    },
-  };
+type StructuredDataProps = {
+  locale?: Locale;
+  includeTeam?: boolean;
+  breadcrumbs?: { name: string; url: string }[];
+  extra?: object[];
+};
 
-  const subsidiaries = {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    name: "ONLYMORE Group Subsidiaries",
-    numberOfItems: 5,
-    itemListElement: [
-      {
-        "@type": "ListItem",
-        position: 1,
-        item: {
-          "@type": "Organization",
-          name: "CROWNIUM",
-          url: "https://crownium.club",
-          description:
-            "Fan co-ownership fintech for sports clubs — mutualist SAS model",
-        },
-      },
-      {
-        "@type": "ListItem",
-        position: 2,
-        item: {
-          "@type": "Organization",
-          name: "COLHYBRI",
-          url: "https://colhybri.com",
-          description: "Local commerce SaaS solidarity platform",
-        },
-      },
-      {
-        "@type": "ListItem",
-        position: 3,
-        item: {
-          "@type": "Organization",
-          name: "DOJUKU SHINGI",
-          url: "https://www.onlymore.group/fr/dojuku-shingi",
-          description: "Martial arts AI application",
-        },
-      },
-      {
-        "@type": "ListItem",
-        position: 4,
-        item: {
-          "@type": "Organization",
-          name: "ONLYMORE FINANCE",
-          url: "https://www.onlymore.group/fr/onlymore-finance",
-          description: "Lombard credit structure",
-        },
-      },
-      {
-        "@type": "ListItem",
-        position: 5,
-        item: {
-          "@type": "Organization",
-          name: "PLUMAYA Editions",
-          url: "https://www.onlymore.group/fr/plumaya",
-          description:
-            "Publishing and intellectual property — SHINGAN notation system",
-        },
-      },
-    ],
-  };
+function JsonLd({ data }: { data: object }) {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify(data).replace(/</g, "\\u003c"),
+      }}
+    />
+  );
+}
+
+export default function StructuredData({
+  locale = "fr" as Locale,
+  includeTeam = false,
+  breadcrumbs,
+  extra = [],
+}: StructuredDataProps) {
+  const graphs: object[] = [getKnowledgeGraph(locale)];
+
+  if (includeTeam) {
+    getDefaultTeamSchemas().forEach((p) => graphs.push(p));
+  }
+
+  if (breadcrumbs && breadcrumbs.length > 0) {
+    graphs.push(getBreadcrumbListSchema(breadcrumbs));
+  }
+
+  extra.forEach((e) => graphs.push(e));
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(organization) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(website) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(subsidiaries) }}
-      />
+      {graphs.map((g, i) => (
+        <JsonLd key={i} data={g} />
+      ))}
     </>
   );
 }
+
+export { getServiceSchema, getArticleSchema, getFAQPageSchema, getBreadcrumbListSchema };

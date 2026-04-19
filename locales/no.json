@@ -90,7 +90,7 @@
     "title": "Teamet",
     "florent": {
       "role": "Grunnlegger og administrerende direktør",
-      "bio": "Selvlært, Marseille/Rodilhan, eks-bygg og anlegg, kung fu og karate"
+      "bio": "Selvlaert, Rodilhan (Occitanie), morsroetter i Marseille, eks-bygg og levering, kung fu mandag, karate torsdag"
     },
     "joao": {
       "role": "Finansdirektør",
@@ -120,7 +120,18 @@
   "footer": {
     "platforms": "Våre plattformer",
     "copyright": "© 2026 ONLYMORE GROUP. Alle rettigheter forbeholdt.",
-    "slogan": "The mutualist infrastructure. Built for the many. Powered by sport."
+    "slogan": "The mutualist infrastructure. Built for the many. Powered by sport.",
+    "legal_heading": "Legal",
+    "mentions": "Legal notice",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "cookies": "Cookies",
+    "accessibility": "Accessibility",
+    "contact_heading": "Contact",
+    "general": "General",
+    "investors": "Investors",
+    "press": "Press",
+    "privacy_contact": "Data protection"
   },
   "ess": {
     "stats": {

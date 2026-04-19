@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { locales, defaultLocale, isRtl, getTranslations, Locale } from "@/lib/i18n";
 import { TranslationProvider } from "@/lib/TranslationContext";
 import StructuredData from "@/components/StructuredData";
+import Plausible from "@/components/Plausible";
 import "../globals.css";
 
 export async function generateStaticParams() {
@@ -115,7 +116,8 @@ export default async function LocaleLayout({
           as="image"
           type="image/png"
         />
-        <StructuredData />
+        <StructuredData locale={locale} />
+        <Plausible />
       </head>
       <body className="font-body bg-deep-black text-warm-white antialiased">
         <TranslationProvider locale={locale} translations={translations}>

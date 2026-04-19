@@ -90,7 +90,7 @@
     "title": "ทีมงาน",
     "florent": {
       "role": "ผู้ก่อตั้งและ CEO",
-      "bio": "เรียนรู้ด้วยตนเอง, Marseille/Rodilhan, อดีตวงการก่อสร้าง, กังฟูและคาราเต้"
+      "bio": "เรียนรู้ด้วยตนเอง, Rodilhan (Occitanie), รากมาร์เซยทางมารดา, อดีตวงการก่อสร้างและขนส่ง, กังฟูวันจันทร์, คาราเต้วันพฤหัสบดี"
     },
     "joao": {
       "role": "CFO",
@@ -120,7 +120,18 @@
   "footer": {
     "platforms": "แพลตฟอร์มของเรา",
     "copyright": "© 2026 ONLYMORE GROUP. สงวนลิขสิทธิ์",
-    "slogan": "The mutualist infrastructure. Built for the many. Powered by sport."
+    "slogan": "The mutualist infrastructure. Built for the many. Powered by sport.",
+    "legal_heading": "Legal",
+    "mentions": "Legal notice",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "cookies": "Cookies",
+    "accessibility": "Accessibility",
+    "contact_heading": "Contact",
+    "general": "General",
+    "investors": "Investors",
+    "press": "Press",
+    "privacy_contact": "Data protection"
   },
   "ess": {
     "stats": {

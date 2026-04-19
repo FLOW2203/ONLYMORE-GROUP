@@ -1,10 +1,9 @@
 import type { MetadataRoute } from "next";
+import { locales } from "@/lib/i18n";
 
 const BASE_URL = "https://www.onlymore.group";
 
-const sitemapLocales = [
-  "fr", "en", "es", "pt", "de", "it", "ar", "zh", "ja", "ko", "ru", "nl", "pl",
-];
+const sitemapLocales = locales;
 
 const pages: { path: string; priority: number }[] = [
   { path: "", priority: 1.0 },
@@ -21,6 +20,19 @@ const pages: { path: string; priority: number }[] = [
   { path: "/investisseurs", priority: 0.7 },
   { path: "/impact", priority: 0.7 },
   { path: "/contact", priority: 0.7 },
+  { path: "/legal/mentions", priority: 0.3 },
+  { path: "/legal/privacy", priority: 0.3 },
+  { path: "/legal/terms", priority: 0.3 },
+  { path: "/legal/cookies", priority: 0.3 },
+  { path: "/about", priority: 0.8 },
+  { path: "/philosophy", priority: 0.7 },
+  { path: "/press", priority: 0.6 },
+  { path: "/regulatory", priority: 0.6 },
+  { path: "/accessibility", priority: 0.3 },
+  { path: "/insights", priority: 0.7 },
+  { path: "/insights/linfini-decode", priority: 0.6 },
+  { path: "/insights/le-caffe-sospeso-digitalise", priority: 0.6 },
+  { path: "/insights/le-berkshire-hathaway-du-sport", priority: 0.6 },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

@@ -90,7 +90,7 @@
     "title": "Tým",
     "florent": {
       "role": "Zakladatel a generální ředitel",
-      "bio": "Samouk, Marseille/Rodilhan, bývalé stavebnictví, kung fu a karate"
+      "bio": "Samouk, Rodilhan (Occitanie), matcine koreny v Marseille, byvale stavebnictvi a doprava, kung fu v pondeli, karate ve ctvrtek"
     },
     "joao": {
       "role": "Finanční ředitel",
@@ -120,7 +120,18 @@
   "footer": {
     "platforms": "Naše platformy",
     "copyright": "© 2026 ONLYMORE GROUP. Všechna práva vyhrazena.",
-    "slogan": "The mutualist infrastructure. Built for the many. Powered by sport."
+    "slogan": "The mutualist infrastructure. Built for the many. Powered by sport.",
+    "legal_heading": "Legal",
+    "mentions": "Legal notice",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "cookies": "Cookies",
+    "accessibility": "Accessibility",
+    "contact_heading": "Contact",
+    "general": "General",
+    "investors": "Investors",
+    "press": "Press",
+    "privacy_contact": "Data protection"
   },
   "ess": {
     "stats": {

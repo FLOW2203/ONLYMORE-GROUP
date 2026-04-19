@@ -5,6 +5,9 @@ import { useTranslation } from "@/lib/TranslationContext";
 import { locales, localeNames, localeFlags, Locale } from "@/lib/i18n";
 import { usePathname } from "next/navigation";
 
+const PRIMARY: Locale[] = ["fr", "en"];
+const SECONDARY = locales.filter((l) => !PRIMARY.includes(l as Locale)) as Locale[];
+
 export default function LanguageSelector() {
   const { locale } = useTranslation();
   const [open, setOpen] = useState(false);
@@ -43,16 +46,41 @@ export default function LanguageSelector() {
       </button>
 
       {open && (
-        <div className="absolute right-0 top-full mt-2 w-48 max-h-72 overflow-y-auto bg-deep-black/95 backdrop-blur-lg border border-white/10 rounded-lg shadow-2xl z-50">
-          {locales.map((l) => (
+        <div className="absolute right-0 top-full mt-2 w-56 max-h-80 overflow-y-auto bg-deep-black/95 backdrop-blur-lg border border-white/10 rounded-lg shadow-2xl z-50">
+          <div className="px-3 py-1.5 text-[10px] uppercase tracking-widest text-warm-white/40 font-mono">
+            Primary
+          </div>
+          {PRIMARY.map((l) => (
             <button
               key={l}
+              lang={l}
               onClick={() => {
                 switchLocale(l);
                 setOpen(false);
               }}
               className={`w-full flex items-center gap-2.5 px-3 py-2 text-sm hover:bg-white/5 transition-colors ${
-                l === locale ? "text-gold bg-white/5" : "text-warm-white/70"
+                l === locale ? "text-gold bg-white/5" : "text-warm-white/80"
+              }`}
+            >
+              <span>{localeFlags[l]}</span>
+              <span>{localeNames[l]}</span>
+              <span className="ml-auto uppercase font-mono text-xs opacity-40">{l}</span>
+            </button>
+          ))}
+          <div className="h-px bg-white/10 my-1" />
+          <div className="px-3 py-1.5 text-[10px] uppercase tracking-widest text-warm-white/40 font-mono">
+            Other languages
+          </div>
+          {SECONDARY.map((l) => (
+            <button
+              key={l}
+              lang={l}
+              onClick={() => {
+                switchLocale(l);
+                setOpen(false);
+              }}
+              className={`w-full flex items-center gap-2.5 px-3 py-2 text-sm hover:bg-white/5 transition-colors ${
+                l === locale ? "text-gold bg-white/5" : "text-warm-white/60"
               }`}
             >
               <span>{localeFlags[l]}</span>

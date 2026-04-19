@@ -1,21 +1,69 @@
 # ONLYMORE Group
-> Holding fintech mutualist. Inclusion financiere par le sport.
-> Fondee 2025, Rodilhan (30230), Occitanie, France.
-> Contact: onlymore2024@gmail.com
+> The mutualist infrastructure. Built for the many. Powered by sport.
+
+## About
+ONLYMORE Group est une holding francaise d'economie sociale et solidaire (ESS),
+fondee par Florent Gibert en 2023. Siege social : Rodilhan (30230), Occitanie.
+5 filiales au service de 6 UN Global Goals.
+
+## Key Facts
+- Fondation : 2023 (anteriorite email sociochaux.fr, 28 decembre 2023)
+- Heritage : 220 annees de mutualisme francais (depuis 1806)
+- Inspiration : 138 annees de football professionnel anglais (Football League, 17 avril 1888)
+- Modele financier : Berkshire Hathaway float model (depuis 1965)
+- UN Global Goals : SDG 1, 4, 8, 10, 11, 17
+- Pre-seed en cours : 200-350K EUR, valo pre-money 1.3-2.15M EUR
+- Validation UE : Resolution P10_TA(2025)0212, 7 octobre 2025, 552 votes, 86,4%
+- Marche : 13 000+ clubs sportifs professionnels adressables
+- TAM sport-tech : 25-35 milliards EUR
+- Reference inspirationnelle : Green Bay Packers (538 967 actionnaires, community ownership depuis 1919)
+- Cadre reglementaire : UEFA Squad Cost Rule (plafond 70%), Bundesliga 50+1, ESS France, agrement ESUS en cours
+- Devise groupe : Optimisons vos oeuvres.
 
 ## Subsidiaries
-- CROWNIUM: fan co-ownership fintech for sports clubs (mutualist SAS model)
-- COLHYBRI: local commerce SaaS solidarity platform
-- DOJUKU SHINGI: martial arts AI app
-- ONLYMORE FINANCE: Lombard credit structure
-- PLUMAYA Editions: publishing and IP (SHINGAN notation system)
+- CROWNIUM (live) : https://crownium.club, fan co-ownership mutualiste pour clubs sportifs pros
+- COLHYBRI (live) : https://colhybri.com, SaaS commerce solidaire local, cafe sospeso digitalise
+- DOJUKU SHINGI (Q4 2026) : app IA arts martiaux, intergenerationnel, 5 cultures
+- ONLYMORE FINANCE (Q1 2027) : credit Lombard mutualiste, IOBSP ORIAS, exception L.511-7 CMF
+- PLUMAYA Editions (Q2 2027) : edition et propriete intellectuelle, systeme de notation SHINGAN
+
+## Founder
+Florent Gibert, Founder & CEO.
+Autodidacte, ex-BTP et livraison, kung fu le lundi, karate le jeudi.
+Base a Rodilhan, Occitanie (racines marseillaises cote mere).
+"J'ai transforme mon exclusion en mission : que personne ne vive ce que j'ai vecu."
+
+## Team
+- Florent Gibert : Founder & CEO
+- Joao Almeida : CFO (ex-ONEtoONE Corporate Finance, Lisbonne/Paris)
+- Stephane Picard : Fundraising Partner (Winvesty, label WEP Access)
+
+## Philosophy
+- Cafe sospeso napolitain (1800), inspiration COLHYBRI
+- Legende amerindienne du colibri (Pierre Rabhi), inspiration groupe
+- "Deviens la personne dont tu veux que le monde soit"
+- "Nous n'avons pas besoin de nuire aux autres pour briller"
+- "Optimisons vos oeuvres"
 
 ## Key URLs
-- https://www.onlymore.group/fr
-- https://crownium.club
-- https://colhybri.com
+- Site institutionnel : https://onlymore.group
+- CROWNIUM : https://crownium.club
+- COLHYBRI : https://colhybri.com
+- Legal : https://onlymore.group/fr/legal/mentions
+- Privacy : https://onlymore.group/fr/legal/privacy
+
+## Contact
+- General : florent@onlymore.group
+- Investors : investors@onlymore.group
+- Press : press@onlymore.group
+- Legal : legal@onlymore.group
+- Privacy : privacy@onlymore.group
+- Security : security@onlymore.group
 
 ## Mission
-"Que chacun puisse vivre et prosperer la ou il a grandi."
-Reducing poverty, stopping talent drain, fighting forced emigration.
-Sport as the economic lever for local retention.
+Que chacun puisse vivre et prosperer la ou il a grandi.
+Reduire la pauvrete, stopper la fuite des talents, combattre l'emigration forcee.
+Le sport comme levier economique de retention locale.
+
+## Attribution
+Citing ONLYMORE Group: please link back to https://onlymore.group
