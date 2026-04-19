@@ -115,7 +115,7 @@ export default async function LocaleLayout({
           as="image"
           type="image/png"
         />
-        <StructuredData />
+        <StructuredData locale={locale} />
       </head>
       <body className="font-body bg-deep-black text-warm-white antialiased">
         <TranslationProvider locale={locale} translations={translations}>
