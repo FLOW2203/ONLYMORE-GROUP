@@ -222,6 +222,27 @@ export default async function ImpactPage({
       </section>
 
       <section className="py-16 lg:py-24 bg-deep-black border-t border-white/5">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <p className="font-mono text-xs uppercase tracking-[0.2em] text-gold mb-4">
+            {ip.activation_eyebrow || "Dispositif d'activation"}
+          </p>
+          <h2 className="font-display text-3xl md:text-4xl text-warm-white mb-6">
+            {ip.activation_title || "De la mesure au deploiement"}
+          </h2>
+          <p className="font-body text-base md:text-lg text-warm-white/70 leading-relaxed mb-8 max-w-3xl">
+            {ip.activation_body ||
+              "Les KPI ci-dessus sont activables par le concours 2026 GOAT AME CITY, qui ouvre le deploiement de la cellule ESS industriel en commencant par Detroit Chapter 01."}
+          </p>
+          <Link
+            href={`/${locale}/concours`}
+            className="inline-block px-6 py-3 bg-gold text-deep-black font-body font-medium hover:bg-gold/90 transition-colors"
+          >
+            {ip.activation_cta || "Voir le concours 2026"} &rarr;
+          </Link>
+        </div>
+      </section>
+
+      <section className="py-16 lg:py-24 bg-deep-black border-t border-white/5">
         <div className="max-w-3xl mx-auto px-6 lg:px-8 text-center">
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a

@@ -95,6 +95,35 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
+            <h4 className="font-display text-sm text-warm-white uppercase tracking-widest mt-8 mb-4">
+              {locale === "en" ? "Labels & Contest" : "Labels & Concours"}
+            </h4>
+            <ul className="space-y-2.5">
+              <li>
+                <Link
+                  href={`/${locale}/labels/colhybri-city`}
+                  className="font-body text-sm text-warm-white/50 hover:text-gold transition-colors"
+                >
+                  COLHYBRI CITY
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={`/${locale}/labels/goat-ame-city`}
+                  className="font-body text-sm text-warm-white/50 hover:text-gold transition-colors"
+                >
+                  GOAT AME CITY
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={`/${locale}/concours`}
+                  className="font-body text-sm text-gold hover:text-gold-light transition-colors"
+                >
+                  {locale === "en" ? "Contest 2026" : "Concours 2026"}
+                </Link>
+              </li>
+            </ul>
           </div>
 
           {/* Col 3: Platforms */}

@@ -4,6 +4,7 @@ import ESSImpact from "@/components/ESSImpact";
 import Philosophy from "@/components/Philosophy";
 import InfinityDecoded from "@/components/InfinityDecoded";
 import Subsidiaries from "@/components/Subsidiaries";
+import ContestTeaser from "@/components/ContestTeaser";
 import Impact from "@/components/Impact";
 import Team from "@/components/Team";
 import Investors from "@/components/Investors";
@@ -18,6 +19,7 @@ export default function HomePage() {
       <Philosophy />
       <InfinityDecoded />
       <Subsidiaries />
+      <ContestTeaser />
       <Impact />
       <Team />
       <Investors />

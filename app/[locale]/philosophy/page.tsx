@@ -245,6 +245,32 @@ export default async function PhilosophyPage({
         </div>
       </section>
 
+      <section className="py-16 lg:py-24 bg-deep-black border-t border-white/5">
+        <div className="max-w-3xl mx-auto px-6 lg:px-8">
+          <p className="font-mono text-xs uppercase tracking-[0.2em] text-gold mb-6 text-center">
+            {p.labels_eyebrow || "Cellule ESS industriel"}
+          </p>
+          <p className="font-body text-base md:text-lg text-warm-white/80 leading-relaxed text-center mb-6">
+            {p.labels_lead ||
+              "La cellule ESS industriel se deploie en 6 semaines sur un bassin de vie. Elle est reconnue par deux labels jumeaux selon la zone culturelle :"}
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <Link
+              href={`/${locale}/labels/colhybri-city`}
+              className="inline-block px-6 py-3 border border-gold text-gold font-body hover:bg-gold hover:text-deep-black transition-colors"
+            >
+              COLHYBRI CITY
+            </Link>
+            <Link
+              href={`/${locale}/labels/goat-ame-city`}
+              className="inline-block px-6 py-3 border border-gold text-gold font-body hover:bg-gold hover:text-deep-black transition-colors"
+            >
+              GOAT AME CITY
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </main>
   );

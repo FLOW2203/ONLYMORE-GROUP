@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
+import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "@/lib/TranslationContext";
 import LanguageSelector from "./LanguageSelector";
@@ -10,9 +11,21 @@ const navKeys = ["nav.group", "nav.subsidiaries", "nav.impact", "nav.team", "nav
 const navAnchors = ["#hero", "#subsidiaries", "#impact", "#team", "#investors", "#contact"];
 
 export default function Header() {
-  const { t } = useTranslation();
+  const { t, locale } = useTranslation();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [labelsOpen, setLabelsOpen] = useState(false);
+  const labelsRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleClick = (e: MouseEvent) => {
+      if (labelsRef.current && !labelsRef.current.contains(e.target as Node)) {
+        setLabelsOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClick);
+    return () => document.removeEventListener("mousedown", handleClick);
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
@@ -58,6 +71,54 @@ export default function Header() {
                 {t(key)}
               </a>
             ))}
+            <div ref={labelsRef} className="relative">
+              <button
+                onClick={() => setLabelsOpen((v) => !v)}
+                aria-expanded={labelsOpen}
+                aria-haspopup="true"
+                className="flex items-center gap-1 text-sm font-body text-warm-white/70 hover:text-gold transition-colors duration-300 tracking-wide uppercase"
+              >
+                {t("nav.labels") !== "nav.labels" ? t("nav.labels") : "Labels"}
+                <svg className={`w-3 h-3 transition-transform ${labelsOpen ? "rotate-180" : ""}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              {labelsOpen && (
+                <div className="absolute right-0 top-full mt-3 w-64 bg-deep-black/95 backdrop-blur-lg border border-white/10 rounded-lg shadow-2xl overflow-hidden">
+                  <Link
+                    href={`/${locale}/labels/colhybri-city`}
+                    onClick={() => setLabelsOpen(false)}
+                    className="block px-4 py-3 text-sm text-warm-white/80 hover:bg-white/5 hover:text-gold transition-colors"
+                  >
+                    <div className="font-display">COLHYBRI CITY</div>
+                    <div className="text-xs text-warm-white/40">
+                      {locale === "en" ? "Francophone + Europe" : "Francophone + Europe"}
+                    </div>
+                  </Link>
+                  <Link
+                    href={`/${locale}/labels/goat-ame-city`}
+                    onClick={() => setLabelsOpen(false)}
+                    className="block px-4 py-3 text-sm text-warm-white/80 hover:bg-white/5 hover:text-gold transition-colors"
+                  >
+                    <div className="font-display">GOAT AME CITY</div>
+                    <div className="text-xs text-warm-white/40">
+                      {locale === "en" ? "US + English-speaking" : "US + anglophone"}
+                    </div>
+                  </Link>
+                  <div className="h-px bg-white/10" />
+                  <Link
+                    href={`/${locale}/concours`}
+                    onClick={() => setLabelsOpen(false)}
+                    className="block px-4 py-3 text-sm text-warm-white/80 hover:bg-white/5 hover:text-gold transition-colors"
+                  >
+                    <div className="font-display">{locale === "en" ? "Contest 2026" : "Concours 2026"}</div>
+                    <div className="text-xs text-warm-white/40">
+                      {locale === "en" ? "Detroit Chapter 01" : "Detroit Chapter 01"}
+                    </div>
+                  </Link>
+                </div>
+              )}
+            </div>
           </nav>
 
           {/* Right side */}
@@ -105,6 +166,27 @@ export default function Header() {
                 {t(key)}
               </a>
             ))}
+            <Link
+              href={`/${locale}/labels/colhybri-city`}
+              onClick={() => setMobileOpen(false)}
+              className="text-xl font-display text-warm-white/70 hover:text-gold transition-colors"
+            >
+              COLHYBRI CITY
+            </Link>
+            <Link
+              href={`/${locale}/labels/goat-ame-city`}
+              onClick={() => setMobileOpen(false)}
+              className="text-xl font-display text-warm-white/70 hover:text-gold transition-colors"
+            >
+              GOAT AME CITY
+            </Link>
+            <Link
+              href={`/${locale}/concours`}
+              onClick={() => setMobileOpen(false)}
+              className="text-xl font-display text-gold hover:text-gold-light transition-colors"
+            >
+              {locale === "en" ? "Contest 2026" : "Concours 2026"}
+            </Link>
             <a
               href="#investors"
               onClick={() => setMobileOpen(false)}
