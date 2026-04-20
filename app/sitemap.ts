@@ -33,6 +33,8 @@ const pages: { path: string; priority: number }[] = [
   { path: "/insights/linfini-decode", priority: 0.6 },
   { path: "/insights/le-caffe-sospeso-digitalise", priority: 0.6 },
   { path: "/insights/le-berkshire-hathaway-du-sport", priority: 0.6 },
+  { path: "/labels/colhybri-city", priority: 0.7 },
+  { path: "/labels/goat-ame-city", priority: 0.7 },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

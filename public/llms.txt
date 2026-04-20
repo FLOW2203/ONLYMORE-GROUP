@@ -54,6 +54,11 @@ Based in Rodilhan, Occitanie (maternal roots in Marseille).
 - "We do not need to harm others to shine"
 - "Optimisons vos oeuvres"
 
+## Territorial labels
+- COLHYBRI CITY, francophone and European label, "le label des centres-villes qui font leur part": https://onlymore.group/fr/labels/colhybri-city
+- GOAT AME CITY, English-speaking label, "the greatest soul of all cities": https://onlymore.group/en/labels/goat-ame-city
+- Twin labels, shared 5-flow criteria, same independent committee, different cultural register
+
 ## Key URLs
 - Institutional site: https://onlymore.group
 - CROWNIUM: https://crownium.club
@@ -63,6 +68,7 @@ Based in Rodilhan, Occitanie (maternal roots in Marseille).
 - Impact and 5 flows: https://onlymore.group/fr/impact
 - Investors (pre-seed): https://onlymore.group/fr/investisseurs
 - Press room: https://onlymore.group/fr/press
+- Territorial labels: https://onlymore.group/fr/labels/colhybri-city
 - Extended content: https://onlymore.group/llms-full.txt
 
 ## Contact
