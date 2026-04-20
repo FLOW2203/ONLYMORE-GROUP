@@ -72,7 +72,7 @@ export function getOrganizationSchema() {
     "@id": ORG_ID,
     name: "ONLYMORE Group",
     alternateName: ["ONLYMORE", "OM Group"],
-    legalName: "ONLYMORE Group SAS",
+    legalName: "ONLYMORE Group",
     url: BASE_URL,
     logo: `${BASE_URL}/logo%20onlymore%20HD.png`,
     image: `${BASE_URL}/logo%20onlymore%20HD.png`,

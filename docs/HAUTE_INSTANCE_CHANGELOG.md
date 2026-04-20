@@ -37,13 +37,20 @@ Date : 19 avril 2026
 | 15 | e332064 | feat(insights): blog 3 articles fondateurs |
 | 16 | en cours | chore(ci): Plausible, OG, .env.example, email docs |
 
-## Placeholders a remplir avant merge main
+## Placeholders legaux, etat
 
-- `{{SIREN}}` dans app/[locale]/legal/mentions/page.tsx
-- `{{CAPITAL}}` dans app/[locale]/legal/mentions/page.tsx
-- `{{NUMERO_RCS}}` dans app/[locale]/legal/mentions/page.tsx et privacy/page.tsx
-- `{{ADRESSE_COMPLETE}}` dans app/[locale]/legal/mentions/page.tsx et privacy/page.tsx
-- `{{DIRECTEUR_PUBLICATION}}` dans app/[locale]/legal/mentions/page.tsx
+Les 5 placeholders legaux ont ete remplis par des valeurs
+pre-immatriculation (voir `docs/LEGAL_TRANSITION.md` pour la migration
+post-Kbis) :
+
+- SIREN : "en cours d'attribution"
+- Capital : "en cours de constitution"
+- RCS : "en cours d'inscription au RCS de Nîmes"
+- Adresse : "Rodilhan (30230), Occitanie, France"
+- Directeur de la publication : "Florent Gibert"
+
+Reste a fournir :
+
 - `{{CALENDLY_URL}}` via `NEXT_PUBLIC_CALENDLY_URL` env var (fallback dans InvestorsPage)
 
 ## Variables d'environnement Vercel a configurer

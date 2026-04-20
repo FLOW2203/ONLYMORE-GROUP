@@ -59,15 +59,19 @@ export default async function LegalMentionsPage({
               <h2 className="font-display text-xl text-gold mb-3">
                 {p.editor_title || "Éditeur du site"}
               </h2>
+              <p className="mb-4">
+                {p.editor_body ||
+                  "The website onlymore.group is published by Florent Gibert, founder of the ONLYMORE Group project, a simplified joint-stock company (SAS) currently being incorporated. Name: Florent Gibert. Address: Rodilhan (30230), Occitanie, France. Contact: contact@onlymore.group. Publication director: Florent Gibert. Once ONLYMORE Group SAS is officially registered with the Nimes Commercial Register, this page will be updated."}
+              </p>
               <ul className="space-y-1.5 list-none pl-0">
                 <li><strong className="text-warm-white">ONLYMORE Group</strong></li>
-                <li>{p.form || "Forme juridique"}: SAS</li>
-                <li>SIREN: {"{{SIREN}}"}</li>
-                <li>{p.capital || "Capital social"}: {"{{CAPITAL}}"}</li>
-                <li>RCS: {"{{NUMERO_RCS}}"}</li>
-                <li>{p.address || "Siège social"}: {"{{ADRESSE_COMPLETE}}"}</li>
-                <li>{p.director || "Directeur de la publication"}: {"{{DIRECTEUR_PUBLICATION}}"}</li>
-                <li>{p.contact || "Contact"}: <a href="mailto:florent@onlymore.group" className="text-gold hover:underline">florent@onlymore.group</a></li>
+                <li>{p.form || "Forme juridique"}: SAS en cours de constitution</li>
+                <li>SIREN: en cours d&apos;attribution</li>
+                <li>{p.capital || "Capital social"}: en cours de constitution</li>
+                <li>RCS: en cours d&apos;inscription au RCS de Nîmes</li>
+                <li>{p.address || "Siège social"}: Rodilhan (30230), Occitanie, France</li>
+                <li>{p.director || "Directeur de la publication"}: Florent Gibert</li>
+                <li>{p.contact || "Contact"}: <a href="mailto:contact@onlymore.group" className="text-gold hover:underline">contact@onlymore.group</a></li>
               </ul>
             </section>
 

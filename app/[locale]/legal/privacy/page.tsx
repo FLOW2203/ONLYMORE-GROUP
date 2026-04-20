@@ -60,7 +60,8 @@ export default async function LegalPrivacyPage({
                 {p.controller_title || "Responsable du traitement"}
               </h2>
               <p>
-                {p.controller_body || "Le responsable de traitement est ONLYMORE Group, SAS immatriculée au RCS sous le numéro"} {"{{NUMERO_RCS}}"}, {p.controller_address || "dont le siège social est situé"} {"{{ADRESSE_COMPLETE}}"}.
+                {p.controller_body ||
+                  "The data controller is ONLYMORE Group, a simplified joint-stock company (SAS) currently being incorporated, in the process of being registered with the Nimes Commercial Register, whose registered office is located in Rodilhan (30230), Occitanie, France. The controller is represented by its founder and publication director, Florent Gibert."}
               </p>
               <p className="mt-2">
                 {p.dpo || "Contact Délégué à la protection des données (DPO)"}: <a href="mailto:privacy@onlymore.group" className="text-gold hover:underline">privacy@onlymore.group</a>
