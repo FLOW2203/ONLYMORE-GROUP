@@ -35,6 +35,7 @@ const pages: { path: string; priority: number }[] = [
   { path: "/insights/le-berkshire-hathaway-du-sport", priority: 0.6 },
   { path: "/labels/colhybri-city", priority: 0.7 },
   { path: "/labels/goat-ame-city", priority: 0.7 },
+  { path: "/concours", priority: 0.8 },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
