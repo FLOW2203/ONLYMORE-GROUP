@@ -90,7 +90,7 @@ post-Kbis) :
 
 - SIREN : "en cours d'attribution"
 - Capital : "en cours de constitution"
-- RCS : "en cours d'inscription au RCS de Nîmes"
+- RCS : "en cours d'inscription, Rodilhan (30230), ressort judiciaire de Nîmes"
 - Adresse : "Rodilhan (30230), Occitanie, France"
 - Directeur de la publication : "Florent Gibert"
 

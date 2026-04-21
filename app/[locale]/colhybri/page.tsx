@@ -14,7 +14,7 @@ export async function generateMetadata({
   return buildPageMetadata({
     locale,
     path: "/colhybri",
-    title: "COLHYBRI — Plateforme SaaS Commerce Local | ONLYMORE Group",
+    title: "COLHYBRI · Plateforme SaaS Commerce Local | ONLYMORE Group",
     description:
       "COLHYBRI est une plateforme SaaS solidaire pour le commerce local. Outils digitaux et reseau de solidarite pour les commercants de proximite.",
   });

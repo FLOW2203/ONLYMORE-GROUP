@@ -14,7 +14,7 @@ export async function generateMetadata({
   return buildPageMetadata({
     locale,
     path: "/dojuku-shingi",
-    title: "DOJUKU SHINGI — Application IA Arts Martiaux | ONLYMORE Group",
+    title: "DOJUKU SHINGI · Application IA Arts Martiaux | ONLYMORE Group",
     description:
       "DOJUKU SHINGI est une application IA pour les arts martiaux. Entrainement personnalise, analyse technique et communaute. Bientot disponible.",
   });
@@ -41,7 +41,7 @@ export default function DojukuShingiPage({
             DOJUKU SHINGI combine la sagesse traditionnelle des arts
             martiaux avec l&apos;intelligence artificielle moderne.
             Entrainement personnalise, analyse technique et connexion
-            communautaire — bientot disponible.
+            communautaire, bientot disponibles.
           </p>
           <div className="flex gap-4 text-sm">
             <Link href={`/${locale}/filiales`} className="text-teal hover:underline">

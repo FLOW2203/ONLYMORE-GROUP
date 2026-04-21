@@ -14,7 +14,7 @@ export async function generateMetadata({
   return buildPageMetadata({
     locale,
     path: "/contact",
-    title: "Contact — ONLYMORE Group",
+    title: "Contact · ONLYMORE Group",
     description:
       "Contactez ONLYMORE Group. Siege : Rodilhan, Occitanie, France. Email : onlymore2024@gmail.com.",
   });

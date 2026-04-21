@@ -14,7 +14,7 @@ export async function generateMetadata({
   return buildPageMetadata({
     locale,
     path: "/onlymore-finance",
-    title: "ONLYMORE FINANCE — Credit Lombard | ONLYMORE Group",
+    title: "ONLYMORE FINANCE · Credit Lombard | ONLYMORE Group",
     description:
       "ONLYMORE FINANCE propose des structures de credit Lombard. Acces a la liquidite sans vendre vos investissements. Inclusion financiere et preservation du patrimoine.",
   });
@@ -41,7 +41,7 @@ export default function OnlymoreFinancePage({
             ONLYMORE FINANCE propose des prets adosses a des actifs
             financiers (credit Lombard). Acces a la liquidite sans
             vendre vos investissements, pour l&apos;inclusion financiere
-            et la preservation du patrimoine — bientot disponible.
+            et la preservation du patrimoine, bientot disponible.
           </p>
           <div className="flex gap-4 text-sm">
             <Link href={`/${locale}/filiales`} className="text-teal hover:underline">

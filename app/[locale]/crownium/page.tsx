@@ -14,7 +14,7 @@ export async function generateMetadata({
   return buildPageMetadata({
     locale,
     path: "/crownium",
-    title: "CROWNIUM — Fan Co-Ownership Fintech | ONLYMORE Group",
+    title: "CROWNIUM · Fan Co-Ownership Fintech | ONLYMORE Group",
     description:
       "CROWNIUM permet aux fans de devenir co-proprietaires de leurs clubs sportifs locaux via un modele SAS mutualist. Fintech d'inclusion financiere par le sport.",
   });

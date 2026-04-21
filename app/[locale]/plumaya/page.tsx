@@ -14,7 +14,7 @@ export async function generateMetadata({
   return buildPageMetadata({
     locale,
     path: "/plumaya",
-    title: "PLUMAYA Editions — Edition & PI | ONLYMORE Group",
+    title: "PLUMAYA Editions · Edition et PI | ONLYMORE Group",
     description:
       "PLUMAYA Editions gere l'edition et la propriete intellectuelle du groupe ONLYMORE, incluant le systeme de notation SHINGAN.",
   });
@@ -41,7 +41,7 @@ export default function PlumayaPage({
             PLUMAYA Editions gere l&apos;edition et la propriete
             intellectuelle du groupe, notamment le systeme de notation
             proprietaire SHINGAN. Contenu educatif et culturel aligne
-            avec la mission sociale — bientot disponible.
+            avec la mission sociale, bientot disponible.
           </p>
           <div className="flex gap-4 text-sm">
             <Link href={`/${locale}/filiales`} className="text-teal hover:underline">

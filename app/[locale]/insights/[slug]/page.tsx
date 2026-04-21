@@ -30,7 +30,7 @@ export async function generateMetadata({
   return buildPageMetadata({
     locale,
     path: `/insights/${params.slug}`,
-    title: `${meta.title} — ONLYMORE Group`,
+    title: `${meta.title} · ONLYMORE Group`,
     description: meta.excerpt,
   });
 }

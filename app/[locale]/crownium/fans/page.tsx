@@ -14,7 +14,7 @@ export async function generateMetadata({
   return buildPageMetadata({
     locale,
     path: "/crownium/fans",
-    title: "Portail Fans — CROWNIUM | ONLYMORE Group",
+    title: "Portail Fans · CROWNIUM | ONLYMORE Group",
     description:
       "Devenez co-proprietaire de votre club sportif avec CROWNIUM. Portail fans pour le modele mutualist de co-propriete sportive.",
   });
@@ -35,7 +35,7 @@ export default function CrowniumFansPage({
             Portail Fans
           </h1>
           <p className="text-lg text-neutral-gray mb-8">
-            Devenez co-proprietaire de votre club sportif — bientot
+            Devenez co-proprietaire de votre club sportif, bientot
             disponible.
           </p>
           <div className="flex gap-4 text-sm">

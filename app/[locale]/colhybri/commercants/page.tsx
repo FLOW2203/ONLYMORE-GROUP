@@ -14,7 +14,7 @@ export async function generateMetadata({
   return buildPageMetadata({
     locale,
     path: "/colhybri/commercants",
-    title: "Portail Commercants — COLHYBRI | ONLYMORE Group",
+    title: "Portail Commercants · COLHYBRI | ONLYMORE Group",
     description:
       "Portail commercants COLHYBRI. Rejoignez la plateforme solidaire pour les commerces de proximite. SaaS local, outils digitaux et communaute.",
   });
@@ -35,8 +35,8 @@ export default function ColhybriCommercantsPage({
             Portail Commercants
           </h1>
           <p className="text-lg text-neutral-gray mb-8">
-            Rejoignez le reseau COLHYBRI pour les commerces de proximite
-            — bientot disponible.
+            Rejoignez le reseau COLHYBRI pour les commerces de proximite,
+            bientot disponible.
           </p>
           <div className="flex gap-4 text-sm">
             <Link href={`/${locale}/colhybri`} className="text-teal hover:underline">

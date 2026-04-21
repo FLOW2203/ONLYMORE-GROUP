@@ -14,7 +14,7 @@ export async function generateMetadata({
   return buildPageMetadata({
     locale,
     path: "/crownium/clubs",
-    title: "Repertoire des Clubs — CROWNIUM | ONLYMORE Group",
+    title: "Repertoire des Clubs · CROWNIUM | ONLYMORE Group",
     description:
       "Decouvrez les clubs sportifs partenaires de CROWNIUM. Fan co-ownership et modele mutualist pour le sport local.",
   });
@@ -35,7 +35,7 @@ export default function CrowniumClubsPage({
             Repertoire des Clubs
           </h1>
           <p className="text-lg text-neutral-gray mb-8">
-            Les clubs sportifs partenaires de CROWNIUM — bientot disponible.
+            Les clubs sportifs partenaires de CROWNIUM, bientot disponibles.
           </p>
           <div className="flex gap-4 text-sm">
             <Link href={`/${locale}/crownium`} className="text-teal hover:underline">

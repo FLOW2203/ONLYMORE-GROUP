@@ -21,7 +21,7 @@ export async function generateMetadata({
   const title =
     typeof translations.meta === "object"
       ? (translations.meta as Record<string, string>).title
-      : "ONLYMORE Group — Optimisons vos œuvres";
+      : "ONLYMORE Group · Optimisons vos œuvres";
   const description =
     "ONLYMORE Group, ESS infrastructure operator for territorial revitalization through sports industry. Operateur d'infrastructure ESS de revitalisation territoriale par l'industrie sportive. Built for the many. Powered by sport. 5 subsidiaries, 2 labels (COLHYBRI CITY, GOAT AME CITY), 1 industrial ESS cell deployable on a territory in 6 weeks.";
 

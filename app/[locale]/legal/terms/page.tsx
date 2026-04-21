@@ -138,7 +138,7 @@ export default async function LegalTermsPage({
                 {p.law_title || "9. Droit applicable et juridiction"}
               </h2>
               <p>
-                {p.law_body || "Les présentes CGU sont régies par le droit français. En cas de litige, compétence exclusive est donnée aux tribunaux de Nîmes, sous réserve des dispositions impératives applicables aux consommateurs."}
+                {p.law_body || "Les présentes CGU sont régies par le droit français. En cas de litige, compétence exclusive est donnée aux tribunaux compétents, Rodilhan (30230), ressort judiciaire de Nîmes, sous réserve des dispositions impératives applicables aux consommateurs."}
               </p>
             </section>
 

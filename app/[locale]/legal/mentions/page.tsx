@@ -68,7 +68,7 @@ export default async function LegalMentionsPage({
                 <li>{p.form || "Forme juridique"}: SAS en cours de constitution</li>
                 <li>SIREN: en cours d&apos;attribution</li>
                 <li>{p.capital || "Capital social"}: en cours de constitution</li>
-                <li>RCS: en cours d&apos;inscription au RCS de Nîmes</li>
+                <li>RCS: en cours d&apos;inscription, Rodilhan (30230), ressort judiciaire de Nîmes</li>
                 <li>{p.address || "Siège social"}: Rodilhan (30230), Occitanie, France</li>
                 <li>{p.director || "Directeur de la publication"}: Florent Gibert</li>
                 <li>{p.contact || "Contact"}: <a href="mailto:contact@onlymore.group" className="text-gold hover:underline">contact@onlymore.group</a></li>
@@ -113,7 +113,7 @@ export default async function LegalMentionsPage({
                 {p.law_title || "Droit applicable"}
               </h2>
               <p>
-                {p.law_body || "Le présent site et ses mentions légales sont régis par le droit français. Tout litige relatif à l'utilisation du site sera de la compétence exclusive des tribunaux de Nîmes."}
+                {p.law_body || "Le présent site et ses mentions légales sont régis par le droit français. Tout litige relatif à l'utilisation du site sera de la compétence exclusive des tribunaux compétents, Rodilhan (30230), ressort judiciaire de Nîmes."}
               </p>
             </section>
 

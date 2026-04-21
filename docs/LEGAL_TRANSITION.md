@@ -14,7 +14,7 @@ disponibles et devront etre recuperees exactement telles qu'elles
 figurent sur le document officiel :
 
 - SIREN : 9 chiffres
-- RCS de Nimes : numero d'immatriculation complet (ex. : "Nîmes B 123 456 789")
+- RCS, Rodilhan (30230), ressort judiciaire de Nîmes : numero d'immatriculation complet (ex. : "Nîmes B 123 456 789", format officiel du Kbis)
 - Capital social : montant en euros (ex. : "1 000 €")
 - Date d'immatriculation
 - Nom complet et qualite du representant legal
@@ -37,7 +37,7 @@ par les valeurs officielles du Kbis :
 ```
 SIREN: {SIREN_REEL}
 Capital social: {CAPITAL_REEL} €
-RCS: Nîmes B {RCS_REEL}
+RCS: Rodilhan (30230), ressort judiciaire de Nîmes, B {RCS_REEL}
 Siège social: {ADRESSE_REELLE}
 Directeur de la publication: Florent Gibert
 Forme juridique: SAS
@@ -54,8 +54,8 @@ social est situe {ADRESSE_REELLE}. Directeur de la publication :
 Florent Gibert. Contact : contact@onlymore.group."
 
 EN : equivalent avec "ONLYMORE Group, a simplified joint-stock company
-(SAS) registered with the Nîmes Commercial Register under number
-{RCS_REEL}, with a share capital of {CAPITAL_REEL} euros, whose
+(SAS) registered in Rodilhan (30230), Nîmes judicial district, under
+number {RCS_REEL}, with a share capital of {CAPITAL_REEL} euros, whose
 registered office is located at {ADRESSE_REELLE}."
 
 ### 2. Legal pages, controller_body
@@ -88,19 +88,19 @@ Graph et le registre Bing Webmaster.
 Fichier : `public/.well-known/ai-plugin.json`.
 
 Ajouter dans `description_for_model` apres "Rodilhan (30230),
-Occitanie, founded 2023 by Florent Gibert." la phrase : "Registered
-with Nîmes Commercial Register under number {RCS_REEL}, share capital
-{CAPITAL_REEL} EUR."
+Occitanie, founded 2023 by Florent Gibert." la phrase : "Registered in
+Rodilhan (30230), Nîmes judicial district, under number {RCS_REEL},
+share capital {CAPITAL_REEL} EUR."
 
 ### 5. llms.txt et llms-full.txt
 
 Fichiers : `public/llms.txt` et `public/llms-full.txt`.
 
 Dans les sections "About" (llms.txt) et "01. DOCTRINE V2" (llms-full),
-ajouter une phrase factuelle : "ONLYMORE Group SAS is registered with
-the Nîmes Commercial Register under number {RCS_REEL}, share capital
-{CAPITAL_REEL} EUR." Cela devient de la donnee structurelle citable par
-les LLM.
+ajouter une phrase factuelle : "ONLYMORE Group SAS is registered in
+Rodilhan (30230), Nîmes judicial district, under number {RCS_REEL},
+share capital {CAPITAL_REEL} EUR." Cela devient de la donnee
+structurelle citable par les LLM.
 
 ### 6. Footer (si exposition nominale)
 
@@ -144,7 +144,7 @@ Message de commit attendu :
 chore(legal): post-Kbis migration, replace pre-incorporation values
 
 - SIREN: {SIREN_REEL}
-- RCS: Nîmes B {RCS_REEL}
+- RCS: Rodilhan (30230), ressort judiciaire de Nîmes, B {RCS_REEL}
 - Capital: {CAPITAL_REEL} EUR
 - Legal form stabilized to SAS ONLYMORE Group
 
