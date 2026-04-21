@@ -3,6 +3,7 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import StructuredData from "@/components/StructuredData";
+import PressKitLink from "@/components/PressKitLink";
 import { getTranslations, Locale, defaultLocale } from "@/lib/i18n";
 import { buildPageMetadata, getArticleSchema, BASE_URL } from "@/lib/seo";
 
@@ -100,14 +101,10 @@ export default async function PressPage({
             >
               press@onlymore.group
             </a>
-            <a
+            <PressKitLink
               href="/press-kit/PRESS_KIT_ONLYMORE_v1.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block px-6 py-3 border border-white/20 text-warm-white font-body hover:border-gold hover:text-gold transition-colors"
-            >
-              {pr.cta_kit || "Telecharger le kit presse PDF"}
-            </a>
+              label={pr.cta_kit || "Telecharger le kit presse PDF"}
+            />
           </div>
           <p className="font-body text-xs text-warm-white/40 mt-4">
             {pr.kit_todo || "Le PDF sera publie apres generation via la skill pdf + onlymore-designer."}

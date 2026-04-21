@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { z } from "zod";
+import { trackEvent, PlausibleEvents } from "@/lib/analytics";
 
 const ISO_COUNTRIES: { code: string; nameFr: string; nameEn: string }[] = [
   { code: "FR", nameFr: "France", nameEn: "France" },
@@ -88,6 +89,10 @@ export default function EngagementForm({ locale }: Props) {
         setStatus("error");
         return;
       }
+      trackEvent(PlausibleEvents.ManifestoSigned, {
+        country: parsed.data.country,
+        city: parsed.data.city,
+      });
       setStatus("success");
       form.reset();
     } catch {

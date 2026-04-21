@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { trackEvent, PlausibleEvents } from "@/lib/analytics";
 
 type Props = {
   url: string;
@@ -14,7 +15,10 @@ export default function CalendlyEmbed({ url, label, openLabel }: Props) {
   if (!loaded) {
     return (
       <button
-        onClick={() => setLoaded(true)}
+        onClick={() => {
+          trackEvent(PlausibleEvents.CalendlyOpened, { url });
+          setLoaded(true);
+        }}
         className="inline-block px-6 py-3 bg-gold text-deep-black font-body font-medium hover:bg-gold/90 transition-colors"
       >
         {label}

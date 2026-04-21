@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useTranslation } from "@/lib/TranslationContext";
+import { trackEvent, PlausibleEvents } from "@/lib/analytics";
 
 export default function ContestTeaser() {
   const { locale } = useTranslation();
@@ -24,18 +25,21 @@ export default function ContestTeaser() {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link
             href={`/${locale}/concours`}
+            onClick={() => trackEvent(PlausibleEvents.ContestCtaClicked, { source: "home_teaser" })}
             className="inline-block px-6 py-3 bg-gold text-deep-black font-body font-medium hover:bg-gold/90 transition-colors"
           >
             {isEn ? "Engage your city" : "Engagez votre ville"} &rarr;
           </Link>
           <Link
             href={`/${locale}/labels/goat-ame-city`}
+            onClick={() => trackEvent(PlausibleEvents.LabelCityClicked, { label: "goat-ame-city", source: "home_teaser" })}
             className="inline-block px-6 py-3 border border-white/20 text-warm-white font-body hover:border-gold hover:text-gold transition-colors"
           >
             GOAT AME CITY
           </Link>
           <Link
             href={`/${locale}/labels/colhybri-city`}
+            onClick={() => trackEvent(PlausibleEvents.LabelCityClicked, { label: "colhybri-city", source: "home_teaser" })}
             className="inline-block px-6 py-3 border border-white/20 text-warm-white font-body hover:border-gold hover:text-gold transition-colors"
           >
             COLHYBRI CITY
