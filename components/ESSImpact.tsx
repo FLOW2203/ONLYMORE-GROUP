@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useTranslation } from "@/lib/TranslationContext";
 
 const sdgBadges = [
   { number: 1, label: "No Poverty", color: "#E5243B" },
@@ -11,14 +12,18 @@ const sdgBadges = [
   { number: 17, label: "Partnerships", color: "#19486A" },
 ];
 
-const stats = [
-  "13,000+ professional sports clubs addressable",
-  "\u20AC4.2B annual talent drain in European football",
-  "EU Parliament: 552 votes, 86.4% for cooperative model",
-  "220 years of French mutualism",
+const statKeys = [
+  "ess.stats.clubs",
+  "ess.stats.drain",
+  "ess.stats.parliament",
+  "ess.stats.uefa",
+  "ess.stats.mutualism",
 ];
 
 export default function ESSImpact() {
+  const { t } = useTranslation();
+  const stats = statKeys.map((key) => t(key));
+
   return (
     <section
       id="ess-impact"
@@ -69,15 +74,15 @@ export default function ESSImpact() {
               </svg>
             </div>
             <h3 className="font-display text-xl text-warm-white mb-4">
-              \u00c9conomie Sociale & Solidaire
+              Économie Sociale & Solidaire
             </h3>
             <p className="font-body text-sm text-warm-white/60 leading-relaxed mb-6">
-              ONLYMORE Group est structur\u00e9 selon les 3 principes fondateurs de
-              l&apos;ESS : primaut\u00e9 de la personne sur le capital, gouvernance
-              d\u00e9mocratique, r\u00e9investissement des exc\u00e9dents dans la mission.
+              ONLYMORE Group est structuré selon les 3 principes fondateurs de
+              l&apos;ESS : primauté de la personne sur le capital, gouvernance
+              démocratique, réinvestissement des excédents dans la mission.
             </p>
             <span className="inline-flex items-center px-3 py-1 rounded-full border border-teal/30 bg-teal/10 text-teal-light text-xs font-body tracking-wide">
-              Agr\u00e9ment ESUS en cours
+              Agrément ESUS en cours
             </span>
           </motion.div>
 
@@ -124,7 +129,7 @@ export default function ESSImpact() {
             </div>
           </motion.div>
 
-          {/* Column 3 — Impact chiffr\u00e9 */}
+          {/* Column 3 — Impact chiffré */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}

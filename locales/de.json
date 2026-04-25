@@ -90,15 +90,11 @@
     "title": "Das Team",
     "florent": {
       "role": "Gründer & CEO",
-      "bio": "Autodidakt, Marseille/Rodilhan, ehem. Bauwesen, Kung Fu & Karate"
+      "bio": "Autodidakt, Rodilhan (Occitanie), muetterliche Wurzeln in Marseille, ehem. Bauwesen und Logistik, Kung Fu montags, Karate donnerstags"
     },
     "joao": {
       "role": "CFO",
       "bio": "Finanzleitung und Strategie"
-    },
-    "julie": {
-      "role": "Leiterin BD & Partnerschaften",
-      "bio": "Dreisprachig FR/EN/ES, ehem. NXP Semiconductors"
     },
     "stephane": {
       "role": "Partner für Kapitalbeschaffung",
@@ -124,6 +120,26 @@
   "footer": {
     "platforms": "Unsere Plattformen",
     "copyright": "© 2026 ONLYMORE GROUP. Alle Rechte vorbehalten.",
-    "slogan": "The mutualist infrastructure. Built for the many. Powered by sport."
+    "slogan": "The mutualist infrastructure. Built for the many. Powered by sport.",
+    "legal_heading": "Rechtliches",
+    "mentions": "Impressum",
+    "privacy": "Datenschutz",
+    "terms": "AGB",
+    "cookies": "Cookies",
+    "accessibility": "Barrierefreiheit",
+    "contact_heading": "Kontakt",
+    "general": "Allgemein",
+    "investors": "Investoren",
+    "press": "Presse",
+    "privacy_contact": "Datenschutz-Anfrage"
+  },
+  "ess": {
+    "stats": {
+      "clubs": "13,000+ professional sports clubs addressable",
+      "drain": "€4.2B annual talent drain in European football",
+      "parliament": "EU Parliament: 552 votes, 86.4% for cooperative model",
+      "uefa": "UEFA Squad Cost Rule: 70% cap on squad costs, validating CROWNIUM's revenue model",
+      "mutualism": "220 years of French mutualism"
+    }
   }
 }

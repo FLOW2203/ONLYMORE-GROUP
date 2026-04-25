@@ -96,10 +96,6 @@
       "role": "CFO",
       "bio": "Direção financeira e estratégia"
     },
-    "julie": {
-      "role": "Diretora de BD e Parcerias",
-      "bio": "Trilingue FR/EN/ES, ex-NXP Semiconductors"
-    },
     "stephane": {
       "role": "Parceiro de Angariação de Fundos",
       "bio": "Parceiro de angariação de fundos, Winvesty"
@@ -124,6 +120,26 @@
   "footer": {
     "platforms": "As Nossas Plataformas",
     "copyright": "© 2026 ONLYMORE GROUP. Todos os direitos reservados.",
-    "slogan": "The mutualist infrastructure. Built for the many. Powered by sport."
+    "slogan": "The mutualist infrastructure. Built for the many. Powered by sport.",
+    "legal_heading": "Legal",
+    "mentions": "Aviso legal",
+    "privacy": "Privacidade",
+    "terms": "Termos",
+    "cookies": "Cookies",
+    "accessibility": "Acessibilidade",
+    "contact_heading": "Contato",
+    "general": "Geral",
+    "investors": "Investidores",
+    "press": "Imprensa",
+    "privacy_contact": "Proteção de dados"
+  },
+  "ess": {
+    "stats": {
+      "clubs": "13,000+ professional sports clubs addressable",
+      "drain": "€4.2B annual talent drain in European football",
+      "parliament": "EU Parliament: 552 votes, 86.4% for cooperative model",
+      "uefa": "UEFA Squad Cost Rule: 70% cap on squad costs, validating CROWNIUM's revenue model",
+      "mutualism": "220 years of French mutualism"
+    }
   }
 }
