@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "ONLYMORE GROUP — Optimize Your Legacy",
-    "description": "French financial inclusion group through sport. 5 subsidiaries serving 3 fights: reducing poverty, stopping brain drain, combating forced emigration."
+    "description": "French holding turning the sports industry into a local universal income. 4 pillars + 1 foundation. Dual monetary circulation, pro and individual."
   },
   "nav": {
     "group": "Group",
@@ -15,11 +15,11 @@
     "book": "Book a meeting"
   },
   "hero": {
-    "badge": "ESS · SDG 1 · SDG 8 · SDG 10 · SDG 11",
-    "title": "Optimize Your Legacy.",
-    "why": "The mutualist infrastructure. Built for the many. Powered by sport.",
-    "subtitle": "5 entities. 220 years of mutualism. 6 UN Global Goals.",
-    "cta_primary": "Discover our mission →",
+    "badge": "1 mission · 4 pillars · dual circulation",
+    "title": "Reduce poverty.",
+    "why": "The mutualist infrastructure that turns the sports industry into a local universal income.",
+    "subtitle": "4 pillars. Dual monetary circulation, pro and individual. The engine runs to infinity.",
+    "cta_primary": "See the mechanism →",
     "cta_secondary": "Investors"
   },
   "philosophy": {
@@ -38,15 +38,17 @@
     }
   },
   "infinity": {
-    "title": "One symbol. A whole world.",
-    "only": "O — ONLY",
-    "more": "M — MORE",
-    "engine": "The engine",
-    "circular": "Circular energy = local monetary circulation",
-    "tagline": "No beginning. No end. The local economy in perpetual motion."
+    "title": "One symbol. Two circulations. One loop.",
+    "only": "PRO — clubs & merchants",
+    "more": "INDIVIDUAL — fans & residents",
+    "engine": "The sports engine",
+    "circular": "Dual circulation = local universal income",
+    "tagline": "No beginning. No end. Wealth stays where it is born."
   },
   "subsidiaries": {
-    "title": "5 Pillars, 1 Vision",
+    "title": "4 pillars. 1 foundation.",
+    "subtitle": "Sport produces wealth. The 4 pillars circulate it between pro and individual. The foundation holds the intellectual property.",
+    "foundation_label": "Foundation",
     "live": "Live",
     "coming": "Coming Soon",
     "colhybri": {
@@ -66,24 +68,25 @@
     }
   },
   "impact": {
-    "title": "3 Fights. 1 Mechanism.",
+    "title": "1 mission. 4 pillars. Universal income.",
+    "subtitle": "Sport produces the wealth. The 4 pillars circulate it between pro and individual. No leakage. To infinity.",
     "poverty": {
       "title": "Reduce poverty",
-      "desc": "Sport generates local wealth, creating economic opportunities where they are needed most."
+      "desc": "Primary mission. Sport generates the wealth, the 4 pillars keep it local, universal income emerges from the circulation."
     },
     "talent": {
       "title": "Stop brain drain",
-      "desc": "Dynamic local ecosystems allow talent to flourish without having to leave."
+      "desc": "Direct consequence. Funded and structured local ecosystems let talent thrive in place."
     },
     "emigration": {
       "title": "Combat forced emigration",
-      "desc": "When a city thrives economically, no one is forced to leave it."
+      "desc": "Final consequence. When a city circulates its own wealth, no one is forced to leave."
     },
     "flow": {
-      "1": "Sport creates local wealth",
-      "2": "Residents spend locally",
-      "3": "The city remains economically healthy",
-      "4": "No one is forced to leave"
+      "1": "Sport produces the wealth",
+      "2": "Pro captures it: clubs, merchants",
+      "3": "Individual sustains it: fans, residents",
+      "4": "Pro reinvests locally. ∞"
     }
   },
   "team": {

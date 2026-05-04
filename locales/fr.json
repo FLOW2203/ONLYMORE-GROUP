@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "ONLYMORE GROUP — Optimisons vos œuvres",
-    "description": "Groupe français d'inclusion financière par le sport. 5 filiales au service de 3 combats : réduire la pauvreté, stopper la fuite des talents, combattre l'émigration forcée."
+    "description": "Holding française qui transforme l'industrie sportive en revenu universel local. 4 piliers + 1 fondation. Double circulation monétaire pro/particulier."
   },
   "nav": {
     "group": "Groupe",
@@ -15,11 +15,11 @@
     "book": "Réserver un rendez-vous"
   },
   "hero": {
-    "badge": "ESS · SDG 1 · SDG 8 · SDG 10 · SDG 11",
-    "title": "Optimisons vos œuvres.",
-    "why": "The mutualist infrastructure. Built for the many. Powered by sport.",
-    "subtitle": "5 entities. 220 years of mutualism. 6 UN Global Goals.",
-    "cta_primary": "Découvrir notre mission →",
+    "badge": "1 mission · 4 piliers · double circulation",
+    "title": "Réduire la pauvreté.",
+    "why": "L'infrastructure mutualiste qui transforme l'industrie sportive en revenu universel local.",
+    "subtitle": "4 piliers. Double circulation monétaire pro/particulier. Le moteur tourne à l'infini.",
+    "cta_primary": "Voir le mécanisme →",
     "cta_secondary": "Investisseurs"
   },
   "philosophy": {
@@ -38,15 +38,17 @@
     }
   },
   "infinity": {
-    "title": "Un symbole. Tout un monde.",
-    "only": "O — ONLY",
-    "more": "M — MORE",
-    "engine": "Le moteur",
-    "circular": "Énergie circulaire = circulation monétaire locale",
-    "tagline": "Pas de début. Pas de fin. L'économie locale en mouvement perpétuel."
+    "title": "Un symbole. Deux circulations. Une boucle.",
+    "only": "PRO — clubs & commerçants",
+    "more": "PARTICULIER — fans & habitants",
+    "engine": "Le moteur sportif",
+    "circular": "Double circulation = revenu universel local",
+    "tagline": "Pas de début. Pas de fin. La richesse reste où elle naît."
   },
   "subsidiaries": {
-    "title": "5 Piliers, 1 Vision",
+    "title": "4 piliers. 1 fondation.",
+    "subtitle": "Le sport produit la richesse. Les 4 piliers la font circuler entre pro et particulier. La fondation porte la propriété intellectuelle.",
+    "foundation_label": "Fondation",
     "live": "Live",
     "coming": "Coming Soon",
     "colhybri": {
@@ -66,24 +68,25 @@
     }
   },
   "impact": {
-    "title": "3 Combats. 1 Mécanisme.",
+    "title": "1 mission. 4 piliers. Le revenu universel.",
+    "subtitle": "Le sport produit la richesse. Les 4 piliers la font circuler entre pro et particulier. Sans fuite. À l'infini.",
     "poverty": {
       "title": "Réduire la pauvreté",
-      "desc": "Le sport génère de la richesse locale, créant des opportunités économiques là où elles sont le plus nécessaires."
+      "desc": "Mission première. Le sport génère de la richesse, les 4 piliers la maintiennent localement, le revenu universel naît de la circulation."
     },
     "talent": {
       "title": "Stopper la fuite des talents",
-      "desc": "Des écosystèmes locaux dynamiques permettent aux talents de s'épanouir sans avoir à partir."
+      "desc": "Conséquence directe. Des écosystèmes locaux financés et structurés permettent aux talents de s'épanouir sur place."
     },
     "emigration": {
       "title": "Combattre l'émigration forcée",
-      "desc": "Quand une ville prospère économiquement, personne n'est contraint de la quitter."
+      "desc": "Conséquence finale. Quand une ville fait circuler sa propre richesse, personne n'est contraint de la quitter."
     },
     "flow": {
-      "1": "Le sport crée de la richesse locale",
-      "2": "Les habitants consomment localement",
-      "3": "La ville reste économiquement saine",
-      "4": "Personne n'est obligé de partir"
+      "1": "Le sport produit la richesse",
+      "2": "Pro la capte : clubs, commerçants",
+      "3": "Particulier la fait vivre : fans, habitants",
+      "4": "Pro la réinvestit localement. ∞"
     }
   },
   "team": {

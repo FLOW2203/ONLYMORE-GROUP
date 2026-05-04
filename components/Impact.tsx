@@ -53,10 +53,20 @@ export default function Impact() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
-          className="font-display text-3xl sm:text-4xl lg:text-5xl text-warm-white text-center mb-16 lg:mb-24"
+          className="font-display text-3xl sm:text-4xl lg:text-5xl text-warm-white text-center mb-6"
         >
           {t("impact.title")}
         </motion.h2>
+
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7, delay: 0.1 }}
+          className="font-body text-sm sm:text-base text-warm-white/70 text-center max-w-2xl mx-auto mb-16 lg:mb-20 leading-relaxed"
+        >
+          {t("impact.subtitle")}
+        </motion.p>
 
         {/* 3 Combats */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 mb-20">
