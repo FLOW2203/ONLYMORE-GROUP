@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "ONLYMORE GROUP — Ottimizza la tua eredità",
-    "description": "Gruppo francese di inclusione finanziaria attraverso lo sport. 5 filiali al servizio di 3 battaglie: ridurre la povertà, fermare la fuga dei cervelli, combattere l'emigrazione forzata."
+    "description": "Holding francese che trasforma l'industria sportiva in reddito universale locale. 4 pilastri + 1 fondamento. Doppia circolazione monetaria pro/privato."
   },
   "nav": {
     "group": "Gruppo",
@@ -15,11 +15,11 @@
     "book": "Prenota un incontro"
   },
   "hero": {
-    "badge": "ESS · SDG 1 · SDG 8 · SDG 10 · SDG 11",
-    "title": "Ottimizza la tua eredità.",
-    "why": "The mutualist infrastructure. Built for the many. Powered by sport.",
-    "subtitle": "5 entities. 220 years of mutualism. 6 UN Global Goals.",
-    "cta_primary": "Scopri la nostra missione →",
+    "badge": "1 missione · 4 pilastri · doppia circolazione",
+    "title": "Ridurre la povertà.",
+    "why": "L'infrastruttura mutualistica che trasforma l'industria sportiva in reddito universale locale.",
+    "subtitle": "4 pilastri. Doppia circolazione monetaria pro/privato. Il motore gira all'infinito.",
+    "cta_primary": "Vedi il meccanismo →",
     "cta_secondary": "Investitori"
   },
   "philosophy": {
@@ -38,15 +38,17 @@
     }
   },
   "infinity": {
-    "title": "Un simbolo. Un intero mondo.",
-    "only": "O — ONLY",
-    "more": "M — MORE",
-    "engine": "Il motore",
-    "circular": "Energia circolare = circolazione monetaria locale",
-    "tagline": "Nessun inizio. Nessuna fine. L'economia locale in moto perpetuo."
+    "title": "Un simbolo. Due circolazioni. Un anello.",
+    "only": "PRO — club & commercianti",
+    "more": "PRIVATO — tifosi & residenti",
+    "engine": "Il motore sportivo",
+    "circular": "Doppia circolazione = reddito universale locale",
+    "tagline": "Nessun inizio. Nessuna fine. La ricchezza resta dove nasce."
   },
   "subsidiaries": {
-    "title": "5 Pilastri, 1 Visione",
+    "title": "4 pilastri. 1 fondamento.",
+    "subtitle": "Lo sport produce la ricchezza. I 4 pilastri la fanno circolare tra pro e privato. Il fondamento porta la proprietà intellettuale.",
+    "foundation_label": "Fondamento",
     "live": "Live",
     "coming": "Coming Soon",
     "colhybri": {
@@ -66,24 +68,25 @@
     }
   },
   "impact": {
-    "title": "3 Battaglie. 1 Meccanismo.",
+    "title": "1 missione. 4 pilastri. Il reddito universale.",
+    "subtitle": "Lo sport produce la ricchezza. I 4 pilastri la fanno circolare tra pro e privato. Senza fughe. All'infinito.",
     "poverty": {
       "title": "Ridurre la povertà",
-      "desc": "Lo sport genera ricchezza locale, creando opportunità economiche dove sono più necessarie."
+      "desc": "Missione primaria. Lo sport genera la ricchezza, i 4 pilastri la mantengono locale, il reddito universale nasce dalla circolazione."
     },
     "talent": {
       "title": "Fermare la fuga dei cervelli",
-      "desc": "Ecosistemi locali dinamici permettono ai talenti di fiorire senza dover partire."
+      "desc": "Conseguenza diretta. Ecosistemi locali finanziati e strutturati permettono ai talenti di fiorire sul posto."
     },
     "emigration": {
       "title": "Combattere l'emigrazione forzata",
-      "desc": "Quando una città prospera economicamente, nessuno è costretto a lasciarla."
+      "desc": "Conseguenza finale. Quando una città fa circolare la propria ricchezza, nessuno è costretto a lasciarla."
     },
     "flow": {
-      "1": "Lo sport crea ricchezza locale",
-      "2": "I residenti spendono localmente",
-      "3": "La città resta economicamente sana",
-      "4": "Nessuno è costretto a partire"
+      "1": "Lo sport produce la ricchezza",
+      "2": "Pro la cattura: club, commercianti",
+      "3": "Privato la fa vivere: tifosi, residenti",
+      "4": "Pro la reinveste localmente. ∞"
     }
   },
   "team": {
