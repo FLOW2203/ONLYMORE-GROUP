@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "ONLYMORE GROUP — Optimaliseer uw nalatenschap",
-    "description": "Franse groep voor financiële inclusie door sport. 5 dochterondernemingen ten dienste van 3 strijdpunten: armoede verminderen, braindrain stoppen, gedwongen emigratie bestrijden."
+    "description": "Franse holding die de sportindustrie omzet in een lokaal universeel inkomen. 4 pijlers + 1 fundament. Dubbele geldcirculatie tussen pro en particulier."
   },
   "nav": {
     "group": "Groep",
@@ -15,11 +15,11 @@
     "book": "Boek een vergadering"
   },
   "hero": {
-    "badge": "ESS · SDG 1 · SDG 8 · SDG 10 · SDG 11",
-    "title": "Optimaliseer uw nalatenschap.",
-    "why": "The mutualist infrastructure. Built for the many. Powered by sport.",
-    "subtitle": "5 entities. 220 years of mutualism. 6 UN Global Goals.",
-    "cta_primary": "Ontdek onze missie →",
+    "badge": "1 missie · 4 pijlers · dubbele circulatie",
+    "title": "Armoede verminderen.",
+    "why": "De mutualistische infrastructuur die de sportindustrie omzet in een lokaal universeel inkomen.",
+    "subtitle": "4 pijlers. Dubbele geldcirculatie pro/particulier. De motor draait tot in het oneindige.",
+    "cta_primary": "Zie het mechanisme →",
     "cta_secondary": "Investeerders"
   },
   "philosophy": {
@@ -38,15 +38,17 @@
     }
   },
   "infinity": {
-    "title": "Eén symbool. Een hele wereld.",
-    "only": "O — ONLY",
-    "more": "M — MORE",
-    "engine": "De motor",
-    "circular": "Circulaire energie = lokale geldcirculatie",
-    "tagline": "Geen begin. Geen einde. De lokale economie in eeuwige beweging."
+    "title": "Eén symbool. Twee circulaties. Eén lus.",
+    "only": "PRO — clubs & handelaren",
+    "more": "PARTICULIER — fans & inwoners",
+    "engine": "De sportmotor",
+    "circular": "Dubbele circulatie = lokaal universeel inkomen",
+    "tagline": "Geen begin. Geen einde. De rijkdom blijft waar hij ontstaat."
   },
   "subsidiaries": {
-    "title": "5 Pijlers, 1 Visie",
+    "title": "4 pijlers. 1 fundament.",
+    "subtitle": "De sport produceert de rijkdom. De 4 pijlers laten die circuleren tussen pro en particulier. Het fundament draagt het intellectuele eigendom.",
+    "foundation_label": "Fundament",
     "live": "Live",
     "coming": "Coming Soon",
     "colhybri": {
@@ -66,24 +68,25 @@
     }
   },
   "impact": {
-    "title": "3 Strijdpunten. 1 Mechanisme.",
+    "title": "1 missie. 4 pijlers. Het universele inkomen.",
+    "subtitle": "De sport produceert de rijkdom. De 4 pijlers laten die circuleren tussen pro en particulier. Zonder lekkage. Tot in het oneindige.",
     "poverty": {
       "title": "Armoede verminderen",
-      "desc": "Sport genereert lokale welvaart en creëert economische kansen waar ze het meest nodig zijn."
+      "desc": "Hoofdmissie. Sport genereert de rijkdom, de 4 pijlers houden die lokaal, het universele inkomen ontstaat uit de circulatie."
     },
     "talent": {
       "title": "Braindrain stoppen",
-      "desc": "Dynamische lokale ecosystemen stellen talent in staat om te bloeien zonder te hoeven vertrekken."
+      "desc": "Direct gevolg. Gefinancierde en gestructureerde lokale ecosystemen laten talent ter plaatse bloeien."
     },
     "emigration": {
       "title": "Gedwongen emigratie bestrijden",
-      "desc": "Wanneer een stad economisch bloeit, is niemand gedwongen om te vertrekken."
+      "desc": "Eindgevolg. Wanneer een stad zijn eigen rijkdom laat circuleren, is niemand gedwongen om te vertrekken."
     },
     "flow": {
-      "1": "Sport creëert lokale welvaart",
-      "2": "Bewoners besteden lokaal",
-      "3": "De stad blijft economisch gezond",
-      "4": "Niemand is gedwongen te vertrekken"
+      "1": "Sport produceert de rijkdom",
+      "2": "Pro vangt die op: clubs, handelaren",
+      "3": "Particulier laat die leven: fans, inwoners",
+      "4": "Pro herinvesteert lokaal. ∞"
     }
   },
   "team": {

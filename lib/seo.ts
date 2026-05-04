@@ -76,7 +76,7 @@ export function getOrganizationSchema() {
     logo: `${BASE_URL}/logo%20onlymore%20HD.png`,
     image: `${BASE_URL}/logo%20onlymore%20HD.png`,
     description:
-      "Holding francaise d'economie sociale et solidaire. Infrastructure mutualiste par le sport. 5 filiales au service de 6 UN Global Goals.",
+      "Holding francaise d'economie sociale et solidaire qui transforme l'industrie sportive en revenu universel local. Mission : reduire la pauvrete. 4 piliers + 1 fondation, double circulation monetaire pro/particulier.",
     slogan: "Optimisons vos oeuvres.",
     foundingDate: "2023",
     foundingLocation: {

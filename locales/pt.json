@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "ONLYMORE GROUP — Otimize o Seu Legado",
-    "description": "Grupo francês de inclusão financeira através do desporto. 5 filiais ao serviço de 3 lutas: reduzir a pobreza, travar a fuga de cérebros, combater a emigração forçada."
+    "description": "Holding francesa que transforma a indústria desportiva em rendimento universal local. 4 pilares + 1 fundação. Dupla circulação monetária pro/particular."
   },
   "nav": {
     "group": "Grupo",
@@ -15,11 +15,11 @@
     "book": "Agendar uma reunião"
   },
   "hero": {
-    "badge": "ESS · SDG 1 · SDG 8 · SDG 10 · SDG 11",
-    "title": "Otimize o Seu Legado.",
-    "why": "The mutualist infrastructure. Built for the many. Powered by sport.",
-    "subtitle": "5 entities. 220 years of mutualism. 6 UN Global Goals.",
-    "cta_primary": "Descubra a nossa missão →",
+    "badge": "1 missão · 4 pilares · dupla circulação",
+    "title": "Reduzir a pobreza.",
+    "why": "A infraestrutura mutualista que transforma a indústria desportiva em rendimento universal local.",
+    "subtitle": "4 pilares. Dupla circulação monetária pro/particular. O motor gira ao infinito.",
+    "cta_primary": "Ver o mecanismo →",
     "cta_secondary": "Investidores"
   },
   "philosophy": {
@@ -38,15 +38,17 @@
     }
   },
   "infinity": {
-    "title": "Um símbolo. Todo um mundo.",
-    "only": "O — ONLY",
-    "more": "M — MORE",
-    "engine": "O motor",
-    "circular": "Energia circular = circulação monetária local",
-    "tagline": "Sem início. Sem fim. A economia local em movimento perpétuo."
+    "title": "Um símbolo. Duas circulações. Um ciclo.",
+    "only": "PRO — clubes & comerciantes",
+    "more": "PARTICULAR — fãs & residentes",
+    "engine": "O motor desportivo",
+    "circular": "Dupla circulação = rendimento universal local",
+    "tagline": "Sem início. Sem fim. A riqueza fica onde nasce."
   },
   "subsidiaries": {
-    "title": "5 Pilares, 1 Visão",
+    "title": "4 pilares. 1 fundação.",
+    "subtitle": "O desporto produz a riqueza. Os 4 pilares fazem-na circular entre pro e particular. A fundação sustenta a propriedade intelectual.",
+    "foundation_label": "Fundação",
     "live": "Ativo",
     "coming": "Em Breve",
     "colhybri": {
@@ -66,24 +68,25 @@
     }
   },
   "impact": {
-    "title": "3 Lutas. 1 Mecanismo.",
+    "title": "1 missão. 4 pilares. O rendimento universal.",
+    "subtitle": "O desporto produz a riqueza. Os 4 pilares fazem-na circular entre pro e particular. Sem fugas. Ao infinito.",
     "poverty": {
       "title": "Reduzir a pobreza",
-      "desc": "O desporto gera riqueza local, criando oportunidades económicas onde são mais necessárias."
+      "desc": "Missão primária. O desporto gera a riqueza, os 4 pilares mantêm-na local, o rendimento universal nasce da circulação."
     },
     "talent": {
       "title": "Travar a fuga de cérebros",
-      "desc": "Ecossistemas locais dinâmicos permitem que o talento floresça sem ter de partir."
+      "desc": "Consequência direta. Ecossistemas locais financiados e estruturados permitem que o talento floresça no seu lugar."
     },
     "emigration": {
       "title": "Combater a emigração forçada",
-      "desc": "Quando uma cidade prospera economicamente, ninguém é forçado a abandoná-la."
+      "desc": "Consequência final. Quando uma cidade faz circular a sua própria riqueza, ninguém é forçado a abandoná-la."
     },
     "flow": {
-      "1": "O desporto cria riqueza local",
-      "2": "Os residentes gastam localmente",
-      "3": "A cidade mantém-se economicamente saudável",
-      "4": "Ninguém é forçado a partir"
+      "1": "O desporto produz a riqueza",
+      "2": "Pro capta-a: clubes, comerciantes",
+      "3": "Particular fá-la viver: fãs, residentes",
+      "4": "Pro reinveste-a localmente. ∞"
     }
   },
   "team": {

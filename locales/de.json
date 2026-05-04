@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "ONLYMORE GROUP — Optimieren Sie Ihr Vermächtnis",
-    "description": "Französische Gruppe für finanzielle Inklusion durch Sport. 5 Tochtergesellschaften im Dienste von 3 Kämpfen: Armut reduzieren, Abwanderung von Fachkräften stoppen, Zwangsemigration bekämpfen."
+    "description": "Französische Holding, die die Sportindustrie in ein lokales Grundeinkommen verwandelt. 4 Säulen + 1 Fundament. Doppelter Geldkreislauf zwischen Pro und Privat."
   },
   "nav": {
     "group": "Gruppe",
@@ -15,11 +15,11 @@
     "book": "Termin vereinbaren"
   },
   "hero": {
-    "badge": "ESS · SDG 1 · SDG 8 · SDG 10 · SDG 11",
-    "title": "Optimieren Sie Ihr Vermächtnis.",
-    "why": "The mutualist infrastructure. Built for the many. Powered by sport.",
-    "subtitle": "5 entities. 220 years of mutualism. 6 UN Global Goals.",
-    "cta_primary": "Entdecken Sie unsere Mission →",
+    "badge": "1 Mission · 4 Säulen · doppelter Kreislauf",
+    "title": "Armut reduzieren.",
+    "why": "Die mutualistische Infrastruktur, die die Sportindustrie in ein lokales Grundeinkommen verwandelt.",
+    "subtitle": "4 Säulen. Doppelter Geldkreislauf zwischen Pro und Privat. Der Motor läuft ins Unendliche.",
+    "cta_primary": "Mechanismus ansehen →",
     "cta_secondary": "Investoren"
   },
   "philosophy": {
@@ -38,15 +38,17 @@
     }
   },
   "infinity": {
-    "title": "Ein Symbol. Eine ganze Welt.",
-    "only": "O — ONLY",
-    "more": "M — MORE",
-    "engine": "Der Motor",
-    "circular": "Kreislaufenergie = lokaler Geldumlauf",
-    "tagline": "Kein Anfang. Kein Ende. Die lokale Wirtschaft in ständiger Bewegung."
+    "title": "Ein Symbol. Zwei Kreisläufe. Eine Schleife.",
+    "only": "PRO — Clubs & Händler",
+    "more": "PRIVAT — Fans & Bewohner",
+    "engine": "Der Sportmotor",
+    "circular": "Doppelter Kreislauf = lokales Grundeinkommen",
+    "tagline": "Kein Anfang. Kein Ende. Der Wohlstand bleibt, wo er entsteht."
   },
   "subsidiaries": {
-    "title": "5 Säulen, 1 Vision",
+    "title": "4 Säulen. 1 Fundament.",
+    "subtitle": "Sport schafft den Wohlstand. Die 4 Säulen lassen ihn zwischen Pro und Privat zirkulieren. Das Fundament trägt das geistige Eigentum.",
+    "foundation_label": "Fundament",
     "live": "Aktiv",
     "coming": "Demnächst",
     "colhybri": {
@@ -66,24 +68,25 @@
     }
   },
   "impact": {
-    "title": "3 Kämpfe. 1 Mechanismus.",
+    "title": "1 Mission. 4 Säulen. Das Grundeinkommen.",
+    "subtitle": "Sport schafft den Wohlstand. Die 4 Säulen lassen ihn zwischen Pro und Privat zirkulieren. Ohne Verlust. Ins Unendliche.",
     "poverty": {
       "title": "Armut reduzieren",
-      "desc": "Sport schafft lokalen Wohlstand und eröffnet wirtschaftliche Chancen dort, wo sie am meisten gebraucht werden."
+      "desc": "Hauptmission. Sport erzeugt den Wohlstand, die 4 Säulen halten ihn lokal, das Grundeinkommen entsteht aus dem Kreislauf."
     },
     "talent": {
       "title": "Abwanderung von Fachkräften stoppen",
-      "desc": "Dynamische lokale Ökosysteme ermöglichen es Talenten, sich zu entfalten, ohne wegziehen zu müssen."
+      "desc": "Direkte Folge. Finanzierte und strukturierte lokale Ökosysteme lassen Talente vor Ort gedeihen."
     },
     "emigration": {
       "title": "Zwangsemigration bekämpfen",
-      "desc": "Wenn eine Stadt wirtschaftlich floriert, wird niemand gezwungen, sie zu verlassen."
+      "desc": "Endgültige Folge. Wenn eine Stadt ihren eigenen Wohlstand zirkulieren lässt, wird niemand gezwungen, sie zu verlassen."
     },
     "flow": {
-      "1": "Sport schafft lokalen Wohlstand",
-      "2": "Bewohner geben vor Ort aus",
-      "3": "Die Stadt bleibt wirtschaftlich gesund",
-      "4": "Niemand wird gezwungen zu gehen"
+      "1": "Sport schafft den Wohlstand",
+      "2": "Pro fängt ihn auf: Clubs, Händler",
+      "3": "Privat hält ihn am Leben: Fans, Bewohner",
+      "4": "Pro reinvestiert vor Ort. ∞"
     }
   },
   "team": {
