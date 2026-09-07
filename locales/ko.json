@@ -117,10 +117,6 @@
       "label": "진행 중"
     }
   },
-  "actus": {
-    "title": "소식",
-    "description": "그룹과 자회사의 최신 소식."
-  },
   "footer": {
     "platforms": "플랫폼",
     "copyright": "© 2026 ONLYMORE GROUP. All rights reserved.",
