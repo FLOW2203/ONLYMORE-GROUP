@@ -120,6 +120,10 @@
       "label": "in Bearbeitung"
     }
   },
+  "actus": {
+    "title": "Aktuelles",
+    "description": "Die neuesten Nachrichten der Gruppe und ihrer Tochtergesellschaften."
+  },
   "footer": {
     "platforms": "Unsere Plattformen",
     "copyright": "© 2026 ONLYMORE GROUP. Alle Rechte vorbehalten.",

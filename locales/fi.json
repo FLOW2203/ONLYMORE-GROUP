@@ -117,6 +117,10 @@
       "label": "käynnissä"
     }
   },
+  "actus": {
+    "title": "Ajankohtaista",
+    "description": "Konsernin ja sen tytaryhtioiden viimeisimmat uutiset."
+  },
   "footer": {
     "platforms": "Alustamme",
     "copyright": "© 2026 ONLYMORE GROUP. Kaikki oikeudet pidätetään.",

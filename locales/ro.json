@@ -117,6 +117,10 @@
       "label": "în desfășurare"
     }
   },
+  "actus": {
+    "title": "Actualitati",
+    "description": "Cele mai recente stiri ale grupului si ale filialelor sale."
+  },
   "footer": {
     "platforms": "Platformele noastre",
     "copyright": "© 2026 ONLYMORE GROUP. Toate drepturile rezervate.",

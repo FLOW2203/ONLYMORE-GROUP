@@ -7,6 +7,7 @@ import Subsidiaries from "@/components/Subsidiaries";
 import Impact from "@/components/Impact";
 import Team from "@/components/Team";
 import Investors from "@/components/Investors";
+import InrcyActus from "@/components/InrcyActus";
 import Footer from "@/components/Footer";
 
 export default function HomePage() {
@@ -21,6 +22,7 @@ export default function HomePage() {
       <Impact />
       <Team />
       <Investors />
+      <InrcyActus />
       <Footer />
     </main>
   );

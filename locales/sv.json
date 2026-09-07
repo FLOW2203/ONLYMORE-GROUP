@@ -117,6 +117,10 @@
       "label": "pågående"
     }
   },
+  "actus": {
+    "title": "Nyheter",
+    "description": "De senaste nyheterna fran koncernen och dess dotterbolag."
+  },
   "footer": {
     "platforms": "Våra Plattformar",
     "copyright": "© 2026 ONLYMORE GROUP. Alla rättigheter förbehållna.",

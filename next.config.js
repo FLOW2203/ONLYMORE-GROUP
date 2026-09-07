@@ -8,7 +8,7 @@ const CSP_DIRECTIVES = [
   "font-src 'self' https://fonts.gstatic.com data:",
   "media-src 'self'",
   "connect-src 'self' https://plausible.io https://challenges.cloudflare.com",
-  "frame-src https://calendly.com https://challenges.cloudflare.com",
+  "frame-src https://calendly.com https://challenges.cloudflare.com https://app.inrcy.com",
   "frame-ancestors 'none'",
   "form-action 'self'",
   "base-uri 'self'",

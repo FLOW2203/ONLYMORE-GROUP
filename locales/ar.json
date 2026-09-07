@@ -117,6 +117,10 @@
       "label": "قيد التنفيذ"
     }
   },
+  "actus": {
+    "title": "الأخبار",
+    "description": "آخر أخبار المجموعة والشركات التابعة لها."
+  },
   "footer": {
     "platforms": "منصاتنا",
     "copyright": "© 2026 ONLYMORE GROUP. جميع الحقوق محفوظة.",

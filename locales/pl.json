@@ -117,6 +117,10 @@
       "label": "w toku"
     }
   },
+  "actus": {
+    "title": "Aktualnosci",
+    "description": "Najnowsze wiadomosci grupy i jej spolek zaleznych."
+  },
   "footer": {
     "platforms": "Nasze platformy",
     "copyright": "© 2026 ONLYMORE GROUP. Wszelkie prawa zastrzeżone.",

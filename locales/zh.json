@@ -117,6 +117,10 @@
       "label": "进行中"
     }
   },
+  "actus": {
+    "title": "最新动态",
+    "description": "集团及其子公司的最新消息。"
+  },
   "footer": {
     "platforms": "我们的平台",
     "copyright": "© 2026 ONLYMORE GROUP. 保留所有权利。",

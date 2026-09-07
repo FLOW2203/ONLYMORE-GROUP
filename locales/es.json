@@ -120,6 +120,10 @@
       "label": "en curso"
     }
   },
+  "actus": {
+    "title": "Actualidad",
+    "description": "Las ultimas noticias del grupo y sus filiales."
+  },
   "footer": {
     "platforms": "Nuestras Plataformas",
     "copyright": "© 2026 ONLYMORE GROUP. Todos los derechos reservados.",
