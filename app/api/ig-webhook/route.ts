@@ -6,7 +6,15 @@ import { createContact } from "@/lib/notion-communautes";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-const GRAPH = `https://graph.instagram.com/${process.env.IG_GRAPH_VERSION || "v23.0"}`;
+const VERSION = process.env.IG_GRAPH_VERSION || "v23.0";
+
+// Token « EAA… » (connexion unifiee Facebook Login for Business, utilisateur systeme)
+// -> graph.facebook.com ; token « IG… » (connexion Instagram) -> graph.instagram.com.
+function graphBase(token: string): string {
+  return token.startsWith("EAA")
+    ? `https://graph.facebook.com/${VERSION}`
+    : `https://graph.instagram.com/${VERSION}`;
+}
 
 // 1) Verification du webhook par Meta (une seule fois, a l'abonnement).
 export function GET(req: NextRequest) {
@@ -38,13 +46,21 @@ interface CommentValue {
 }
 
 async function sendPrivateReply(igId: string, token: string, commentId: string, message: string) {
-  const res = await fetch(`${GRAPH}/${igId}/messages`, {
-    method: "POST",
-    headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
-    body: JSON.stringify({ recipient: { comment_id: commentId }, message: { text: message } }),
-    cache: "no-store",
-  });
-  if (!res.ok) throw new Error(`DM ${res.status} ${await res.text()}`);
+  const body = JSON.stringify({ recipient: { comment_id: commentId }, message: { text: message } });
+  const base = graphBase(token);
+  // 1er essai : /{ig-user-id}/messages ; repli : /me/messages.
+  let lastError = "";
+  for (const path of [`${igId}/messages`, "me/messages"]) {
+    const res = await fetch(`${base}/${path}`, {
+      method: "POST",
+      headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
+      body,
+      cache: "no-store",
+    });
+    if (res.ok) return;
+    lastError = `DM ${path} ${res.status} ${await res.text()}`;
+  }
+  throw new Error(lastError);
 }
 
 async function handleComment(igId: string, v: CommentValue) {
